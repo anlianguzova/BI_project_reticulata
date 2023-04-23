@@ -1,0 +1,19 @@
+Can't find Kraken 2 DB directory "Kraken2_db_build"
+##### Job is complete #####
+Can't find Kraken 2 DB directory "Kraken2_plus_db_TEST"
+##### Job is complete #####
+Creating sequence ID to taxonomy ID map (step 1)...
+Found 72977/73485 targets, searched through 954614913 accession IDs, search complete.
+lookup_accession_numbers: 508/73485 accession numbers remain unmapped, see unmapped.txt in DB directory
+Sequence ID to taxonomy ID map complete. [2m51.065s]
+Estimating required capacity (step 2)...
+Estimated hash table requirement: 74317254948 bytes
+Capacity estimation complete. [18m50.706s]
+Building database files (step 3)...
+Taxonomy parsed and converted.
+CHT created with 16 bits reserved for taxid.
+Completed processing of 193151 sequences, 168559318309 bp
+Writing data to disk...  complete.
+Database files completed. [8h28m36.824s]
+Database construction complete. [Total: 8h50m18.615s]
+##### Job is complete #####

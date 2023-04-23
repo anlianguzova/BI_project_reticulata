@@ -1,0 +1,25 @@
+Kraken2 starts to work with: 
+R1: /home/LVP/fastp/rna/females/inf_fem3_fastP_output/inf_fem3.fastp_tmm.R1.fastq.gz
+R2: /home/LVP/fastp/rna/females/inf_fem3_fastP_output/inf_fem3.fastp_tmm.R2.fastq.gz
+TAG: inf_fem3_fastP_output
+Loading database information... done.
+46289954 sequences (13383.44 Mbp) processed in 296.303s (9373.5 Kseq/m, 2710.08 Mbp/m).
+  8312299 sequences classified (17.96%)
+  37977655 sequences unclassified (82.04%)
+Kraken2 starts to work with: 
+R1: /home/LVP/fastp/rna/females/inf_fem11_fastP_output/inf_fem11.fastp_tmm.R1.fastq.gz
+R2: /home/LVP/fastp/rna/females/inf_fem11_fastP_output/inf_fem11.fastp_tmm.R2.fastq.gz
+TAG: inf_fem11_fastP_output
+Loading database information... done.
+41889924 sequences (12155.02 Mbp) processed in 280.257s (8968.2 Kseq/m, 2602.26 Mbp/m).
+  9206078 sequences classified (21.98%)
+  32683846 sequences unclassified (78.02%)
+Kraken2 starts to work with: 
+R1: /home/LVP/fastp/rna/females/healthy_fem1_fastP_output/healthy_fem1.fastp_tmm.R1.fastq.gz
+R2: /home/LVP/fastp/rna/females/healthy_fem1_fastP_output/healthy_fem1.fastp_tmm.R2.fastq.gz
+TAG: healthy_fem1_fastP_output
+Loading database information... done.
+39692623 sequences (11489.98 Mbp) processed in 214.296s (11113.4 Kseq/m, 3217.03 Mbp/m).
+  7058963 sequences classified (17.78%)
+  32633660 sequences unclassified (82.22%)
+##### Job is complete #####

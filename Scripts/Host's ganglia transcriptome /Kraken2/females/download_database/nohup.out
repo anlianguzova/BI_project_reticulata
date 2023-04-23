@@ -1,0 +1,20 @@
+Downloading nucleotide gb accession to taxon map... done.
+Downloading nucleotide wgs accession to taxon map... done.
+Downloaded accession to taxon map(s)
+Downloading taxonomy tree data... done.
+Uncompressing taxonomy data...
+gzip: nucl_gb.accession2taxid.gz: invalid compressed data--format violated
+rsync_from_ncbi.pl: unexpected FTP path (new server?) for https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/762/265/GCF_000762265.1_ASM76226v1
+rsync_from_ncbi.pl: unexpected FTP path (new server?) for https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/839/185/GCF_000839185.1_ViralProj14174
+rsync_from_ncbi.pl: unexpected FTP path (new server?) for https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/900/128/725/GCF_900128725.1_BCifornacula_v1.0
+Downloading plasmid files from FTP... done.
+Masking low-complexity regions of downloaded library... done.
+rsync_from_ncbi.pl: unexpected FTP path (new server?) for https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/001/405/GCF_000001405.40_GRCh38.p14
+rsync_from_ncbi.pl: unexpected FTP path (new server?) for https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/002/945/GCF_000002945.1_ASM294v2
+rsync_from_ncbi.pl: unexpected FTP path (new server?) for https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/194/455/GCF_000194455.1_ASM19445v1
+Downloading UniVec_Core data from server... done.
+Adding taxonomy ID of 28384 to all sequences... done.
+Masking low-complexity regions of downloaded library... done.
+Masking low-complexity regions of new file... done.
+Added "/home/LVP/Source/Preticulata_ref_genes.with_taxid.fasta" to library (Kraken2_plus_db)
+##### Job is complete #####
