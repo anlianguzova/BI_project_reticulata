@@ -1,0 +1,66 @@
+***** TransRate (v1.0.1) began to work with params: *****
+R1: /home/LVP/assembly/ganglia.merged.R1.fastq
+R2: /home/LVP/assembly/ganglia.merged.R2.fastq
+Assembly: /home/LVP/assembly/CDHIT_spades_cluster_95_percent/ganglia.new_ref_rnaSPAdes.cdhit_c95.fasta
+transrate_spades.sh: line 22: cd: /home/lianguzova/transrate/ganglia_rnaSPAdes_TransRate_output: No such file or directory
+[DEPRECATION] The trollop gem has been renamed to optimist and will no longer be supported. Please switch to optimist as soon as possible.
+[ INFO] 2023-04-26 12:31:30 : Loading assembly: /home/LVP/assembly/CDHIT_spades_cluster_95_percent/ganglia.new_ref_rnaSPAdes.cdhit_c95.fasta
+[ INFO] 2023-04-26 12:31:58 : Analysing assembly: /home/LVP/assembly/CDHIT_spades_cluster_95_percent/ganglia.new_ref_rnaSPAdes.cdhit_c95.fasta
+[ INFO] 2023-04-26 12:31:58 : Results will be saved in /home/lianguzova/transrate/ganglia_rnaSPAdes_TransRate_output/ganglia.new_ref_rnaSPAdes.cdhit_c95
+[ INFO] 2023-04-26 12:31:58 : Calculating contig metrics...
+[ INFO] 2023-04-26 12:33:22 : Contig metrics:
+[ INFO] 2023-04-26 12:33:22 : -----------------------------------
+[ INFO] 2023-04-26 12:33:22 : n seqs                       608072
+[ INFO] 2023-04-26 12:33:22 : smallest                        200
+[ INFO] 2023-04-26 12:33:22 : largest                       26504
+[ INFO] 2023-04-26 12:33:22 : n bases                   387822964
+[ INFO] 2023-04-26 12:33:22 : mean len                     637.79
+[ INFO] 2023-04-26 12:33:22 : n under 200                       0
+[ INFO] 2023-04-26 12:33:22 : n over 1k                     81750
+[ INFO] 2023-04-26 12:33:22 : n over 10k                      686
+[ INFO] 2023-04-26 12:33:22 : n with orf                    45670
+[ INFO] 2023-04-26 12:33:22 : mean orf percent               40.9
+[ INFO] 2023-04-26 12:33:22 : n90                             261
+[ INFO] 2023-04-26 12:33:22 : n70                             420
+[ INFO] 2023-04-26 12:33:22 : n50                            1086
+[ INFO] 2023-04-26 12:33:22 : n30                            2449
+[ INFO] 2023-04-26 12:33:22 : n10                            5453
+[ INFO] 2023-04-26 12:33:22 : gc                             0.41
+[ INFO] 2023-04-26 12:33:22 : gc skew                        0.01
+[ INFO] 2023-04-26 12:33:22 : at skew                        -0.0
+[ INFO] 2023-04-26 12:33:22 : cpg ratio                      1.64
+[ INFO] 2023-04-26 12:33:22 : bases n                      400360
+[ INFO] 2023-04-26 12:33:22 : proportion n                    0.0
+[ INFO] 2023-04-26 12:33:22 : linguistic complexity          0.11
+[ INFO] 2023-04-26 12:33:22 : Contig metrics done in 83 seconds
+[ INFO] 2023-04-26 12:33:22 : Calculating read diagnostics...
+[ INFO] 2023-04-26 19:31:43 : Read mapping metrics:
+[ INFO] 2023-04-26 19:31:43 : -----------------------------------
+[ INFO] 2023-04-26 19:31:43 : fragments                 252072942
+[ INFO] 2023-04-26 19:31:43 : fragments mapped          246461910
+[ INFO] 2023-04-26 19:31:43 : p fragments mapped             0.98
+[ INFO] 2023-04-26 19:31:43 : good mappings             229462253
+[ INFO] 2023-04-26 19:31:43 : p good mapping                 0.91
+[ INFO] 2023-04-26 19:31:43 : bad mappings               16999657
+[ INFO] 2023-04-26 19:31:43 : potential bridges            136478
+[ INFO] 2023-04-26 19:31:43 : bases uncovered             4531015
+[ INFO] 2023-04-26 19:31:43 : p bases uncovered              0.01
+[ INFO] 2023-04-26 19:31:43 : contigs uncovbase            137536
+[ INFO] 2023-04-26 19:31:43 : p contigs uncovbase            0.23
+[ INFO] 2023-04-26 19:31:43 : contigs uncovered             16300
+[ INFO] 2023-04-26 19:31:43 : p contigs uncovered            0.03
+[ INFO] 2023-04-26 19:31:43 : contigs lowcovered           441912
+[ INFO] 2023-04-26 19:31:43 : p contigs lowcovered           0.73
+[ INFO] 2023-04-26 19:31:43 : contigs segmented             82736
+[ INFO] 2023-04-26 19:31:43 : p contigs segmented            0.14
+[ INFO] 2023-04-26 19:31:43 : Read metrics done in 25101 seconds
+[ INFO] 2023-04-26 19:31:43 : No reference provided, skipping comparative diagnostics
+[ INFO] 2023-04-26 19:31:43 : TRANSRATE ASSEMBLY SCORE     0.4049
+[ INFO] 2023-04-26 19:31:43 : -----------------------------------
+[ INFO] 2023-04-26 19:31:43 : TRANSRATE OPTIMAL SCORE       0.483
+[ INFO] 2023-04-26 19:31:43 : TRANSRATE OPTIMAL CUTOFF     0.0294
+[ INFO] 2023-04-26 19:31:43 : good contigs                 579997
+[ INFO] 2023-04-26 19:31:43 : p good contigs                 0.95
+[ INFO] 2023-04-26 19:31:43 : Writing contig metrics for each contig to /home/lianguzova/transrate/ganglia_rnaSPAdes_TransRate_output/ganglia.new_ref_rnaSPAdes.cdhit_c95/contigs.csv
+[ INFO] 2023-04-26 19:32:37 : Writing analysis results to assemblies.csv
+##### Job is complete #####
