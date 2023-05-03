@@ -1,0 +1,19 @@
+# BUSCO version is: 5.4.7 
+# The lineage dataset is: metazoa_odb10 (Creation date: 2021-02-17, number of genomes: 65, number of BUSCOs: 954)
+# Summarized benchmarking in BUSCO notation for file /home/LVP/assembly/QC/ganglia_rnaSPAdes_TransRate_output/ganglia.new_ref_rnaSPAdes.cdhit_c95/good.ganglia.new_ref_rnaSPAdes.cdhit_c95.fasta
+# BUSCO was run in mode: euk_tran
+
+	***** Results: *****
+
+	C:99.5%[S:25.7%,D:73.8%],F:0.2%,M:0.3%,n:954	   
+	949	Complete BUSCOs (C)			   
+	245	Complete and single-copy BUSCOs (S)	   
+	704	Complete and duplicated BUSCOs (D)	   
+	2	Fragmented BUSCOs (F)			   
+	3	Missing BUSCOs (M)			   
+	954	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1
+	metaeuk: 6.a5d39d9
+	busco: 5.4.7

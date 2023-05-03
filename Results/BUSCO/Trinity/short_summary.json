@@ -1,0 +1,52 @@
+{
+    "parameters": {
+        "out_path": "/home/LVP/busco",
+        "cpu": "12",
+        "force": "False",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/home/LVP/busco/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "False",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "update-data": "False",
+        "use_augustus": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "in": "/home/LVP/assembly/QC/trinity_TransRate_output/good.Pdum_new_ref_trinity.cdhit_c95.fasta",
+        "out": "good_Pret_new_ref_trinity_vs_Metazoa_odb10",
+        "mode": "euk_tran",
+        "lineage_dataset": "/home/LVP/Source/BUSCO/metazoa_odb10",
+        "main_out": "/home/LVP/busco/good_Pret_new_ref_trinity_vs_Metazoa_odb10",
+        "lineage_results_dir": "run_metazoa_odb10",
+        "domain": "eukaryota",
+        "max_intron": "130000",
+        "max_seq_len": "160000",
+        "metaeuk_parameters": "",
+        "metaeuk_rerun_parameters": ""
+    },
+    "lineage_dataset": {
+        "name": "metazoa_odb10",
+        "creation_date": "2021-02-17",
+        "number_of_buscos": "954",
+        "number_of_species": "65"
+    },
+    "versions": {
+        "hmmsearch": 3.1,
+        "metaeuk": "6.a5d39d9",
+        "busco": "5.4.7"
+    },
+    "results": {
+        "one_line_summary": "C:97.8%[S:24.3%,D:73.5%],F:1.3%,M:0.9%,n:954",
+        "Complete": 97.8,
+        "Single copy": 24.3,
+        "Multi copy": 73.5,
+        "Fragmented": 1.3,
+        "Missing": 0.9,
+        "n_markers": 954,
+        "domain": "eukaryota"
+    }
+}
