@@ -1,0 +1,135 @@
+GO.ID	Term	Annotated	Significant	Expected	classicFisher
+GO:0002181	cytoplasmic translation	430	67	16.5	4.0e-26
+GO:0006412	translation	873	78	33.5	3.9e-15
+GO:0043043	peptide biosynthetic process	900	78	34.53	2.3e-14
+GO:0006614	SRP-dependent cotranslational protein ta...	272	40	10.44	2.8e-14
+GO:0006613	cotranslational protein targeting to mem...	277	40	10.63	5.3e-14
+GO:0006518	peptide metabolic process	990	81	37.99	1.5e-13
+GO:0072594	establishment of protein localization to...	517	55	19.84	2.4e-13
+GO:0045047	protein targeting to ER	291	40	11.17	2.9e-13
+GO:0072599	establishment of protein localization to...	295	40	11.32	4.6e-13
+GO:0043604	amide biosynthetic process	954	78	36.6	6.4e-13
+GO:0070972	protein localization to endoplasmic reti...	313	41	12.01	7.1e-13
+GO:0006605	protein targeting	420	48	16.12	9.3e-13
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	306	40	11.74	1.6e-12
+GO:0006612	protein targeting to membrane	308	40	11.82	1.9e-12
+GO:0090150	establishment of protein localization to...	367	44	14.08	2.0e-12
+GO:0006413	translational initiation	386	45	14.81	2.9e-12
+GO:0033365	protein localization to organelle	663	60	25.44	1.9e-11
+GO:0000956	nuclear-transcribed mRNA catabolic proce...	364	42	13.97	2.6e-11
+GO:0043603	cellular amide metabolic process	1111	82	42.63	3.5e-11
+GO:0006402	mRNA catabolic process	479	48	18.38	1.2e-10
+GO:1901566	organonitrogen compound biosynthetic pro...	1355	91	51.99	2.8e-10
+GO:0006401	RNA catabolic process	492	48	18.88	3.1e-10
+GO:0044271	cellular nitrogen compound biosynthetic ...	1935	114	74.24	6.3e-10
+GO:0072657	protein localization to membrane	470	46	18.03	7.4e-10
+GO:0034655	nucleobase-containing compound catabolic...	608	52	23.33	5.7e-09
+GO:0044270	cellular nitrogen compound catabolic pro...	639	53	24.52	1.1e-08
+GO:0051668	localization within membrane	512	46	19.65	1.2e-08
+GO:0046700	heterocycle catabolic process	626	52	24.02	1.6e-08
+GO:1901361	organic cyclic compound catabolic proces...	651	53	24.98	2.2e-08
+GO:0019439	aromatic compound catabolic process	634	52	24.33	2.5e-08
+GO:0016071	mRNA metabolic process	763	58	29.28	4.7e-08
+GO:0034645	cellular macromolecule biosynthetic proc...	1786	102	68.53	1.5e-07
+GO:0006886	intracellular protein transport	788	57	30.24	3.8e-07
+GO:0042273	ribosomal large subunit biogenesis	144	20	5.53	3.9e-07
+GO:0009059	macromolecule biosynthetic process	1827	102	70.1	5.6e-07
+GO:0034641	cellular nitrogen compound metabolic pro...	2553	129	97.96	6.6e-07
+GO:0042255	ribosome assembly	140	19	5.37	1.1e-06
+GO:1901576	organic substance biosynthetic process	2326	120	89.25	1.3e-06
+GO:0046907	intracellular transport	1189	74	45.62	1.5e-06
+GO:0044249	cellular biosynthetic process	2288	118	87.79	2.0e-06
+GO:0009058	biosynthetic process	2345	120	89.98	2.2e-06
+GO:0042254	ribosome biogenesis	327	30	12.55	4.7e-06
+GO:0010467	gene expression	2072	108	79.5	7.9e-06
+GO:0010629	negative regulation of gene expression	1040	65	39.9	9.0e-06
+GO:0044265	cellular macromolecule catabolic process	824	55	31.62	9.1e-06
+GO:0007006	mitochondrial membrane organization	114	15	4.37	2.4e-05
+GO:0009057	macromolecule catabolic process	926	58	35.53	3.4e-05
+GO:0008340	determination of adult lifespan	363	30	13.93	3.7e-05
+GO:0000027	ribosomal large subunit assembly	67	11	2.57	3.8e-05
+GO:0006839	mitochondrial transport	165	18	6.33	4.8e-05
+GO:0031113	regulation of microtubule polymerization	71	11	2.72	6.7e-05
+GO:0010259	multicellular organism aging	376	30	14.43	7.3e-05
+GO:0140694	non-membrane-bounded organelle assembly	400	31	15.35	9.4e-05
+GO:0051649	establishment of localization in cell	1643	87	63.04	0.00011
+GO:0031396	regulation of protein ubiquitination	130	15	4.99	0.00011
+GO:0046785	microtubule polymerization	77	11	2.95	0.00014
+GO:0022613	ribonucleoprotein complex biogenesis	456	33	17.5	0.00021
+GO:0010605	negative regulation of macromolecule met...	1243	69	47.69	0.00025
+GO:0022618	ribonucleoprotein complex assembly	273	23	10.47	0.00025
+GO:0015031	protein transport	1016	59	38.98	0.00027
+GO:0045184	establishment of protein localization	1066	61	40.9	0.00031
+GO:0031397	negative regulation of protein ubiquitin...	84	11	3.22	0.00031
+GO:0015833	peptide transport	1025	59	39.33	0.00035
+GO:0031110	regulation of microtubule polymerization...	86	11	3.3	0.00039
+GO:0009892	negative regulation of metabolic process	1357	73	52.07	0.00040
+GO:0071826	ribonucleoprotein complex subunit organi...	282	23	10.82	0.00040
+GO:0016567	protein ubiquitination	212	19	8.13	0.00042
+GO:0051726	regulation of cell cycle	494	34	18.95	0.00042
+GO:0070925	organelle assembly	498	34	19.11	0.00049
+GO:1903321	negative regulation of protein modificat...	90	11	3.45	0.00058
+GO:0032273	positive regulation of protein polymeriz...	105	12	4.03	0.00060
+GO:0042886	amide transport	1049	59	40.25	0.00065
+GO:0031109	microtubule polymerization or depolymeri...	107	12	4.11	0.00072
+GO:0044248	cellular catabolic process	1391	73	53.37	0.00089
+GO:0032446	protein modification by small protein co...	226	19	8.67	0.00092
+GO:1903320	regulation of protein modification by sm...	160	15	6.14	0.00108
+GO:0007338	single fertilization	128	13	4.91	0.00112
+GO:0051641	cellular localization	1952	95	74.9	0.00122
+GO:2001242	regulation of intrinsic apoptotic signal...	180	16	6.91	0.00131
+GO:0050821	protein stabilization	181	16	6.94	0.00139
+GO:0007568	aging	507	33	19.45	0.00140
+GO:0097193	intrinsic apoptotic signaling pathway	218	18	8.36	0.00155
+GO:0046034	ATP metabolic process	352	25	13.51	0.00174
+GO:0032271	regulation of protein polymerization	170	15	6.52	0.00200
+GO:0051338	regulation of transferase activity	298	22	11.43	0.00205
+GO:0034599	cellular response to oxidative stress	224	18	8.59	0.00210
+GO:2000058	regulation of ubiquitin-dependent protei...	121	12	4.64	0.00212
+GO:0042274	ribosomal small subunit biogenesis	108	11	4.14	0.00262
+GO:0009056	catabolic process	1443	73	55.37	0.00270
+GO:0010608	post-transcriptional regulation of gene ...	530	33	20.34	0.00293
+GO:0009205	purine ribonucleoside triphosphate metab...	366	25	14.04	0.00298
+GO:0006754	ATP biosynthetic process	126	12	4.83	0.00299
+GO:0033157	regulation of intracellular protein tran...	143	13	5.49	0.00305
+GO:0010468	regulation of gene expression	1597	79	61.28	0.00309
+GO:0009144	purine nucleoside triphosphate metabolic...	367	25	14.08	0.00309
+GO:0009199	ribonucleoside triphosphate metabolic pr...	368	25	14.12	0.00320
+GO:1901575	organic substance catabolic process	1235	64	47.39	0.00324
+GO:0009566	fertilization	144	13	5.53	0.00325
+GO:0008104	protein localization	1307	67	50.15	0.00325
+GO:0009127	purine nucleoside monophosphate biosynth...	112	11	4.3	0.00349
+GO:0009168	purine ribonucleoside monophosphate bios...	112	11	4.3	0.00349
+GO:0009141	nucleoside triphosphate metabolic proces...	371	25	14.24	0.00357
+GO:0035966	response to topologically incorrect prot...	181	15	6.94	0.00368
+GO:0071705	nitrogen compound transport	1170	61	44.89	0.00369
+GO:0007346	regulation of mitotic cell cycle	314	22	12.05	0.00393
+GO:0051258	protein polymerization	183	15	7.02	0.00409
+GO:1903047	mitotic cell cycle process	479	30	18.38	0.00425
+GO:0009126	purine nucleoside monophosphate metaboli...	337	23	12.93	0.00444
+GO:0009167	purine ribonucleoside monophosphate meta...	337	23	12.93	0.00444
+GO:0009156	ribonucleoside monophosphate biosyntheti...	116	11	4.45	0.00458
+GO:0009124	nucleoside monophosphate biosynthetic pr...	117	11	4.49	0.00489
+GO:0006457	protein folding	300	21	11.51	0.00489
+GO:0009206	purine ribonucleoside triphosphate biosy...	134	12	5.14	0.00495
+GO:0006139	nucleobase-containing compound metabolic...	2079	97	79.77	0.00498
+GO:0009161	ribonucleoside monophosphate metabolic p...	341	23	13.08	0.00514
+GO:0009145	purine nucleoside triphosphate biosynthe...	135	12	5.18	0.00526
+GO:0031334	positive regulation of protein-containin...	171	14	6.56	0.00555
+GO:0071356	cellular response to tumor necrosis fact...	119	11	4.57	0.00556
+GO:0009201	ribonucleoside triphosphate biosynthetic...	136	12	5.22	0.00558
+GO:0007049	cell cycle	773	43	29.66	0.00564
+GO:0070727	cellular macromolecule localization	1335	67	51.22	0.00565
+GO:0035967	cellular response to topologically incor...	154	13	5.91	0.00578
+GO:0009142	nucleoside triphosphate biosynthetic pro...	137	12	5.26	0.00591
+GO:0009123	nucleoside monophosphate metabolic proce...	346	23	13.28	0.00613
+GO:0062197	cellular response to chemical stress	248	18	9.52	0.00627
+GO:0034612	response to tumor necrosis factor	121	11	4.64	0.00630
+GO:0006810	transport	2133	98	81.84	0.00797
+GO:1902905	positive regulation of supramolecular fi...	125	11	4.8	0.00801
+GO:0051301	cell division	257	18	9.86	0.00899
+GO:0032434	regulation of proteasomal ubiquitin-depe...	110	10	4.22	0.00905
+GO:0060255	regulation of macromolecule metabolic pr...	1961	91	75.24	0.00915
+GO:0043281	regulation of cysteine-type endopeptidas...	146	12	5.6	0.00970
+GO:0016070	RNA metabolic process	1513	73	58.05	0.00992
+GO:0044260	cellular macromolecule metabolic process	2436	109	93.47	0.01000

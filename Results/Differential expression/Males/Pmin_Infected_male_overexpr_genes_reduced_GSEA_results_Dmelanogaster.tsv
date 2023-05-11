@@ -1,0 +1,39 @@
+go	cluster	parent	parentSimScore	score	size	term	parentTerm
+GO:0002181	1	GO:0002181	0.995	6.88605664769316	199	cytoplasmic translation	cytoplasmic translation
+GO:0006614	2	GO:0006614	1	5.55284196865778	9	SRP-dependent cotranslational protein targeting to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0070972	2	GO:0006614	0.934	5.48148606012211	0	protein localization to endoplasmic reticulum	SRP-dependent cotranslational protein targeting to membrane
+GO:0006613	2	GO:0006614	1	5.21467016498923	0	cotranslational protein targeting to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0045047	2	GO:0006614	0.948	5.17392519729917	8	protein targeting to ER	SRP-dependent cotranslational protein targeting to membrane
+GO:0072599	2	GO:0006614	0.946	4.92081875395237	0	establishment of protein localization to endoplasmic reticulum	SRP-dependent cotranslational protein targeting to membrane
+GO:0000184	3	GO:0000184	0.999	4.55284196865778	27	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0006612	2	GO:0006614	0.916	4.43179827593301	26	protein targeting to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0042255	4	GO:0042255	0.999	4.18045606445813	2	ribosome assembly	ribosome assembly
+GO:0090150	2	GO:0006614	0.854	4.0268721464003	0	establishment of protein localization to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0043043	1	GO:0002181	0.776	3.88605664769316	0	peptide biosynthetic process	cytoplasmic translation
+GO:0006412	1	GO:0002181	0.784	3.76955107862173	545	translation	cytoplasmic translation
+GO:0043604	1	GO:0002181	0.77	3.49485002168009	0	amide biosynthetic process	cytoplasmic translation
+GO:0006413	1	GO:0002181	0.613	3.38721614328026	59	translational initiation	cytoplasmic translation
+GO:0000028	4	GO:0042255	0.941	3.13076828026902	17	ribosomal small subunit assembly	ribosome assembly
+GO:0000956	3	GO:0000184	0.894	3.10237290870956	10	nuclear-transcribed mRNA catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:1901566	1	GO:0002181	0.701	2.93554201077308	0	organonitrogen compound biosynthetic process	cytoplasmic translation
+GO:0006518	1	GO:0002181	0.759	2.82390874094432	6	peptide metabolic process	cytoplasmic translation
+GO:0003333	2	GO:0006614	0.541	2.82102305270683	52	amino acid transmembrane transport	SRP-dependent cotranslational protein targeting to membrane
+GO:0072553	5	GO:0072553	0.999	2.79588001734407	14	terminal button organization	terminal button organization
+GO:0006984	6	GO:0006984	1	2.59859945921846	0	ER-nucleus signaling pathway	ER-nucleus signaling pathway
+GO:0006865	2	GO:0006614	0.551	2.53610701101409	7	amino acid transport	SRP-dependent cotranslational protein targeting to membrane
+GO:0099172	5	GO:0072553	0.981	2.50584540598156	0	presynapse organization	terminal button organization
+GO:0051668	2	GO:0006614	0.783	2.41341269532824	1	localization within membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0072657	2	GO:0006614	0.806	2.31425826139774	9	protein localization to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0042254	4	GO:0042255	0.84	2.28149831113273	15	ribosome biogenesis	ribosome assembly
+GO:0098656	2	GO:0006614	0.329	2.24795155218056	9	anion transmembrane transport	SRP-dependent cotranslational protein targeting to membrane
+GO:0009311	7	GO:0009311	0.999	2.18243463044022	4	oligosaccharide metabolic process	oligosaccharide metabolic process
+GO:0006605	2	GO:0006614	0.824	2.15739076038944	4	protein targeting	SRP-dependent cotranslational protein targeting to membrane
+GO:0043603	1	GO:0002181	0.748	2.13135556160517	0	cellular amide metabolic process	cytoplasmic translation
+GO:0034975	8	GO:0034975	1	2.12901118623942	5	protein folding in endoplasmic reticulum	protein folding in endoplasmic reticulum
+GO:0042274	4	GO:0042255	0.761	2.12784372725171	8	ribosomal small subunit biogenesis	ribosome assembly
+GO:0009416	9	GO:0009416	0.994	2.12378215940836	25	response to light stimulus	response to light stimulus
+GO:1905039	2	GO:0006614	0.517	2.09582563171584	0	carboxylic acid transmembrane transport	SRP-dependent cotranslational protein targeting to membrane
+GO:1903825	2	GO:0006614	0.517	2.09582563171584	0	organic acid transmembrane transport	SRP-dependent cotranslational protein targeting to membrane
+GO:0042278	10	GO:0042278	0.999	2.01727661233145	3	purine nucleoside metabolic process	purine nucleoside metabolic process
+GO:0048149	11	GO:0048149	0.999	2.01412464269161	59	behavioral response to ethanol	behavioral response to ethanol
+GO:0009583	9	GO:0009416	0.93	2.01412464269161	0	detection of light stimulus	response to light stimulus

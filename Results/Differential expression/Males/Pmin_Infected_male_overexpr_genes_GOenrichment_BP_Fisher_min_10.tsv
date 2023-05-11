@@ -1,0 +1,40 @@
+GO.ID	Term	Annotated	Significant	Expected	classicFisher
+GO:0002181	cytoplasmic translation	430	119	77.43	1.3e-07
+GO:0006614	SRP-dependent cotranslational protein ta...	272	79	48.98	2.8e-06
+GO:0070972	protein localization to endoplasmic reti...	313	88	56.36	3.3e-06
+GO:0006613	cotranslational protein targeting to mem...	277	79	49.88	6.1e-06
+GO:0045047	protein targeting to ER	291	82	52.4	6.7e-06
+GO:0072599	establishment of protein localization to...	295	82	53.12	1.2e-05
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	306	83	55.1	2.8e-05
+GO:0006612	protein targeting to membrane	308	83	55.46	3.7e-05
+GO:0042255	ribosome assembly	140	44	25.21	6.6e-05
+GO:0090150	establishment of protein localization to...	367	94	66.09	9.4e-05
+GO:0043043	peptide biosynthetic process	900	201	162.07	0.00013
+GO:0006412	translation	873	195	157.2	0.00017
+GO:0043604	amide biosynthetic process	954	209	171.79	0.00032
+GO:0006413	translational initiation	386	95	69.51	0.00041
+GO:0000028	ribosomal small subunit assembly	62	22	11.16	0.00074
+GO:0000956	nuclear-transcribed mRNA catabolic proce...	364	89	65.55	0.00079
+GO:0036500	ATF6-mediated unfolded protein response	23	11	4.14	0.00099
+GO:1901566	organonitrogen compound biosynthetic pro...	1355	281	244	0.00116
+GO:0006518	peptide metabolic process	990	211	178.27	0.00150
+GO:0003333	amino acid transmembrane transport	61	21	10.98	0.00151
+GO:0072553	terminal button organization	31	13	5.58	0.00160
+GO:0006984	ER-nucleus signaling pathway	36	14	6.48	0.00252
+GO:0006865	amino acid transport	68	22	12.25	0.00291
+GO:0099172	presynapse organization	33	13	5.94	0.00312
+GO:0051668	localization within membrane	512	115	92.2	0.00386
+GO:0072657	protein localization to membrane	470	106	84.63	0.00485
+GO:0042254	ribosome biogenesis	327	77	58.88	0.00523
+GO:0098656	anion transmembrane transport	133	36	23.95	0.00565
+GO:0009311	oligosaccharide metabolic process	28	11	5.04	0.00657
+GO:0006605	protein targeting	420	95	75.63	0.00696
+GO:0043603	cellular amide metabolic process	1111	228	200.06	0.00739
+GO:0034975	protein folding in endoplasmic reticulum	36	13	6.48	0.00743
+GO:0042274	ribosomal small subunit biogenesis	108	30	19.45	0.00745
+GO:0009416	response to light stimulus	177	45	31.87	0.00752
+GO:1903825	organic acid transmembrane transport	82	24	14.77	0.00802
+GO:1905039	carboxylic acid transmembrane transport	82	24	14.77	0.00802
+GO:0042278	purine nucleoside metabolic process	37	13	6.66	0.00961
+GO:0009583	detection of light stimulus	41	14	7.38	0.00968
+GO:0048149	behavioral response to ethanol	41	14	7.38	0.00968
