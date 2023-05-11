@@ -1,0 +1,535 @@
+go	cluster	parent	parentSimScore	score	size	term	parentTerm
+GO:1902380	1	GO:1902380	1	30	1	positive regulation of endoribonuclease activity	positive regulation of endoribonuclease activity
+GO:0010803	2	GO:0010803	1	30	0	regulation of tumor necrosis factor-mediated signaling pathway	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0090063	3	GO:0090063	1	30	2	positive regulation of microtubule nucleation	positive regulation of microtubule nucleation
+GO:1901029	4	GO:1901029	1	30	3	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:1903265	2	GO:0010803	0.965	30	6	positive regulation of tumor necrosis factor-mediated signaling pathway	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0070370	5	GO:0070370	1	30	1	cellular heat acclimation	cellular heat acclimation
+GO:0051131	6	GO:0051131	1	30	5	chaperone-mediated protein complex assembly	chaperone-mediated protein complex assembly
+GO:1903955	7	GO:1903955	1	30	1	positive regulation of protein targeting to mitochondrion	positive regulation of protein targeting to mitochondrion
+GO:0010968	3	GO:0090063	1	30	0	regulation of microtubule nucleation	positive regulation of microtubule nucleation
+GO:1901028	4	GO:1901029	1	29.9208187539524	0	regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:1902686	4	GO:1901029	0.973	29.9208187539524	0	mitochondrial outer membrane permeabilization involved in programmed cell death	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:0031112	3	GO:0090063	0.908	29.7958800173441	0	positive regulation of microtubule polymerization or depolymerization	positive regulation of microtubule nucleation
+GO:0031116	3	GO:0090063	0.926	29.7958800173441	6	positive regulation of microtubule polymerization	positive regulation of microtubule nucleation
+GO:0010286	5	GO:0070370	0.967	29.602059991328	1	heat acclimation	cellular heat acclimation
+GO:1903749	7	GO:1903955	1	29.5850266520292	0	positive regulation of establishment of protein localization to mitochondrion	positive regulation of protein targeting to mitochondrion
+GO:0072594	8	GO:0072594	0.995	29.3767507096021	2	establishment of protein localization to organelle	establishment of protein localization to organelle
+GO:0060699	1	GO:1902380	0.931	29.3372421683184	0	regulation of endoribonuclease activity	positive regulation of endoribonuclease activity
+GO:0032075	1	GO:1902380	0.967	28.9586073148418	0	positive regulation of nuclease activity	positive regulation of endoribonuclease activity
+GO:1902108	4	GO:1901029	0.973	28.8538719643218	0	regulation of mitochondrial membrane permeability involved in apoptotic process	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:0031113	3	GO:0090063	0.913	28.7958800173441	0	regulation of microtubule polymerization	positive regulation of microtubule nucleation
+GO:0097345	4	GO:1901029	0.973	28.7695510786217	2	mitochondrial outer membrane permeabilization	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:1902110	4	GO:1901029	0.973	28.7695510786217	0	positive regulation of mitochondrial membrane permeability involved in apoptotic process	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:0060700	1	GO:1902380	0.931	28.7695510786217	0	regulation of ribonuclease activity	positive regulation of endoribonuclease activity
+GO:0001961	2	GO:0010803	0.965	28.7695510786217	0	positive regulation of cytokine-mediated signaling pathway	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0007020	6	GO:0051131	0.498	28.7695510786217	25	microtubule nucleation	chaperone-mediated protein complex assembly
+GO:1901673	3	GO:0090063	0.71	28.2518119729938	7	regulation of mitotic spindle assembly	positive regulation of microtubule nucleation
+GO:1901099	9	GO:1901099	1	27.7447274948967	0	negative regulation of signal transduction in absence of ligand	negative regulation of signal transduction in absence of ligand
+GO:2001240	9	GO:1901099	1	27.7447274948967	1	negative regulation of extrinsic apoptotic signaling pathway in absence of ligand	negative regulation of signal transduction in absence of ligand
+GO:1903214	7	GO:1903955	1	27.6382721639824	0	regulation of protein targeting to mitochondrion	positive regulation of protein targeting to mitochondrion
+GO:0060760	2	GO:0010803	0.965	27.2596373105058	0	positive regulation of response to cytokine stimulus	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0042026	10	GO:0042026	0.999	27.0555173278498	39	protein refolding	protein refolding
+GO:0046785	6	GO:0051131	0.511	27	8	microtubule polymerization	chaperone-mediated protein complex assembly
+GO:0030512	2	GO:0010803	0.491	26.7447274948967	5	negative regulation of transforming growth factor beta receptor signaling pathway	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0032069	1	GO:1902380	0.919	26.7212463990472	0	regulation of nuclease activity	positive regulation of endoribonuclease activity
+GO:1903747	7	GO:1903955	1	26.537602002101	0	regulation of establishment of protein localization to mitochondrion	positive regulation of protein targeting to mitochondrion
+GO:0017015	2	GO:0010803	0.497	26.4814860601221	0	regulation of transforming growth factor beta receptor signaling pathway	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0001959	2	GO:0010803	1	26.3872161432803	0	regulation of cytokine-mediated signaling pathway	regulation of tumor necrosis factor-mediated signaling pathway
+GO:1905709	4	GO:1901029	1	26.3565473235138	0	negative regulation of membrane permeability	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:0035795	4	GO:1901029	1	26.3565473235138	0	negative regulation of mitochondrial membrane permeability	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:1903844	2	GO:0010803	0.497	26.1870866433571	0	regulation of cellular response to transforming growth factor beta stimulus	regulation of tumor necrosis factor-mediated signaling pathway
+GO:2001239	9	GO:1901099	0.898	25.9208187539524	0	regulation of extrinsic apoptotic signaling pathway in absence of ligand	negative regulation of signal transduction in absence of ligand
+GO:0006402	11	GO:0006402	0.996	25.8239087409443	22	mRNA catabolic process	mRNA catabolic process
+GO:0033209	2	GO:0010803	0.932	25.7958800173441	21	tumor necrosis factor-mediated signaling pathway	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0034605	5	GO:0070370	0.797	25.602059991328	21	cellular response to heat	cellular heat acclimation
+GO:1902236	12	GO:1902236	1	25.4089353929735	1	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0060759	2	GO:0010803	1	25.3665315444204	0	regulation of response to cytokine stimulus	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0035794	4	GO:1901029	0.973	25.0409586076789	0	positive regulation of mitochondrial membrane permeability	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:1902235	12	GO:1902236	1	25.0409586076789	0	regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0006401	11	GO:0006402	0.968	24.8860566476932	8	RNA catabolic process	mRNA catabolic process
+GO:0090169	3	GO:0090063	0.715	24.7447274948967	0	regulation of spindle assembly	positive regulation of microtubule nucleation
+GO:1905710	4	GO:1901029	0.973	24.6777807052661	0	positive regulation of membrane permeability	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:0031110	3	GO:0090063	0.829	24.6777807052661	9	regulation of microtubule polymerization or depolymerization	positive regulation of microtubule nucleation
+GO:0043618	13	GO:0043618	1	24.6575773191778	1	regulation of transcription from RNA polymerase II promoter in response to stress	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0033365	8	GO:0072594	0.958	24.397940008672	2	protein localization to organelle	establishment of protein localization to organelle
+GO:0043620	13	GO:0043618	0.981	24.3767507096021	2	regulation of DNA-templated transcription in response to stress	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0006605	8	GO:0072594	0.79	23.9586073148418	4	protein targeting	establishment of protein localization to organelle
+GO:0007339	14	GO:0007339	1	23.2757241303992	1	binding of sperm to zona pellucida	binding of sperm to zona pellucida
+GO:0035036	14	GO:0007339	1	23.2757241303992	0	sperm-egg recognition	binding of sperm to zona pellucida
+GO:0002181	15	GO:0002181	0.995	23.1938200260161	199	cytoplasmic translation	cytoplasmic translation
+GO:0010822	16	GO:0010822	0.999	23	0	positive regulation of mitochondrion organization	positive regulation of mitochondrion organization
+GO:0031397	17	GO:0031397	1	22.8538719643218	2	negative regulation of protein ubiquitination	negative regulation of protein ubiquitination
+GO:0070059	12	GO:1902236	0.91	22.7695510786217	5	intrinsic apoptotic signaling pathway in response to endoplasmic reticulum stress	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0051092	1	GO:1902380	0.513	22.6197887582884	5	positive regulation of NF-kappaB transcription factor activity	positive regulation of endoribonuclease activity
+GO:0031109	3	GO:0090063	0.774	22.4948500216801	0	microtubule polymerization or depolymerization	positive regulation of microtubule nucleation
+GO:1903573	13	GO:0043618	0.393	22.4814860601221	0	negative regulation of response to endoplasmic reticulum stress	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0010823	16	GO:0010822	0.834	22.4685210829577	0	negative regulation of mitochondrion organization	positive regulation of mitochondrion organization
+GO:0007006	18	GO:0007006	0.999	22.2596373105058	5	mitochondrial membrane organization	mitochondrial membrane organization
+GO:0006457	10	GO:0042026	0.865	22.2518119729938	90	protein folding	protein refolding
+GO:0090101	19	GO:0090101	0.999	22.2291479883579	1	negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway	negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:0009408	5	GO:0070370	0.713	22.1804560644581	82	response to heat	cellular heat acclimation
+GO:0007179	2	GO:0010803	0.517	21.9586073148418	4	transforming growth factor beta receptor signaling pathway	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0038034	9	GO:1901099	0.946	21.7958800173441	0	signal transduction in absence of ligand	negative regulation of signal transduction in absence of ligand
+GO:0097192	9	GO:1901099	0.946	21.7958800173441	2	extrinsic apoptotic signaling pathway in absence of ligand	negative regulation of signal transduction in absence of ligand
+GO:0090288	2	GO:0010803	0.577	21.7447274948967	0	negative regulation of cellular response to growth factor stimulus	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0046902	4	GO:1901029	0.963	21.5528419686578	0	regulation of mitochondrial membrane permeability	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:1903321	17	GO:0031397	0.962	21.5528419686578	0	negative regulation of protein modification by small protein conjugation or removal	negative regulation of protein ubiquitination
+GO:0009988	14	GO:0007339	1	21.4948500216801	0	cell-cell recognition	binding of sperm to zona pellucida
+GO:0034655	11	GO:0006402	0.941	21.4089353929735	0	nucleobase-containing compound catabolic process	mRNA catabolic process
+GO:0090559	4	GO:1901029	0.963	21.301029995664	0	regulation of membrane permeability	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:0062207	20	GO:0062207	1	21.2291479883579	0	regulation of pattern recognition receptor signaling pathway	regulation of pattern recognition receptor signaling pathway
+GO:0006626	8	GO:0072594	0.893	21.1191864077192	9	protein targeting to mitochondrion	establishment of protein localization to organelle
+GO:0060236	3	GO:0090063	0.72	20.9586073148418	2	regulation of mitotic spindle organization	positive regulation of microtubule nucleation
+GO:2001237	12	GO:1902236	0.761	20.9586073148418	0	negative regulation of extrinsic apoptotic signaling pathway	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0032273	21	GO:0032273	0.999	20.7958800173441	1	positive regulation of protein polymerization	positive regulation of protein polymerization
+GO:1903533	7	GO:1903955	0.967	20.7212463990472	0	regulation of protein targeting	positive regulation of protein targeting to mitochondrion
+GO:0000723	22	GO:0000723	0.999	20.6382721639824	28	telomere maintenance	telomere maintenance
+GO:0032200	22	GO:0000723	0.991	20.6382721639824	0	telomere organization	telomere maintenance
+GO:0031396	17	GO:0031397	0.911	20.6382721639824	4	regulation of protein ubiquitination	negative regulation of protein ubiquitination
+GO:0046700	11	GO:0006402	0.934	20.4202164033832	0	heterocycle catabolic process	mRNA catabolic process
+GO:0043154	1	GO:1902380	0.538	20.2924298239021	6	negative regulation of cysteine-type endopeptidase activity involved in apoptotic process	positive regulation of endoribonuclease activity
+GO:0090316	7	GO:1903955	0.853	20.2924298239021	3	positive regulation of intracellular protein transport	positive regulation of protein targeting to mitochondrion
+GO:0030308	23	GO:0030308	0.999	20.2924298239021	17	negative regulation of cell growth	negative regulation of cell growth
+GO:0035966	2	GO:0010803	0.518	20.130768280269	0	response to topologically incorrect protein	regulation of tumor necrosis factor-mediated signaling pathway
+GO:2000117	1	GO:1902380	0.543	20.1023729087096	0	negative regulation of cysteine-type endopeptidase activity	positive regulation of endoribonuclease activity
+GO:0019439	11	GO:0006402	0.931	20	0	aromatic compound catabolic process	mRNA catabolic process
+GO:0090224	3	GO:0090063	0.724	19.9208187539524	0	regulation of spindle organization	positive regulation of microtubule nucleation
+GO:0033120	24	GO:0033120	1	19.9208187539524	3	positive regulation of RNA splicing	positive regulation of RNA splicing
+GO:0071560	2	GO:0010803	0.522	19.7958800173441	2	cellular response to transforming growth factor beta stimulus	regulation of tumor necrosis factor-mediated signaling pathway
+GO:1905897	13	GO:0043618	0.408	19.7447274948967	1	regulation of response to endoplasmic reticulum stress	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0044270	11	GO:0006402	0.934	19.7212463990472	0	cellular nitrogen compound catabolic process	mRNA catabolic process
+GO:0006886	8	GO:0072594	0.861	19.6382721639824	117	intracellular protein transport	establishment of protein localization to organelle
+GO:2001236	12	GO:1902236	0.747	19.4559319556497	0	regulation of extrinsic apoptotic signaling pathway	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0044271	25	GO:0044271	0.911	19.3665315444204	0	cellular nitrogen compound biosynthetic process	cellular nitrogen compound biosynthetic process
+GO:0016071	24	GO:0033120	0.35	19.1674910872938	0	mRNA metabolic process	positive regulation of RNA splicing
+GO:0032436	26	GO:0032436	0.999	19.1549019599857	53	positive regulation of proteasomal ubiquitin-dependent protein catabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:2000060	26	GO:0032436	0.988	19.1549019599857	9	positive regulation of ubiquitin-dependent protein catabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0090092	19	GO:0090101	0.951	19.1487416512809	0	regulation of transmembrane receptor protein serine/threonine kinase signaling pathway	negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:1901361	11	GO:0006402	0.928	19.0969100130081	0	organic cyclic compound catabolic process	mRNA catabolic process
+GO:0090307	3	GO:0090063	0.466	19.0087739243075	14	mitotic spindle assembly	positive regulation of microtubule nucleation
+GO:0009266	5	GO:0070370	0.673	18.9208187539524	7	response to temperature stimulus	cellular heat acclimation
+GO:0033157	7	GO:1903955	0.811	18.8239087409443	2	regulation of intracellular protein transport	positive regulation of protein targeting to mitochondrion
+GO:0071559	2	GO:0010803	0.467	18.6575773191778	0	response to transforming growth factor beta	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0072655	8	GO:0072594	0.903	18.6197887582884	1	establishment of protein localization to mitochondrion	establishment of protein localization to organelle
+GO:0070585	8	GO:0072594	0.841	18.4202164033832	0	protein localization to mitochondrion	establishment of protein localization to organelle
+GO:2000058	26	GO:0032436	0.973	18.2518119729938	3	regulation of ubiquitin-dependent protein catabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0007338	27	GO:0007338	0.999	18.1739251972992	3	single fertilization	single fertilization
+GO:0032271	21	GO:0032273	0.918	18.0809219076239	0	regulation of protein polymerization	positive regulation of protein polymerization
+GO:0032434	26	GO:0032436	0.987	18.0268721464003	1	regulation of proteasomal ubiquitin-dependent protein catabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0006986	2	GO:0010803	0.51	17.698970004336	6	response to unfolded protein	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0050821	4	GO:1901029	0.369	17.6777807052661	45	protein stabilization	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:0046907	8	GO:0072594	0.643	17.6777807052661	20	intracellular transport	establishment of protein localization to organelle
+GO:0043281	26	GO:0032436	0.781	17.568636235841	2	regulation of cysteine-type endopeptidase activity involved in apoptotic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0008637	12	GO:1902236	0.494	17.537602002101	4	apoptotic mitochondrial changes	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0035967	2	GO:0010803	0.576	17.4559319556497	1	cellular response to topologically incorrect protein	regulation of tumor necrosis factor-mediated signaling pathway
+GO:2001243	12	GO:1902236	0.91	17.1487416512809	0	negative regulation of intrinsic apoptotic signaling pathway	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0090287	2	GO:0010803	0.599	17.1426675035687	0	regulation of cellular response to growth factor stimulus	regulation of tumor necrosis factor-mediated signaling pathway
+GO:2001242	12	GO:1902236	0.887	17	0	regulation of intrinsic apoptotic signaling pathway	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0009566	27	GO:0007338	0.992	16.9586073148418	3	fertilization	single fertilization
+GO:2000116	26	GO:0032436	0.792	16.8538719643218	0	regulation of cysteine-type endopeptidase activity	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:1903320	17	GO:0031397	0.885	16.7695510786217	0	regulation of protein modification by small protein conjugation or removal	negative regulation of protein ubiquitination
+GO:0071356	2	GO:0010803	0.93	16.7212463990472	1	cellular response to tumor necrosis factor	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0051258	6	GO:0051131	0.547	16.6777807052661	0	protein polymerization	chaperone-mediated protein complex assembly
+GO:0051225	3	GO:0090063	0.502	16.6575773191778	41	spindle assembly	positive regulation of microtubule nucleation
+GO:0007178	19	GO:0090101	0.899	16.6197887582884	0	transmembrane receptor protein serine/threonine kinase signaling pathway	negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:0002221	20	GO:0062207	0.875	16.5850266520292	3	pattern recognition receptor signaling pathway	regulation of pattern recognition receptor signaling pathway
+GO:0034612	2	GO:0010803	0.93	16.4559319556497	0	response to tumor necrosis factor	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0010629	28	GO:0010629	0.984	16.3767507096021	78	negative regulation of gene expression	negative regulation of gene expression
+GO:0034645	29	GO:0034645	0.965	16.2146701649892	0	cellular macromolecule biosynthetic process	cellular macromolecule biosynthetic process
+GO:0006839	8	GO:0072594	0.507	16.2146701649892	10	mitochondrial transport	establishment of protein localization to organelle
+GO:0010821	16	GO:0010822	0.932	16.1023729087096	16	regulation of mitochondrion organization	positive regulation of mitochondrion organization
+GO:0051091	1	GO:1902380	0.55	16.0555173278498	11	positive regulation of DNA-binding transcription factor activity	positive regulation of endoribonuclease activity
+GO:1903706	20	GO:0062207	0.495	15.9586073148418	1	regulation of hemopoiesis	regulation of pattern recognition receptor signaling pathway
+GO:0097193	12	GO:1902236	0.803	15.6197887582884	2	intrinsic apoptotic signaling pathway	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0010466	1	GO:1902380	0.561	15.537602002101	1	negative regulation of peptidase activity	positive regulation of endoribonuclease activity
+GO:0097191	12	GO:1902236	0.677	15.5086383061657	3	extrinsic apoptotic signaling pathway	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:1901800	26	GO:0032436	0.991	15.4202164033832	4	positive regulation of proteasomal protein catabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0051345	1	GO:1902380	0.705	15.3665315444204	0	positive regulation of hydrolase activity	positive regulation of endoribonuclease activity
+GO:0007088	22	GO:0000723	0.362	15.2839966563652	27	regulation of mitotic nuclear division	telomere maintenance
+GO:0032388	7	GO:1903955	0.815	15.2006594505464	1	positive regulation of intracellular transport	positive regulation of protein targeting to mitochondrion
+GO:0048872	4	GO:1901029	0.366	15.1739251972992	0	homeostasis of number of cells	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:0045861	26	GO:0032436	0.808	15.0915149811213	24	negative regulation of proteolysis	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:1902905	30	GO:1902905	0.999	15.0757207139381	0	positive regulation of supramolecular fiber organization	positive regulation of supramolecular fiber organization
+GO:0009059	25	GO:0044271	0.811	15.0506099933551	0	macromolecule biosynthetic process	cellular nitrogen compound biosynthetic process
+GO:0010951	1	GO:1902380	0.559	14.9586073148418	7	negative regulation of endopeptidase activity	positive regulation of endoribonuclease activity
+GO:0034620	2	GO:0010803	0.566	14.9586073148418	18	cellular response to unfolded protein	regulation of tumor necrosis factor-mediated signaling pathway
+GO:1903052	26	GO:0032436	0.98	14.8860566476932	1	positive regulation of proteolysis involved in protein catabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0001819	31	GO:0001819	1	14.8239087409443	0	positive regulation of cytokine production	positive regulation of cytokine production
+GO:0016567	17	GO:0031397	0.702	14.7212463990472	187	protein ubiquitination	negative regulation of protein ubiquitination
+GO:0006281	13	GO:0043618	0.528	14.6575773191778	79	DNA repair	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0007052	3	GO:0090063	0.501	14.6197887582884	56	mitotic spindle organization	positive regulation of microtubule nucleation
+GO:2001233	12	GO:1902236	0.817	14.4202164033832	2	regulation of apoptotic signaling pathway	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0034599	13	GO:0043618	0.463	14.4202164033832	25	cellular response to oxidative stress	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0031647	4	GO:1901029	0.378	14.4202164033832	18	regulation of protein stability	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:0045089	32	GO:0045089	0.999	14.2839966563652	38	positive regulation of innate immune response	positive regulation of innate immune response
+GO:0010608	26	GO:0032436	0.393	14.2291479883579	6	post-transcriptional regulation of gene expression	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0002764	20	GO:0062207	0.727	14.1426675035687	0	immune response-regulating signaling pathway	regulation of pattern recognition receptor signaling pathway
+GO:0031334	21	GO:0032273	0.993	14.0809219076239	1	positive regulation of protein-containing complex assembly	positive regulation of protein polymerization
+GO:0015031	8	GO:0072594	0.889	14.0132282657338	36	protein transport	establishment of protein localization to organelle
+GO:2001234	12	GO:1902236	0.839	13.8538719643218	5	negative regulation of apoptotic signaling pathway	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0045732	11	GO:0006402	0.636	13.8538719643218	21	positive regulation of protein catabolic process	mRNA catabolic process
+GO:0051051	7	GO:1903955	0.542	13.7447274948967	0	negative regulation of transport	positive regulation of protein targeting to mitochondrion
+GO:0015833	33	GO:0015833	1	13.7212463990472	0	peptide transport	peptide transport
+GO:0043488	11	GO:0006402	0.935	13.6777807052661	5	regulation of mRNA stability	mRNA catabolic process
+GO:0045184	8	GO:0072594	0.894	13.6575773191778	7	establishment of protein localization	establishment of protein localization to organelle
+GO:1903050	26	GO:0032436	0.962	13.6197887582884	0	regulation of proteolysis involved in protein catabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0032446	17	GO:0031397	0.686	13.5850266520292	9	protein modification by small protein conjugation	negative regulation of protein ubiquitination
+GO:0061136	26	GO:0032436	0.976	13.5850266520292	3	regulation of proteasomal protein catabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0009205	34	GO:0009205	0.998	13.5528419686578	0	purine ribonucleoside triphosphate metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:0008037	14	GO:0007339	0.691	13.5228787452803	0	cell recognition	binding of sperm to zona pellucida
+GO:0009144	34	GO:0009205	0.997	13.4948500216801	0	purine nucleoside triphosphate metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:0043487	11	GO:0006402	0.889	13.4814860601221	1	regulation of RNA stability	mRNA catabolic process
+GO:0051495	16	GO:0010822	0.81	13.4814860601221	2	positive regulation of cytoskeleton organization	positive regulation of mitochondrion organization
+GO:0070507	3	GO:0090063	0.799	13.4559319556497	10	regulation of microtubule cytoskeleton organization	positive regulation of microtubule nucleation
+GO:0051783	22	GO:0000723	0.364	13.4559319556497	0	regulation of nuclear division	telomere maintenance
+GO:0009199	34	GO:0009205	0.987	13.431798275933	0	ribonucleoside triphosphate metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:0001817	31	GO:0001819	0.91	13.3767507096021	0	regulation of cytokine production	positive regulation of cytokine production
+GO:0061013	11	GO:0006402	0.937	13.2924298239021	0	regulation of mRNA catabolic process	mRNA catabolic process
+GO:0062197	13	GO:0043618	0.465	13.2596373105058	1	cellular response to chemical stress	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0009141	34	GO:0009205	0.98	13.2596373105058	0	nucleoside triphosphate metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:0009612	5	GO:0070370	0.469	13.2596373105058	18	response to mechanical stimulus	cellular heat acclimation
+GO:0044265	11	GO:0006402	0.828	13.1674910872938	0	cellular macromolecule catabolic process	mRNA catabolic process
+GO:0007346	35	GO:0007346	0.995	13.1611509092627	37	regulation of mitotic cell cycle	regulation of mitotic cell cycle
+GO:0001816	31	GO:0001819	0.901	12.9586073148418	1	cytokine production	positive regulation of cytokine production
+GO:0052547	26	GO:0032436	0.811	12.9208187539524	0	regulation of peptidase activity	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0042886	33	GO:0015833	0.978	12.9208187539524	0	amide transport	peptide transport
+GO:0044249	25	GO:0044271	0.858	12.8860566476932	0	cellular biosynthetic process	cellular nitrogen compound biosynthetic process
+GO:0006614	8	GO:0072594	0.79	12.8538719643218	9	SRP-dependent cotranslational protein targeting to membrane	establishment of protein localization to organelle
+GO:0032386	7	GO:1903955	0.751	12.8538719643218	3	regulation of intracellular transport	positive regulation of protein targeting to mitochondrion
+GO:0051090	1	GO:1902380	0.494	12.8239087409443	2	regulation of DNA-binding transcription factor activity	positive regulation of endoribonuclease activity
+GO:0052548	26	GO:0032436	0.806	12.7958800173441	0	regulation of endopeptidase activity	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0010605	28	GO:0010629	0.894	12.7958800173441	0	negative regulation of macromolecule metabolic process	negative regulation of gene expression
+GO:0043085	1	GO:1902380	0.662	12.7212463990472	2	positive regulation of catalytic activity	positive regulation of endoribonuclease activity
+GO:0007051	3	GO:0090063	0.527	12.6382721639824	13	spindle organization	positive regulation of microtubule nucleation
+GO:0006613	8	GO:0072594	0.649	12.5228787452803	0	cotranslational protein targeting to membrane	establishment of protein localization to organelle
+GO:0071363	2	GO:0010803	0.626	12.4436974992327	3	cellular response to growth factor stimulus	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0032886	3	GO:0090063	0.771	12.3665315444204	1	regulation of microtubule-based process	positive regulation of microtubule nucleation
+GO:1901576	25	GO:0044271	0.849	12.3665315444204	0	organic substance biosynthetic process	cellular nitrogen compound biosynthetic process
+GO:0051649	8	GO:0072594	0.664	12.1674910872938	0	establishment of localization in cell	establishment of protein localization to organelle
+GO:1902115	21	GO:0032273	0.638	12.0362121726544	1	regulation of organelle assembly	positive regulation of protein polymerization
+GO:0002833	32	GO:0045089	0.91	12.0043648054024	0	positive regulation of response to biotic stimulus	positive regulation of innate immune response
+GO:0070848	2	GO:0010803	0.56	11.9586073148418	0	response to growth factor	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0006413	15	GO:0002181	0.613	11.9208187539524	59	translational initiation	cytoplasmic translation
+GO:0009058	25	GO:0044271	0.85	11.9208187539524	11	biosynthetic process	cellular nitrogen compound biosynthetic process
+GO:0001558	23	GO:0030308	0.904	11.8538719643218	14	regulation of cell growth	negative regulation of cell growth
+GO:0009126	34	GO:0009205	0.705	11.8239087409443	0	purine nucleoside monophosphate metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:0009167	34	GO:0009205	0.705	11.8239087409443	0	purine ribonucleoside monophosphate metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:0097190	12	GO:1902236	0.751	11.7695510786217	10	apoptotic signaling pathway	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0045047	8	GO:0072594	0.84	11.6575773191778	8	protein targeting to ER	establishment of protein localization to organelle
+GO:0009161	34	GO:0009205	0.717	11.602059991328	0	ribonucleoside monophosphate metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:0009892	28	GO:0010629	0.886	11.5850266520292	0	negative regulation of metabolic process	negative regulation of gene expression
+GO:0046034	34	GO:0009205	0.994	11.5528419686578	9	ATP metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:1902850	3	GO:0090063	0.511	11.4948500216801	2	microtubule cytoskeleton organization involved in mitosis	positive regulation of microtubule nucleation
+GO:0045862	26	GO:0032436	0.938	11.4814860601221	3	positive regulation of proteolysis	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0006412	15	GO:0002181	0.784	11.4814860601221	545	translation	cytoplasmic translation
+GO:0072599	8	GO:0072594	0.841	11.4089353929735	0	establishment of protein localization to endoplasmic reticulum	establishment of protein localization to organelle
+GO:0010639	16	GO:0010822	0.669	11.3767507096021	0	negative regulation of organelle organization	positive regulation of mitochondrion organization
+GO:0051346	1	GO:1902380	0.579	11.3565473235138	0	negative regulation of hydrolase activity	positive regulation of endoribonuclease activity
+GO:0000184	11	GO:0006402	0.858	11.3372421683184	27	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	mRNA catabolic process
+GO:0009123	34	GO:0009205	0.725	11.3279021420643	0	nucleoside monophosphate metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:0051276	22	GO:0000723	0.784	11.3187587626244	52	chromosome organization	telomere maintenance
+GO:0016049	23	GO:0030308	0.848	11.3098039199715	0	cell growth	negative regulation of cell growth
+GO:0090150	8	GO:0072594	0.765	11.2924298239021	0	establishment of protein localization to membrane	establishment of protein localization to organelle
+GO:0043254	21	GO:0032273	0.893	11.2757241303992	0	regulation of protein-containing complex assembly	positive regulation of protein polymerization
+GO:0045088	32	GO:0045089	0.945	11.2146701649892	15	regulation of innate immune response	positive regulation of innate immune response
+GO:0045666	36	GO:0045666	1	11.1870866433571	9	positive regulation of neuron differentiation	positive regulation of neuron differentiation
+GO:0030522	37	GO:0030522	0.999	11.0861861476163	0	intracellular receptor signaling pathway	intracellular receptor signaling pathway
+GO:0070972	8	GO:0072594	0.795	10.9586073148418	0	protein localization to endoplasmic reticulum	establishment of protein localization to organelle
+GO:0010467	38	GO:0010467	0.873	10.9208187539524	2	gene expression	gene expression
+GO:1902903	30	GO:1902905	0.909	10.7695510786217	0	regulation of supramolecular fiber organization	positive regulation of supramolecular fiber organization
+GO:0031349	32	GO:0045089	0.909	10.7695510786217	0	positive regulation of defense response	positive regulation of innate immune response
+GO:0070925	21	GO:0032273	0.513	10.698970004336	0	organelle assembly	positive regulation of protein polymerization
+GO:0006612	8	GO:0072594	0.716	10.6777807052661	26	protein targeting to membrane	establishment of protein localization to organelle
+GO:0006518	15	GO:0002181	0.759	10.6777807052661	6	peptide metabolic process	cytoplasmic translation
+GO:0019221	2	GO:0010803	0.922	10.6575773191778	4	cytokine-mediated signaling pathway	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0043043	15	GO:0002181	0.776	10.6382721639824	0	peptide biosynthetic process	cytoplasmic translation
+GO:0009057	11	GO:0006402	0.801	10.6382721639824	0	macromolecule catabolic process	mRNA catabolic process
+GO:0045471	2	GO:0010803	0.522	10.5528419686578	12	response to ethanol	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0042176	11	GO:0006402	0.648	10.5528419686578	5	regulation of protein catabolic process	mRNA catabolic process
+GO:1904951	7	GO:1903955	0.79	10.4436974992327	1	positive regulation of establishment of protein localization	positive regulation of protein targeting to mitochondrion
+GO:0051726	35	GO:0007346	0.926	10.4089353929735	49	regulation of cell cycle	regulation of mitotic cell cycle
+GO:0034641	38	GO:0010467	0.43	10.397940008672	0	cellular nitrogen compound metabolic process	gene expression
+GO:0043086	1	GO:1902380	0.543	10.2441251443275	4	negative regulation of catalytic activity	positive regulation of endoribonuclease activity
+GO:0051222	7	GO:1903955	0.792	10.2218487496164	0	positive regulation of protein transport	positive regulation of protein targeting to mitochondrion
+GO:0071705	33	GO:0015833	0.669	10.1938200260161	0	nitrogen compound transport	peptide transport
+GO:0050769	36	GO:0045666	0.82	10.1938200260161	4	positive regulation of neurogenesis	positive regulation of neuron differentiation
+GO:0060249	4	GO:1901029	0.4	10.1938200260161	0	anatomical structure homeostasis	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:0080135	32	GO:0045089	0.727	10	0	regulation of cellular response to stress	positive regulation of innate immune response
+GO:0051641	8	GO:0072594	0.698	10	0	cellular localization	establishment of protein localization to organelle
+GO:1903311	24	GO:0033120	0.404	9.92081875395237	0	regulation of mRNA metabolic process	positive regulation of RNA splicing
+GO:0006974	13	GO:0043618	0.539	9.88605664769316	30	cellular response to DNA damage stimulus	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0000956	11	GO:0006402	0.961	9.88605664769316	10	nuclear-transcribed mRNA catabolic process	mRNA catabolic process
+GO:0007017	3	GO:0090063	0.534	9.85387196432176	13	microtubule-based process	positive regulation of microtubule nucleation
+GO:0050790	1	GO:1902380	0.604	9.79588001734407	5	regulation of catalytic activity	positive regulation of endoribonuclease activity
+GO:0071345	2	GO:0010803	0.92	9.74472749489669	0	cellular response to cytokine stimulus	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0044093	1	GO:1902380	0.643	9.69897000433602	0	positive regulation of molecular function	positive regulation of endoribonuclease activity
+GO:0009150	15	GO:0002181	0.332	9.65757731917779	0	purine ribonucleotide metabolic process	cytoplasmic translation
+GO:0140014	22	GO:0000723	0.398	9.61978875828839	0	mitotic nuclear division	telomere maintenance
+GO:0006163	15	GO:0002181	0.334	9.58502665202918	2	purine nucleotide metabolic process	cytoplasmic translation
+GO:0008104	8	GO:0072594	0.826	9.56863623584101	84	protein localization	establishment of protein localization to organelle
+GO:0031331	11	GO:0006402	0.604	9.56863623584101	0	positive regulation of cellular catabolic process	mRNA catabolic process
+GO:0010564	35	GO:0007346	0.892	9.55284196865778	1	regulation of cell cycle process	regulation of mitotic cell cycle
+GO:0006979	13	GO:0043618	0.377	9.52287874528034	102	response to oxidative stress	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0043484	24	GO:0033120	0.775	9.52287874528034	16	regulation of RNA splicing	positive regulation of RNA splicing
+GO:1902533	37	GO:0030522	0.374	9.52287874528034	0	positive regulation of intracellular signal transduction	intracellular receptor signaling pathway
+GO:0045926	23	GO:0030308	0.869	9.48148606012211	18	negative regulation of growth	negative regulation of cell growth
+GO:0009628	5	GO:0070370	0.541	9.43179827593301	0	response to abiotic stimulus	cellular heat acclimation
+GO:0009259	39	GO:0009259	0.995	9.42021640338319	1	ribonucleotide metabolic process	ribonucleotide metabolic process
+GO:0072521	15	GO:0002181	0.34	9.34678748622466	0	purine-containing compound metabolic process	cytoplasmic translation
+GO:0050778	20	GO:0062207	0.596	9.29242982390206	2	positive regulation of immune response	regulation of pattern recognition receptor signaling pathway
+GO:0030097	20	GO:0062207	0.47	9.26760624017703	13	hemopoiesis	regulation of pattern recognition receptor signaling pathway
+GO:0070201	7	GO:1903955	0.75	9.24412514432751	2	regulation of establishment of protein localization	positive regulation of protein targeting to mitochondrion
+GO:0000226	3	GO:0090063	0.574	9.24412514432751	66	microtubule cytoskeleton organization	positive regulation of microtubule nucleation
+GO:0070727	8	GO:0072594	0.806	9.23657200643706	1	cellular macromolecule localization	establishment of protein localization to organelle
+GO:0051223	7	GO:1903955	0.753	9.19382002601611	1	regulation of protein transport	positive regulation of protein targeting to mitochondrion
+GO:0000122	28	GO:0010629	0.732	9.18708664335714	269	negative regulation of transcription by RNA polymerase II	negative regulation of gene expression
+GO:0030162	26	GO:0032436	0.89	9.17392519729917	12	regulation of proteolysis	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0002831	32	GO:0045089	0.851	9.14874165128093	0	regulation of response to biotic stimulus	positive regulation of innate immune response
+GO:0031400	17	GO:0031397	0.833	9.13076828026902	0	negative regulation of protein modification process	negative regulation of protein ubiquitination
+GO:0051962	40	GO:0051962	0.998	9.1249387366083	0	positive regulation of nervous system development	positive regulation of nervous system development
+GO:0061024	18	GO:0007006	0.833	9.11918640771921	19	membrane organization	mitochondrial membrane organization
+GO:0043604	15	GO:0002181	0.77	9.07058107428571	0	amide biosynthetic process	cytoplasmic translation
+GO:0045892	28	GO:0010629	0.775	8.95860731484177	157	negative regulation of DNA-templated transcription	negative regulation of gene expression
+GO:0010468	26	GO:0032436	0.476	8.95860731484177	107	regulation of gene expression	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0019693	39	GO:0009259	0.994	8.88605664769316	1	ribose phosphate metabolic process	ribonucleotide metabolic process
+GO:0090087	33	GO:0015833	0.981	8.85387196432176	0	regulation of peptide transport	peptide transport
+GO:1903507	28	GO:0010629	0.775	8.85387196432176	0	negative regulation of nucleic acid-templated transcription	negative regulation of gene expression
+GO:0008285	41	GO:0008285	0.998	8.82390874094432	50	negative regulation of cell population proliferation	negative regulation of cell population proliferation
+GO:1902679	28	GO:0010629	0.775	8.79588001734407	0	negative regulation of RNA biosynthetic process	negative regulation of gene expression
+GO:1903047	35	GO:0007346	0.821	8.76955107862173	0	mitotic cell cycle process	regulation of mitotic cell cycle
+GO:0006259	29	GO:0034645	0.649	8.76955107862173	0	DNA metabolic process	cellular macromolecule biosynthetic process
+GO:0009896	11	GO:0006402	0.574	8.67778070526608	0	positive regulation of catabolic process	mRNA catabolic process
+GO:0051336	1	GO:1902380	0.648	8.65757731917779	0	regulation of hydrolase activity	positive regulation of endoribonuclease activity
+GO:0071702	33	GO:0015833	0.637	8.48148606012211	13	organic substance transport	peptide transport
+GO:0043066	12	GO:1902236	0.69	8.48148606012211	107	negative regulation of apoptotic process	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0048534	20	GO:0062207	0.476	8.45593195564972	0	hematopoietic or lymphoid organ development	regulation of pattern recognition receptor signaling pathway
+GO:0043069	12	GO:1902236	0.683	8.44369749923271	8	negative regulation of programmed cell death	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0032103	32	GO:0045089	0.902	8.38721614328026	0	positive regulation of response to external stimulus	positive regulation of innate immune response
+GO:0002520	20	GO:0062207	0.476	8.36653154442041	0	immune system development	regulation of pattern recognition receptor signaling pathway
+GO:0009314	5	GO:0070370	0.513	8.34678748622466	6	response to radiation	cellular heat acclimation
+GO:0033036	8	GO:0072594	0.768	8.25963731050576	0	macromolecule localization	establishment of protein localization to organelle
+GO:0016070	38	GO:0010467	0.505	8.18708664335714	5	RNA metabolic process	gene expression
+GO:0034097	2	GO:0010803	0.916	8.13076828026902	2	response to cytokine	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0051129	16	GO:0010822	0.568	8.11918640771921	0	negative regulation of cellular component organization	positive regulation of mitochondrion organization
+GO:0010720	36	GO:0045666	0.835	8.08092190762393	0	positive regulation of cell development	positive regulation of neuron differentiation
+GO:0043603	15	GO:0002181	0.748	7.85387196432176	0	cellular amide metabolic process	cytoplasmic translation
+GO:0072657	8	GO:0072594	0.703	7.82390874094432	9	protein localization to membrane	establishment of protein localization to organelle
+GO:0043161	11	GO:0006402	0.768	7.72124639904717	154	proteasome-mediated ubiquitin-dependent protein catabolic process	mRNA catabolic process
+GO:0000280	22	GO:0000723	0.426	7.69897000433602	4	nuclear division	telomere maintenance
+GO:0044092	1	GO:1902380	0.528	7.63827216398241	0	negative regulation of molecular function	positive regulation of endoribonuclease activity
+GO:0007049	35	GO:0007346	0.744	7.58502665202918	0	cell cycle	regulation of mitotic cell cycle
+GO:0009636	2	GO:0010803	0.409	7.55284196865778	14	response to toxic substance	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0051493	16	GO:0010822	0.706	7.53760200210104	8	regulation of cytoskeleton organization	positive regulation of mitochondrion organization
+GO:0045664	36	GO:0045666	0.877	7.49485002168009	11	regulation of neuron differentiation	positive regulation of neuron differentiation
+GO:0009719	42	GO:0009719	0.991	7.45593195564972	0	response to endogenous stimulus	response to endogenous stimulus
+GO:0000278	35	GO:0007346	0.856	7.42021640338319	170	mitotic cell cycle	regulation of mitotic cell cycle
+GO:0048285	22	GO:0000723	0.428	7.42021640338319	0	organelle fission	telomere maintenance
+GO:0071495	42	GO:0009719	0.989	7.36653154442041	0	cellular response to endogenous stimulus	response to endogenous stimulus
+GO:0044248	11	GO:0006402	0.736	7.34678748622466	0	cellular catabolic process	mRNA catabolic process
+GO:0097305	2	GO:0010803	0.545	7.34678748622466	4	response to alcohol	regulation of tumor necrosis factor-mediated signaling pathway
+GO:1903829	7	GO:1903955	0.763	7.30980391997149	2	positive regulation of protein localization	positive regulation of protein targeting to mitochondrion
+GO:0044089	21	GO:0032273	0.861	7.30980391997149	0	positive regulation of cellular component biogenesis	positive regulation of protein polymerization
+GO:0010638	16	GO:0010822	0.87	7.27572413039921	0	positive regulation of organelle organization	positive regulation of mitochondrion organization
+GO:0031347	32	GO:0045089	0.849	7.26760624017703	0	regulation of defense response	positive regulation of innate immune response
+GO:0090304	38	GO:0010467	0.527	7.2518119729938	0	nucleic acid metabolic process	gene expression
+GO:0048519	28	GO:0010629	0.74	7.24412514432751	0	negative regulation of biological process	negative regulation of gene expression
+GO:0097435	30	GO:1902905	0.797	7.22914798835786	0	supramolecular fiber organization	positive regulation of supramolecular fiber organization
+GO:0034976	13	GO:0043618	0.49	7.21467016498923	38	response to endoplasmic reticulum stress	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:1902532	37	GO:0030522	0.364	7.21467016498923	0	negative regulation of intracellular signal transduction	intracellular receptor signaling pathway
+GO:0008340	43	GO:0008340	0.996	7.14874165128092	183	determination of adult lifespan	determination of adult lifespan
+GO:0032101	32	GO:0045089	0.825	7.14266750356873	0	regulation of response to external stimulus	positive regulation of innate immune response
+GO:0006139	38	GO:0010467	0.436	7.13667713987954	8	nucleobase-containing compound metabolic process	gene expression
+GO:0008380	38	GO:0010467	0.56	7.13076828026902	23	RNA splicing	gene expression
+GO:0022402	35	GO:0007346	0.724	7.08092190762393	0	cell cycle process	regulation of mitotic cell cycle
+GO:0009117	34	GO:0009205	0.879	7.07058107428571	2	nucleotide metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:0006753	34	GO:0009205	0.881	7.03621217265444	1	nucleoside phosphate metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:2000113	29	GO:0034645	0.718	7.00436480540245	0	negative regulation of cellular macromolecule biosynthetic process	cellular macromolecule biosynthetic process
+GO:0050776	20	GO:0062207	0.628	7	1	regulation of immune response	regulation of pattern recognition receptor signaling pathway
+GO:0006355	25	GO:0044271	0.795	6.92081875395237	309	regulation of DNA-templated transcription	cellular nitrogen compound biosynthetic process
+GO:1901566	15	GO:0002181	0.701	6.88605664769316	0	organonitrogen compound biosynthetic process	cytoplasmic translation
+GO:0006810	33	GO:0015833	0.45	6.74472749489669	19	transport	peptide transport
+GO:0071310	2	GO:0010803	0.677	6.72124639904717	0	cellular response to organic substance	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0060255	26	GO:0032436	0.485	6.67778070526608	0	regulation of macromolecule metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0045597	36	GO:0045666	0.856	6.67778070526608	0	positive regulation of cell differentiation	positive regulation of neuron differentiation
+GO:0007005	16	GO:0010822	0.767	6.67778070526608	51	mitochondrion organization	positive regulation of mitochondrion organization
+GO:0010558	28	GO:0010629	0.804	6.67778070526608	0	negative regulation of macromolecule biosynthetic process	negative regulation of gene expression
+GO:0031327	28	GO:0010629	0.794	6.67778070526608	0	negative regulation of cellular biosynthetic process	negative regulation of gene expression
+GO:0051247	26	GO:0032436	0.851	6.67778070526608	1	positive regulation of protein metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0010259	44	GO:0010259	1	6.65757731917779	4	multicellular organism aging	multicellular organism aging
+GO:0045934	28	GO:0010629	0.775	6.63827216398241	0	negative regulation of nucleobase-containing compound metabolic process	negative regulation of gene expression
+GO:0019941	11	GO:0006402	0.795	6.63827216398241	6	modification-dependent protein catabolic process	mRNA catabolic process
+GO:0006511	11	GO:0006402	0.794	6.63827216398241	126	ubiquitin-dependent protein catabolic process	mRNA catabolic process
+GO:0034654	25	GO:0044271	0.833	6.63827216398241	0	nucleobase-containing compound biosynthetic process	cellular nitrogen compound biosynthetic process
+GO:0010498	11	GO:0006402	0.736	6.61978875828839	27	proteasomal protein catabolic process	mRNA catabolic process
+GO:1903506	25	GO:0044271	0.795	6.52287874528034	0	regulation of nucleic acid-templated transcription	cellular nitrogen compound biosynthetic process
+GO:0007167	19	GO:0090101	0.763	6.49485002168009	0	enzyme-linked receptor protein signaling pathway	negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:2001141	25	GO:0044271	0.795	6.48148606012211	0	regulation of RNA biosynthetic process	cellular nitrogen compound biosynthetic process
+GO:0051668	8	GO:0072594	0.554	6.44369749923271	1	localization within membrane	establishment of protein localization to organelle
+GO:0055086	34	GO:0009205	0.852	6.44369749923271	0	nucleobase-containing small molecule metabolic process	purine ribonucleoside triphosphate metabolic process
+GO:0043632	11	GO:0006402	0.799	6.43179827593301	0	modification-dependent macromolecule catabolic process	mRNA catabolic process
+GO:1901575	11	GO:0006402	0.742	6.39794000867204	2	organic substance catabolic process	mRNA catabolic process
+GO:1901700	2	GO:0010803	0.466	6.35654732351381	0	response to oxygen-containing compound	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0070647	17	GO:0031397	0.66	6.34678748622466	0	protein modification by small protein conjugation or removal	negative regulation of protein ubiquitination
+GO:0065009	1	GO:1902380	0.581	6.34678748622466	0	regulation of molecular function	positive regulation of endoribonuclease activity
+GO:0007010	22	GO:0000723	0.461	6.33724216831843	20	cytoskeleton organization	telomere maintenance
+GO:0009056	11	GO:0006402	0.706	6.32790214206428	1	catabolic process	mRNA catabolic process
+GO:2000112	29	GO:0034645	0.769	6.25963731050576	0	regulation of cellular macromolecule biosynthetic process	cellular macromolecule biosynthetic process
+GO:0031399	17	GO:0031397	0.734	6.2518119729938	0	regulation of protein modification process	negative regulation of protein ubiquitination
+GO:0060548	12	GO:1902236	0.668	6.23657200643706	16	negative regulation of cell death	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0009890	28	GO:0010629	0.795	6.13667713987954	2	negative regulation of biosynthetic process	negative regulation of gene expression
+GO:0019438	25	GO:0044271	0.759	6.09691001300806	0	aromatic compound biosynthetic process	cellular nitrogen compound biosynthetic process
+GO:0045087	20	GO:0062207	0.541	6.07572071393812	82	innate immune response	regulation of pattern recognition receptor signaling pathway
+GO:0002684	20	GO:0062207	0.573	6.04095860767891	0	positive regulation of immune system process	regulation of pattern recognition receptor signaling pathway
+GO:0006351	25	GO:0044271	0.816	6.01322826573375	11	DNA-templated transcription	cellular nitrogen compound biosynthetic process
+GO:0018130	25	GO:0044271	0.76	5.95860731484177	0	heterocycle biosynthetic process	cellular nitrogen compound biosynthetic process
+GO:0006725	38	GO:0010467	0.407	5.95860731484177	0	cellular aromatic compound metabolic process	gene expression
+GO:0051234	33	GO:0015833	0.445	5.95860731484177	0	establishment of localization	peptide transport
+GO:0042981	12	GO:1902236	0.649	5.92081875395237	33	regulation of apoptotic process	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0097659	25	GO:0044271	0.816	5.88605664769316	0	nucleic acid-templated transcription	cellular nitrogen compound biosynthetic process
+GO:0032774	25	GO:0044271	0.816	5.85387196432176	0	RNA biosynthetic process	cellular nitrogen compound biosynthetic process
+GO:0006396	38	GO:0010467	0.627	5.85387196432176	21	RNA processing	gene expression
+GO:0044260	29	GO:0034645	0.808	5.82390874094432	0	cellular macromolecule metabolic process	cellular macromolecule biosynthetic process
+GO:0065003	6	GO:0051131	0.618	5.79588001734407	2	protein-containing complex assembly	chaperone-mediated protein complex assembly
+GO:0050767	36	GO:0045666	0.708	5.76955107862173	33	regulation of neurogenesis	positive regulation of neuron differentiation
+GO:0051253	28	GO:0010629	0.78	5.76955107862173	0	negative regulation of RNA metabolic process	negative regulation of gene expression
+GO:0043067	12	GO:1902236	0.631	5.74472749489669	12	regulation of programmed cell death	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0010556	26	GO:0032436	0.457	5.72124639904717	0	regulation of macromolecule biosynthetic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0051240	40	GO:0051962	0.931	5.72124639904717	0	positive regulation of multicellular organismal process	positive regulation of nervous system development
+GO:0046483	38	GO:0010467	0.406	5.67778070526608	0	heterocycle metabolic process	gene expression
+GO:0032880	7	GO:1903955	0.709	5.60205999132796	21	regulation of protein localization	positive regulation of protein targeting to mitochondrion
+GO:0006996	22	GO:0000723	0.508	5.55284196865778	1	organelle organization	telomere maintenance
+GO:1901362	24	GO:0033120	0.321	5.52287874528034	0	organic cyclic compound biosynthetic process	positive regulation of RNA splicing
+GO:0019637	39	GO:0009259	0.889	5.42021640338319	0	organophosphate metabolic process	ribonucleotide metabolic process
+GO:0006606	8	GO:0072594	0.898	5.27572413039921	58	protein import into nucleus	establishment of protein localization to organelle
+GO:0002682	20	GO:0062207	0.607	5.22184874961636	0	regulation of immune system process	regulation of pattern recognition receptor signaling pathway
+GO:0019222	26	GO:0032436	0.47	5.09151498112135	2	regulation of metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0044087	21	GO:0032273	0.77	5.0268721464003	0	regulation of cellular component biogenesis	positive regulation of protein polymerization
+GO:0080134	32	GO:0045089	0.796	4.95860731484177	0	regulation of response to stress	positive regulation of innate immune response
+GO:0045935	26	GO:0032436	0.678	4.95860731484177	0	positive regulation of nucleobase-containing compound metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0006915	12	GO:1902236	0.605	4.92081875395237	71	apoptotic process	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0031326	26	GO:0032436	0.507	4.92081875395237	0	regulation of cellular biosynthetic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:1901360	24	GO:0033120	0.341	4.88605664769316	0	organic cyclic compound metabolic process	positive regulation of RNA splicing
+GO:0051049	7	GO:1903955	0.611	4.82390874094432	2	regulation of transport	positive regulation of protein targeting to mitochondrion
+GO:0045321	45	GO:0045321	1	4.82390874094432	2	leukocyte activation	leukocyte activation
+GO:0098542	13	GO:0043618	0.423	4.79588001734407	5	defense response to other organism	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0001775	45	GO:0045321	0.898	4.79588001734407	0	cell activation	leukocyte activation
+GO:0006357	25	GO:0044271	0.741	4.76955107862173	702	regulation of transcription by RNA polymerase II	cellular nitrogen compound biosynthetic process
+GO:0010033	2	GO:0010803	0.626	4.74472749489669	1	response to organic substance	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0051179	33	GO:0015833	0.412	4.74472749489669	0	localization	peptide transport
+GO:0033554	13	GO:0043618	0.571	4.69897000433602	5	cellular response to stress	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0009889	26	GO:0032436	0.442	4.67778070526608	0	regulation of biosynthetic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:1901135	46	GO:1901135	0.983	4.63827216398241	0	carbohydrate derivative metabolic process	carbohydrate derivative metabolic process
+GO:0051173	26	GO:0032436	0.704	4.60205999132796	0	positive regulation of nitrogen compound metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0019219	26	GO:0032436	0.512	4.53760200210104	0	regulation of nucleobase-containing compound metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0051252	26	GO:0032436	0.51	4.52287874528034	3	regulation of RNA metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0051130	16	GO:0010822	0.788	4.52287874528034	0	positive regulation of cellular component organization	positive regulation of mitochondrion organization
+GO:0070887	2	GO:0010803	0.646	4.48148606012211	0	cellular response to chemical stimulus	regulation of tumor necrosis factor-mediated signaling pathway
+GO:0051170	8	GO:0072594	0.498	4.46852108295774	1	import into nucleus	establishment of protein localization to organelle
+GO:0002274	45	GO:0045321	0.946	4.44369749923271	0	myeloid leukocyte activation	leukocyte activation
+GO:0042255	21	GO:0032273	0.423	4.42021640338319	2	ribosome assembly	positive regulation of protein polymerization
+GO:0051248	26	GO:0032436	0.682	4.42021640338319	0	negative regulation of protein metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0009967	19	GO:0090101	0.603	4.4089353929735	0	positive regulation of signal transduction	negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:0012501	12	GO:1902236	0.575	4.33724216831843	19	programmed cell death	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0060341	7	GO:1903955	0.671	4.32790214206428	1	regulation of cellular localization	positive regulation of protein targeting to mitochondrion
+GO:0051603	11	GO:0006402	0.762	4.30102999566398	13	proteolysis involved in protein catabolic process	mRNA catabolic process
+GO:0031325	26	GO:0032436	0.701	4.26760624017703	0	positive regulation of cellular metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0061077	10	GO:0042026	0.788	4.22914798835786	26	chaperone-mediated protein folding	protein refolding
+GO:0010628	26	GO:0032436	0.597	4.22184874961636	77	positive regulation of gene expression	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0051094	36	GO:0045666	0.778	4.21467016498923	0	positive regulation of developmental process	positive regulation of neuron differentiation
+GO:0031329	11	GO:0006402	0.631	4.18708664335714	0	regulation of cellular catabolic process	mRNA catabolic process
+GO:1902531	37	GO:0030522	0.396	4.17392519729917	1	regulation of intracellular signal transduction	intracellular receptor signaling pathway
+GO:0006366	25	GO:0044271	0.759	4.08092190762393	50	transcription by RNA polymerase II	cellular nitrogen compound biosynthetic process
+GO:0051172	28	GO:0010629	0.823	4.02227639471115	0	negative regulation of nitrogen compound metabolic process	negative regulation of gene expression
+GO:0060284	36	GO:0045666	0.721	4	0	regulation of cell development	positive regulation of neuron differentiation
+GO:0015986	34	GO:0009205	0.927	3.92081875395238	29	proton motive force-driven ATP synthesis	purine ribonucleoside triphosphate metabolic process
+GO:0033043	16	GO:0010822	0.753	3.79588001734407	0	regulation of organelle organization	positive regulation of mitochondrion organization
+GO:0019538	15	GO:0002181	0.528	3.76955107862173	1	protein metabolic process	cytoplasmic translation
+GO:0035194	26	GO:0032436	0.36	3.74472749489669	30	post-transcriptional gene silencing by RNA	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0031047	28	GO:0010629	0.868	3.74472749489669	13	gene silencing by RNA	negative regulation of gene expression
+GO:0051960	40	GO:0051962	0.927	3.74472749489669	5	regulation of nervous system development	positive regulation of nervous system development
+GO:0042127	41	GO:0008285	0.895	3.72124639904717	27	regulation of cell population proliferation	negative regulation of cell population proliferation
+GO:0010604	26	GO:0032436	0.687	3.72124639904717	0	positive regulation of macromolecule metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0043933	6	GO:0051131	0.596	3.69897000433602	0	protein-containing complex organization	chaperone-mediated protein complex assembly
+GO:0046822	7	GO:1903955	0.715	3.67778070526608	6	regulation of nucleocytoplasmic transport	positive regulation of protein targeting to mitochondrion
+GO:0042147	8	GO:0072594	0.47	3.65757731917779	40	retrograde transport, endosome to Golgi	establishment of protein localization to organelle
+GO:0042306	7	GO:1903955	0.767	3.65757731917779	3	regulation of protein import into nucleus	positive regulation of protein targeting to mitochondrion
+GO:0007568	44	GO:0010259	0.955	3.63827216398241	5	aging	multicellular organism aging
+GO:0016441	26	GO:0032436	0.362	3.61978875828839	7	post-transcriptional gene silencing	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0051338	1	GO:1902380	0.559	3.52287874528034	0	regulation of transferase activity	positive regulation of endoribonuclease activity
+GO:0009894	11	GO:0006402	0.6	3.48148606012211	0	regulation of catabolic process	mRNA catabolic process
+GO:0051050	7	GO:1903955	0.68	3.48148606012211	0	positive regulation of transport	positive regulation of protein targeting to mitochondrion
+GO:0006796	39	GO:0009259	0.77	3.45593195564972	1	phosphate-containing compound metabolic process	ribonucleotide metabolic process
+GO:0006793	39	GO:0009259	0.768	3.43179827593301	0	phosphorus metabolic process	ribonucleotide metabolic process
+GO:0010941	12	GO:1902236	0.611	3.42021640338319	7	regulation of cell death	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0031324	28	GO:0010629	0.821	3.35654732351381	0	negative regulation of cellular metabolic process	negative regulation of gene expression
+GO:0051254	26	GO:0032436	0.674	3.31875876262441	0	positive regulation of RNA metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0006952	13	GO:0043618	0.424	3.31875876262441	25	defense response	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0019953	27	GO:0007338	0.581	3.30102999566398	234	sexual reproduction	single fertilization
+GO:0045595	36	GO:0045666	0.757	3.25963731050576	9	regulation of cell differentiation	positive regulation of neuron differentiation
+GO:0051246	26	GO:0032436	0.741	3.25963731050576	0	regulation of protein metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0035556	37	GO:0030522	0.419	3.25963731050576	104	intracellular signal transduction	intracellular receptor signaling pathway
+GO:0009893	26	GO:0032436	0.673	3.18708664335714	0	positive regulation of metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0042592	4	GO:1901029	0.439	3.18045606445813	2	homeostatic process	negative regulation of mitochondrial outer membrane permeabilization involved in apoptotic signaling pathway
+GO:0032879	7	GO:1903955	0.578	3.14266750356873	8	regulation of localization	positive regulation of protein targeting to mitochondrion
+GO:0045055	33	GO:0015833	0.331	3.14266750356873	2	regulated exocytosis	peptide transport
+GO:1901564	15	GO:0002181	0.483	3.1249387366083	0	organonitrogen compound metabolic process	cytoplasmic translation
+GO:0042254	21	GO:0032273	0.46	3.09151498112135	15	ribosome biogenesis	positive regulation of protein polymerization
+GO:0023057	37	GO:0030522	0.372	3.08618614761628	0	negative regulation of signaling	intracellular receptor signaling pathway
+GO:0010648	19	GO:0090101	0.758	3.08618614761628	0	negative regulation of cell communication	negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:0030182	47	GO:0030182	0.966	3.06550154875643	46	neuron differentiation	neuron differentiation
+GO:0040029	26	GO:0032436	0.365	3.06048074738138	3	epigenetic regulation of gene expression	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0002252	20	GO:0062207	0.477	3.03151705144606	0	immune effector process	regulation of pattern recognition receptor signaling pathway
+GO:0030163	11	GO:0006402	0.769	2.98716277529483	10	protein catabolic process	mRNA catabolic process
+GO:0051707	32	GO:0045089	0.713	2.89962945488244	0	response to other organism	positive regulation of innate immune response
+GO:0043207	32	GO:0045089	0.713	2.89962945488244	0	response to external biotic stimulus	positive regulation of innate immune response
+GO:0009168	34	GO:0009205	0.685	2.88941028970075	0	purine ribonucleoside monophosphate biosynthetic process	purine ribonucleoside triphosphate metabolic process
+GO:0009127	34	GO:0009205	0.685	2.88941028970075	0	purine nucleoside monophosphate biosynthetic process	purine ribonucleoside triphosphate metabolic process
+GO:0006955	20	GO:0062207	0.571	2.88941028970075	39	immune response	regulation of pattern recognition receptor signaling pathway
+GO:0009968	37	GO:0030522	0.402	2.87614835903291	3	negative regulation of signal transduction	intracellular receptor signaling pathway
+GO:0009607	32	GO:0045089	0.712	2.87614835903291	0	response to biotic stimulus	positive regulation of innate immune response
+GO:0009206	34	GO:0009205	0.942	2.86646109162978	0	purine ribonucleoside triphosphate biosynthetic process	purine ribonucleoside triphosphate metabolic process
+GO:0048585	32	GO:0045089	0.555	2.85387196432176	0	negative regulation of response to stimulus	positive regulation of innate immune response
+GO:0140352	33	GO:0015833	0.368	2.83268266525182	0	export from cell	peptide transport
+GO:0009145	34	GO:0009205	0.941	2.82973828460504	0	purine nucleoside triphosphate biosynthetic process	purine ribonucleoside triphosphate metabolic process
+GO:0009201	34	GO:0009205	0.941	2.79317412396815	0	ribonucleoside triphosphate biosynthetic process	purine ribonucleoside triphosphate metabolic process
+GO:0010647	19	GO:0090101	0.581	2.77989191195995	0	positive regulation of cell communication	negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:0040007	23	GO:0030308	0.713	2.76447155309245	0	growth	negative regulation of cell growth
+GO:0009142	34	GO:0009205	0.934	2.75696195131371	4	nucleoside triphosphate biosynthetic process	purine ribonucleoside triphosphate metabolic process
+GO:0040008	23	GO:0030308	0.755	2.74957999769111	24	regulation of growth	negative regulation of cell growth
+GO:0023056	37	GO:0030522	0.373	2.74714696902011	0	positive regulation of signaling	intracellular receptor signaling pathway
+GO:0044703	27	GO:0007338	0.374	2.74714696902011	0	multi-organism reproductive process	single fertilization
+GO:0022008	47	GO:0030182	0.926	2.73048705578208	17	neurogenesis	neuron differentiation
+GO:0009156	34	GO:0009205	0.7	2.72584215073632	1	ribonucleoside monophosphate biosynthetic process	purine ribonucleoside triphosphate metabolic process
+GO:0007166	19	GO:0090101	0.655	2.71669877129645	31	cell surface receptor signaling pathway	negative regulation of transmembrane receptor protein serine/threonine kinase signaling pathway
+GO:0009124	34	GO:0009205	0.709	2.68613277963085	0	nucleoside monophosphate biosynthetic process	purine ribonucleoside triphosphate metabolic process
+GO:0034504	8	GO:0072594	0.854	2.66958622665081	4	protein localization to nucleus	establishment of protein localization to organelle
+GO:0048699	47	GO:0030182	0.944	2.64975198166584	5	generation of neurons	neuron differentiation
+GO:0051128	16	GO:0010822	0.654	2.64206515299955	0	regulation of cellular component organization	positive regulation of mitochondrion organization
+GO:0051171	26	GO:0032436	0.528	2.63827216398241	0	regulation of nitrogen compound metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0000027	21	GO:0032273	0.539	2.61798295742513	16	ribosomal large subunit assembly	positive regulation of protein polymerization
+GO:0006950	13	GO:0043618	0.459	2.61439372640169	0	response to stress	regulation of transcription from RNA polymerase II promoter in response to stress
+GO:0006937	40	GO:0051962	0.559	2.61083391563547	4	regulation of muscle contraction	positive regulation of nervous system development
+GO:0043170	38	GO:0010467	0.645	2.60205999132796	0	macromolecule metabolic process	gene expression
+GO:0006887	33	GO:0015833	0.345	2.54211810326601	33	exocytosis	peptide transport
+GO:0008219	12	GO:1902236	0.558	2.49620931694282	22	cell death	negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway
+GO:0008283	41	GO:0008285	0.852	2.49214412830417	6	cell population proliferation	negative regulation of cell population proliferation
+GO:0048584	32	GO:0045089	0.726	2.45967052520913	0	positive regulation of response to stimulus	positive regulation of innate immune response
+GO:0080090	26	GO:0032436	0.526	2.40340290437354	0	regulation of primary metabolic process	positive regulation of proteasomal ubiquitin-dependent protein catabolic process
+GO:0000028	21	GO:0032273	0.546	2.36754270781528	17	ribosomal small subunit assembly	positive regulation of protein polymerization
+GO:0006754	34	GO:0009205	0.934	2.35654732351381	2	ATP biosynthetic process	purine ribonucleoside triphosphate metabolic process
+GO:0007399	47	GO:0030182	0.861	2.34486156518862	93	nervous system development	neuron differentiation
+GO:0044085	21	GO:0032273	0.547	2.32790214206428	0	cellular component biogenesis	positive regulation of protein polymerization
+GO:1900180	7	GO:1903955	0.633	2.31966448658544	1	regulation of protein localization to nucleus	positive regulation of protein targeting to mitochondrion
+GO:0071840	22	GO:0000723	0.37	2.27654432796481	0	cellular component organization or biogenesis	telomere maintenance
+GO:0032940	33	GO:0015833	0.367	2.23957751657679	3	secretion by cell	peptide transport
+GO:0009987	48	GO:0009987	0.357	2.21467016498923	2	cellular process	cellular process
+GO:0048468	47	GO:0030182	0.706	2.18111458540599	5	cell development	neuron differentiation
+GO:0042273	21	GO:0032273	0.408	2.14752000636314	19	ribosomal large subunit biogenesis	positive regulation of protein polymerization
+GO:0050789	28	GO:0010629	0.374	2.1266793981846	0	regulation of biological process	negative regulation of gene expression
+GO:0016043	22	GO:0000723	0.379	2.11690664142431	0	cellular component organization	telomere maintenance
+GO:0051347	1	GO:1902380	0.614	2.08990945440593	0	positive regulation of transferase activity	positive regulation of endoribonuclease activity
+GO:0022607	21	GO:0032273	0.569	2.06248210798265	0	cellular component assembly	positive regulation of protein polymerization
+GO:0048523	28	GO:0010629	0.707	2.0584885673656	0	negative regulation of cellular process	negative regulation of gene expression
+GO:0051239	40	GO:0051962	0.792	2.04479346245806	0	regulation of multicellular organismal process	positive regulation of nervous system development
+GO:0022618	21	GO:0032273	0.623	2.02548830726267	5	ribonucleoprotein complex assembly	positive regulation of protein polymerization
