@@ -17,23 +17,23 @@ cd $OUTDIR
 
 nohup $KRAKEN2DIR/kraken2-build --download-taxonomy --db $DBTAG --threads 5 --use-ftp
 wait
-nohup $KRAKEN2DIR/kraken2-build --download-library archaea --db $DBTAG --threads 5 --use-ftp
+nohup $KRAKEN2DIR/kraken2-build --download-library archaea --db $DBTAG --threads 5 
 wait
-nohup $KRAKEN2DIR/kraken2-build --download-library viral --db $DBTAG --threads 5 --use-ftp
+nohup $KRAKEN2DIR/kraken2-build --download-library viral --db $DBTAG --threads 5
 wait
-nohup $KRAKEN2DIR/kraken2-build --download-library bacteria --db $DBTAG --threads 5 --use-ftp
+nohup $KRAKEN2DIR/kraken2-build --download-library bacteria --db $DBTAG --threads 5
 wait
-nohup $KRAKEN2DIR/kraken2-build --download-library plasmid --db $DBTAG --threads 5 --use-ftp
+nohup $KRAKEN2DIR/kraken2-build --download-library plasmid --db $DBTAG --threads 5 
 wait
-nohup $KRAKEN2DIR/kraken2-build --download-library human --db $DBTAG --threads 5 --use-ftp
+nohup $KRAKEN2DIR/kraken2-build --download-library human --db $DBTAG --threads 5
 wait
-nohup $KRAKEN2DIR/kraken2-build --download-library fungi --db $DBTAG --threads 5 --use-ftp
+nohup $KRAKEN2DIR/kraken2-build --download-library fungi --db $DBTAG --threads 5 
 wait
-nohup $KRAKEN2DIR/kraken2-build --download-library protozoa --db $DBTAG --threads 5 --use-ftp
+nohup $KRAKEN2DIR/kraken2-build --download-library protozoa --db $DBTAG --threads 5
 wait
-nohup $KRAKEN2DIR/kraken2-build --download-library UniVec_Core --db $DBTAG --threads 5 --use-ftp
+nohup $KRAKEN2DIR/kraken2-build --download-library UniVec_Core --db $DBTAG --threads 5 
 wait
-nohup $KRAKEN2DIR/kraken2-build --add-to-library $REFFASTA --db $DBTAG --threads 5 --use-ftp
+nohup $KRAKEN2DIR/kraken2-build --add-to-library $REFFASTA --db $DBTAG --threads 5
 wait
 
 echo "##### Job is complete #####"
