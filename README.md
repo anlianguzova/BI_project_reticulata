@@ -4,17 +4,33 @@ Rhizocephala ("Crustacea": Cirripedia) are singular and highly specialised oblig
 The rapid development of high-throughput sequencing technologies has made it possible to study in detail the molecular basis of host-parasite interplay. However, to date, no molecular data relating to the interactions of basal family rhizocephalans with their hermit crab hosts are publicly available. 
 The aim of this project is to conduct a comparative transcriptomic analysis of the ganglia of male and female *Pagurus minutus* hermit crab, both healthy and infected with the rhizocephalan *Peltogaster reticulata*. We have also attempted to assembly the parasite genome to reveal genomic adaptations to parasitism in Rhizocephala. 
 
-## Differential transcriptome analysis
+## Methods
 
-### Methods
+### Data reformatting
 
-#### Data reformatting
+BBMap/BBTools (v. 39.01) was used for ID correction of reads and filtering of rnaSPAdes results. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20). 
 
-BBMap/BBTools (v. 39.01) was used to ID correction of reads and filtering of rnaSPAdes results. Scripts are available in the repository. 
+### Quality control 
+
+FastQC (v. 0.12.1) was utilized to spot potential problems in sequencing datasets. 
+
+FastP utility (v. 0.23.2) performed the sequiencing filtering. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20).
+The trimming parameters was the following: `--cut_window_size 4 --cut_mean_quality 20 --qualified_quality_phred 20 --length_required 25`.
+
+### Decontamination of the datasets
+
+Kraken2 (v. 2.1.2) is a taxonomic sequence classification system that provides an opportunity to build database of possible contaminations (such as bacteria and viruses). The example of the script allowing to download database can be found [here](/Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/download_database). 
+In case of filtered genome sequences we used standard database that includes library from archaea, viruses, bacteria, plasmid, fungi, human and protozoa contaminations. 
+In case of transcriptomic sequences we added to standard database the early assembled transcriptomic data from the parasite *Peltogaster reticulata* (NCBI #2664287) and the genomic sequences from another rhizocephalan species, *Sacculina carcini* (NCBI #51650).
+
+Database building was performed using the following [script](Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/download_database/females_Kraken2_standard_db_download.sh).
+
+Searching of the possible contaminants against build databse was made using [the following scripts](Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/search_database). 
 
 
 
-### Results 
+
+## Results 
 
 #### BUSCO (single-copy orthologs)
 
