@@ -57,7 +57,7 @@ In order to get the sequencies with minimun length 200 nucletides we applied the
 
 ### Assembly quality control
 
-TransRate (v. 1.0.1) was utilised for the qualitative analysis of de novo transcriptome assemblies. The default options were used; the scripts for all assemblies can be found [here](Scripts/Host's%20ganglia%20transcriptome%20/TransRate).
+TransRate (v. 1.0.1) was utilised for the qualitative analysis of *de novo* transcriptome assemblies. The default options were used; the scripts for all assemblies can be found [here](Scripts/Host's%20ganglia%20transcriptome%20/TransRate).
 
 ### Clusterization
 
@@ -69,7 +69,15 @@ The whole assembly obtained by the `cat` UNIX-command was based exclusively on g
 
 ### Quality control in good contigs sequences
 
-BUSCO (v. 5.4.7) performed the searching of single-copy orthologs in the obtained assemblies. The transcriptome mode was selected (`-m transcriptome`), and Metazoa OrthoDB was used as lineage dataset.
+BUSCO (v. 5.4.7) performed the searching of single-copy orthologs in the obtained assemblies. The transcriptome mode was selected (`-m transcriptome`), and Metazoa OrthoDB was used as lineage dataset. The scripts are available [here](/Scripts/Host's%20ganglia%20transcriptome%20/BUSCO)
+
+### Quantifying transcripts expression
+
+Salmon (v. 1.10.1) installed in conda environment mapped the initial libraries of short reads to the collected sequences. The obtained values were normalized due to the sequencing depth and the contig size in order to obtain a numerical value of the expression level. The script allowing to create an index for the obtained sequences is avaliable [here](/Scripts/Host's%20ganglia%20transcriptome%20/Salmon/run_Pdum_good_contigs_salmon_index.sh). Mapping of the sequences and the expression quantification was performed using the [following script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/fem_quant.sh) for the data from the female hermit crabs and [this script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/male_quant.sh) for the males.  
+
+### Determination of protein coding genes
+
+TransDecoder (v. 5.5.0)
 
 ## Results 
 
