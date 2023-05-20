@@ -27,8 +27,29 @@ Database building was performed using the following [script](Scripts/Host's%20ga
 
 Searching of the possible contaminants against build databse was made using [the following scripts](Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/search_database). 
 
+### Assembly 
 
+#### Host's ganglia transcriptomes
 
+We performed *de novo* assembly using 3 tools in order to receive the best results using the strengths of different assemblers.
+
+##### rnaSPAdes
+
+rnaSPAdes (SPAdes v. 3.15.4)
+
+##### Rna-Bloom
+
+Rna-Bloom (v. 2.0.1)
+
+##### Trinity 
+
+Trinity (v. 2.14.0)
+
+#### Parasite genome
+
+##### SPAdes
+
+SPAdes v. 3.15.4
 
 ## Results 
 
