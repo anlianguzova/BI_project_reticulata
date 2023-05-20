@@ -31,19 +31,19 @@ Searching of the possible contaminants against build databse was made using [the
 
 #### Host's ganglia transcriptomes
 
-We performed *de novo* assembly using 3 tools in order to receive the best results using the strengths of different assemblers.
+We performed *de novo* assembly using 3 tools in order to receive the best results using the strengths of different assemblers. Before assemblying we created the single fasta file containing sequences from healthy and infected female and male crabs.  
 
 ##### rnaSPAdes
 
-rnaSPAdes (SPAdes v. 3.15.4)
+rnaSPAdes (SPAdes v. 3.15.4) with default options was used. The script are available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/RNAspades/run_rnaspades.sh).
 
 ##### Rna-Bloom
 
-Rna-Bloom (v. 2.0.1)
+Rna-Bloom (v. 2.0.1) was installed using mamba (v. 1.4.1). Specified options was `--kmer 25 --percent 0.90 --length 200`. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Rna-Bloom/run_rnabloom.sh).
 
 ##### Trinity 
 
-Trinity (v. 2.14.0)
+Trinity (v. 2.14.0) was utilised. We also installed the tool dependecies using conda (23.1.0) virtual environment and Trinity v. 2.13.2. The avaliable script is [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Trinity/new_trinity.sh).
 
 #### Parasite genome
 
