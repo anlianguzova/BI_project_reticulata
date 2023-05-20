@@ -43,17 +43,21 @@ Rna-Bloom (v. 2.0.1) was installed using mamba (v. 1.4.1). Specified options was
 
 ##### Trinity 
 
-Trinity (v. 2.14.0) was utilised. We also installed the tool dependecies using conda (23.1.0) virtual environment and Trinity v. 2.13.2. The avaliable script is [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Trinity/new_trinity.sh).
-
-### Filtering assembly results
-
-In order to get the sequencies with minimun length 200 nucletides we applied the [python script](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Length_filter.py) to the obtained assemblies. 
+Trinity (v. 2.14.0) was utilised. We also installed the tool dependecies using conda (v. 23.1.0) virtual environment and Trinity v. 2.13.2. The avaliable script is [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Trinity/new_trinity.sh).
 
 #### Parasite genome
 
 ##### SPAdes
 
 SPAdes v. 3.15.4
+
+### Filtering assembly results
+
+In order to get the sequencies with minimun length 200 nucletides we applied the [python script](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Length_filter.py) to the obtained transcriptomic assemblies. 
+
+### Clusterization
+
+CD-HIT (v. 4.8.1) was used to the sequences clusterization. Clusters with 95% identity were gathered using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
 
 ## Results 
 
