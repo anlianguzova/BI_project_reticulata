@@ -77,8 +77,26 @@ Salmon (v. 1.10.1) installed in conda environment mapped the initial libraries o
 
 ### Determination of protein coding genes
 
-TransDecoder (v. 5.5.0)
+TransDecoder (v. 5.5.0) identified candidate coding regions within transcript sequences. Initial determination of open reading frames (ORFs) and translation products was performed using [this script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh). 
+HMMER (v. 3.3.2) was used to compare found ORFs with Pfam-A database using the [following script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_PfamA.sh).
+DIAMOND (v. 2.0.15) performed to search ORFs analysing Uniref90 database. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh).
+Final definition of ORFs was performed obtained comparison results using TransDecoder. The [script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_TransDecoder_Predict.sh) for prediction is provided. 
 
+### Reference set of protein coding sequences
+
+We selected proteins consisting of more than 100 amino acids and with the expression level more than 2 transcripts per million (TPM) using the [provided jyputer notebook](Scripts/Host's%20ganglia%20transcriptome%20/Final_fasta_sorting/Sort_assembly_expression_files.ipynb). 
+
+### Functional annotation
+
+Database eggNOG-mapper (v. 2.1.9) was used to annotate the obtained proteins.  
+
+### Differential expression analysis
+
+RNentropy was utilised for the detection of significant variation of gene expression.
+
+### Enrichment analysis
+
+ 
 ## Results 
 
 #### BUSCO (single-copy orthologs)
