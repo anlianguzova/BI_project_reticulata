@@ -55,9 +55,21 @@ SPAdes v. 3.15.4
 
 In order to get the sequencies with minimun length 200 nucletides we applied the [python script](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Length_filter.py) to the obtained transcriptomic assemblies. 
 
+### Assembly quality control
+
+TransRate (v. 1.0.1) was utilised for the qualitative analysis of de novo transcriptome assemblies. The default options were used; the scripts for all assemblies can be found [here](Scripts/Host's%20ganglia%20transcriptome%20/TransRate).
+
 ### Clusterization
 
 CD-HIT (v. 4.8.1) was used to the sequences clusterization. Clusters with 95% identity were gathered using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
+
+### Creating of the whole assembly
+
+The whole assembly obtained by the `cat` UNIX-command was based exclusively on good contigs assembled from the above-mentioned tools. 
+
+### Quality control in good contigs sequences
+
+BUSCO (v. 5.4.7) performed the searching of single-copy orthologs in the obtained assemblies. The transcriptome mode was selected (`-m transcriptome`), and Metazoa OrthoDB was used as lineage dataset.
 
 ## Results 
 
