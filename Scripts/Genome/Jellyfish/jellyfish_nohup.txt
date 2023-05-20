@@ -1,0 +1,8 @@
+***** Jellyfish began to work with params: *****
+R1: /home/LVP/genome_assembly/genome_all_libs_fastP_output.unclass_merged.R1.fastq
+R2: /home/LVP/genome_assembly/genome_all_libs_fastP_output.unclass_merged.R2.fastq
+OUTTAG: Pret.genome.unclass.k25_counts.jf
+OUTDIR: /home/LVP/genome_assembly/jellyfish_results
+***** Histo jellyfish began to work with param: *****
+HISTOTAG: Pret.genome.unclass.k25_counts.histo
+##### Job is complete #####
