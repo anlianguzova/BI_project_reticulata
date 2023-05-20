@@ -35,7 +35,7 @@ We performed *de novo* assembly using 3 tools in order to receive the best resul
 
 ##### rnaSPAdes
 
-rnaSPAdes (SPAdes v. 3.15.4) with default options was used. The script are available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/RNAspades/run_rnaspades.sh).
+rnaSPAdes (SPAdes v. 3.15.4) with default options was used. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/RNAspades/run_rnaspades.sh).
 
 ##### Rna-Bloom
 
@@ -44,6 +44,10 @@ Rna-Bloom (v. 2.0.1) was installed using mamba (v. 1.4.1). Specified options was
 ##### Trinity 
 
 Trinity (v. 2.14.0) was utilised. We also installed the tool dependecies using conda (23.1.0) virtual environment and Trinity v. 2.13.2. The avaliable script is [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Trinity/new_trinity.sh).
+
+### Filtering assembly results
+
+In order to get the sequencies with minimun length 200 nucletides we applied the [python script](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Length_filter.py) to the obtained assemblies. 
 
 #### Parasite genome
 
