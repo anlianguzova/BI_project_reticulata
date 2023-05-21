@@ -9,7 +9,7 @@ OUTTAG=renamed_raw # Output files tag
 
 ### SOFT ###
 
-BBTools_reformat=/home/LVP/Soft/bbmap/reformat.sh #это у нас папка с прогой на серваке, можно не менять
+BBTools_reformat=/home/LVP/Soft/bbmap/reformat.sh 
 
 ### MAIN ###
 
