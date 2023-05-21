@@ -47,9 +47,33 @@ Trinity (v. 2.14.0) was utilised. We also installed the tool dependecies using c
 
 #### Parasite genome
 
-##### SPAdes
+##### Jellyfish genome size assessment
 
-SPAdes v. 3.15.4
+Tool was run using the script available [here](https://github.com/anlianguzova/BI_project_reticulata/blob/main/Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`). `--size=265M` parameter was taken based on the total size of the _Sacculina_ genome (264,490,643 bp). 
+
+The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/). Results can be found [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/Jellyfish).
+
+##### Creating *in silico* mate pairs liabrary
+
+Mate pair libraris were made via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the readings). The other parameters were left default. The following libraries were obtained:
+
+| Insert length | Number of reads|
+|----------|----------|
+|1000   | 8098  | 
+|1500   |  5031  | 
+|2000  | 4095  | 
+| 5000 | 2808   |
+| 10000  | 1187   |
+| 20000  | 794  | 
+| 50000  | 712  |
+| 100000  | 737   |
+| 200000  | 587  |
+
+##### Genome assembly
+
+SPAdes v. 3.15.4 was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the previously obtained mate-pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
+Quality assessment was obtained via `Quast` 
+
 
 ### Filtering assembly results
 
@@ -122,10 +146,14 @@ Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian)
 
 ##### Parasitised by *Peltogaster reticulata* 
 <p align="center">
-<img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/infected_pavian.png?raw=true" alt="Pavian visualization of non-infected crab Kraken2 outputs"/>
+<img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/infected_pavian.png?raw=true" alt="Pavian visualization of infected crab Kraken2 outputs"/>
 </p>
 
-#### BUSCO (single-copy orthologs)
+#### Quality control of different assembliers results
+
+Result of the TransRate quality analysis can be found in the [directory](Results/Transrate_output).
+
+Here, we present the comparison of results obtained by different assemblers based on found single orthologs (BUSCO). 
 
 | Assembler      | Complete BUSCOs | Complete and single-copy BUSCOs | Complete and duplicated BUSCOs | Fragmented BUSCOs | Missing BUSCOs |
 | -------------- | --------------- | ------------------------------- | ------------------------------ | ----------------- | -------------- |
@@ -138,6 +166,30 @@ Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian)
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/Venn_diagram_assemblers.png?raw=true" alt="Venn diagram on metazoans orthologs from different assemblers"/>
 </p>
 
+#### Protein-coding genes detection
+
+Final differential expression tables and fasta-files containing sequences with more than 100 amino acids and significant expression level are present in the [repository](Results/Final%20fasta%20sorting).
+
+#### Differential expression results
+
+RNetropy and enrichment results are avaliable in the repository [directory](Results/Differential%20expression). Some visializations are present below.
+
+##### Reduced Gene Set Enrichment analysis (GSEA) for the infected male hermit crabs
+
+<p align="center">
+<img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/male_gsea.png?raw=true" alt="Gene Set Enrichment analysis (GSEA) for the infected male hermit crabs"/>
+</p>
+
+##### Word cloud visualization of processes reduced in infected males compared to non-parasitised ones
+
+<p align="center">
+<img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/wordcloud_male_diff.png?raw=true" alt="Wordcloud with processes absent in infected males"/>
+</p>
+
 ### Genome assembly
 
+#### Quality control of the assembly
 
+The Quast results can be found in the [repository](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/SPAdes_genome).
+
+We also provide a full description of the obtained results in the following Google Slides presentation. 
