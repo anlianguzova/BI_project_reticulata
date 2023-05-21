@@ -23,11 +23,11 @@ The aim of this project is to conduct a comparative transcriptomic analysis of t
 
 BBMap/BBTools (v. 39.01) was used for ID correction of reads and filtering of rnaSPAdes results. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20). 
 
-### Quality control 
+### Quality control and library preparation
 
 FastQC (v. 0.12.1) was utilized to spot potential problems in sequencing datasets. 
 
-FastP utility (v. 0.23.2) performed the sequiencing filtering. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20).
+FastP utility (v. 0.23.2) performed the low-quality and adapter sequences removal. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20).
 The trimming parameters was the following: `--cut_window_size 4 --cut_mean_quality 20 --qualified_quality_phred 20 --length_required 25`.
 
 ### Decontamination of the datasets
