@@ -73,7 +73,7 @@ Mate pair libraris were made via [`Cross-species scaffolding`](https://github.co
 ##### Genome assembly
 
 SPAdes v. 3.15.4 was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the previously obtained mate-pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
-Quality assessment was obtained via `Quast` 
+Quality assessment was obtained via `Quast v. 5.2.0` 
 
 
 ### Filtering assembly results
