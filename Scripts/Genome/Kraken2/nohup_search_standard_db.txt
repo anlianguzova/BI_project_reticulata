@@ -1,0 +1,30 @@
+Kraken2 starts to work with: 
+R1: /home/LVP/fastp/dna/A1-2_fastP_output/A1-2.fastp_tmm.R1.fastq.gz
+R2: /home/LVP/fastp/dna/A1-2_fastP_output/A1-2.fastp_tmm.R2.fastq.gz
+TAG: A1-2_fastP_output
+mkdir: cannot create directory ‘A1-2_fastP_output_vs_Kraken2_plus_db_TEST’: File exists
+Loading database information... done.
+112893341 sequences (32146.67 Mbp) processed in 474.089s (14287.6 Kseq/m, 4068.44 Mbp/m).
+  2550477 sequences classified (2.26%)
+  110342864 sequences unclassified (97.74%)
+Kraken2 starts to work with: 
+R1: /home/LVP/fastp/dna/A1-3_fastP_output/A1-3.fastp_tmm.R1.fastq.gz
+R2: /home/LVP/fastp/dna/A1-3_fastP_output/A1-3.fastp_tmm.R2.fastq.gz
+TAG: A1-3_fastP_output
+mkdir: cannot create directory ‘A1-3_fastP_output_vs_Kraken2_plus_db_TEST’: File exists
+Loading database information... done.
+106636348 sequences (30379.95 Mbp) processed in 498.494s (12835.0 Kseq/m, 3656.61 Mbp/m).
+  1909285 sequences classified (1.79%)
+  104727063 sequences unclassified (98.21%)
+Kraken2 starts to work with: 
+R1: /home/LVP/fastp/dna/A1-5_fastP_output/A1-5.fastp_tmm.R1.fastq.gz
+R2: /home/LVP/fastp/dna/A1-5_fastP_output/A1-5.fastp_tmm.R2.fastq.gz
+TAG: A1-5_fastP_output
+mkdir: cannot create directory ‘A1-5_fastP_output_vs_Kraken2_plus_db_TEST’: File exists
+Loading database information... done.
+80394263 sequences (22979.80 Mbp) processed in 358.040s (13472.4 Kseq/m, 3850.93 Mbp/m).
+  1920700 sequences classified (2.39%)
+  78473563 sequences unclassified (97.61%)
+##### Job is complete #####
+
+
