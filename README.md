@@ -68,11 +68,11 @@ The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/) (
 
 ##### Creating *in silico* mate pairs liabrary
 
-Mate pair libraris were made via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the readings). The other parameters were left default. 
+Mate pair libraris were made via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the reads). The other parameters were left default. 
 
 ##### Genome assembly
 
-SPAdes (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the previously obtained mate-pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
+SPAdes (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the merged decontaminated fastq files and previously obtained mate-pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
 Quality assessment was obtained via `Quast v. 5.2.0` 
 
 
