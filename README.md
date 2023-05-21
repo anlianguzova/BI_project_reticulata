@@ -88,16 +88,27 @@ We selected proteins consisting of more than 100 amino acids and with the expres
 
 ### Functional annotation
 
-Database eggNOG-mapper (v. 2.1.9) was used to annotate the obtained proteins.  
+Database eggNOG-mapper (v. 2.1.9) was used to annotate the obtained proteins. Database contains information about the orthologs of various organisms, the participation of the sequences in the biological processes, and the presence of certain protein domains. 
 
 ### Differential expression analysis
 
-RNentropy was utilised for the detection of significant variation of gene expression.
+[RNentropy](https://academic.oup.com/nar/article/46/8/e46/4829696) was utilised for the detection of significant variation of gene expression. The analysis was conducted using R (v. 4.2.3).  
 
 ### Enrichment analysis
 
+GeneOntology terms was used in datasets enrichment analysis. We utilised *Drosophila melanogaster* database as the closest avaliable relative to the anomuran *Pagurus minutus* (Arthropoda: Tetraconata) and the results from eggNOG-mapper annotation. In present analysis, we selected only biological processes with p-value less than 0.01 and with more than 10 sequences. The analysis was also performed in R using `topGO`, `rrvgo`, `dplyr` packages and `ggplot2`, `wordcloud`, `viridis` packages for visualization. All [R scripts](Scripts/Host's%20ganglia%20transcriptome%20/Differential%20expression) are avaliable in the repository.    
  
 ## Results 
+
+### Transcriptome analysis
+
+#### Quality control
+
+FastQC reports can be found in the [repository](Results/FastQC). The typical report file is present below.
+
+<p align="center">
+<img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/fastqc_rep.png?raw=true" alt="Fastqc visualization"/>
+</p>
 
 #### BUSCO (single-copy orthologs)
 
@@ -112,8 +123,6 @@ RNentropy was utilised for the detection of significant variation of gene expres
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/Venn_diagram_assemblers.png?raw=true" alt="Venn diagram on metazoans orthologs from different assemblers"/>
 </p>
 
-## Genome assembly
+### Genome assembly
 
-### Methods
 
-### Results
