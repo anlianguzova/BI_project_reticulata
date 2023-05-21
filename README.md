@@ -121,7 +121,7 @@ EggNOG-mapper (v. 2.1.9) was used to annotate the obtained proteins. EggNOG data
 
 ### Differential expression analysis
 
-[RNentropy](https://academic.oup.com/nar/article/46/8/e46/4829696) was utilised for the detection of significant variation of gene expression. The analysis was conducted using R (v. 4.2.3).  
+[RNentropy](https://academic.oup.com/nar/article/46/8/e46/4829696) was utilised for the detection of significant variation of gene expression. The analysis was conducted using R (v. 4.2.3), the scripts are in the [corresponding folder](Scripts/Host's ganglia transcriptome /Differential expression). The binary presence/absence matrices are in [another directory](Results/Differential expression).
 
 ### Enrichment analysis
 
