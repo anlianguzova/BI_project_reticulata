@@ -23,11 +23,11 @@ The aim of this project is to conduct a comparative transcriptomic analysis of t
 
 BBMap/BBTools (v. 39.01) was used for ID correction of reads and filtering of rnaSPAdes results. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20). 
 
-### Quality control 
+### Quality control and library preparation
 
 FastQC (v. 0.12.1) was utilized to spot potential problems in sequencing datasets. 
 
-FastP utility (v. 0.23.2) performed the sequiencing filtering. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20).
+FastP utility (v. 0.23.2) performed the low-quality and adapter sequences removal. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20).
 The trimming parameters was the following: `--cut_window_size 4 --cut_mean_quality 20 --qualified_quality_phred 20 --length_required 25`.
 
 ### Decontamination of the datasets
@@ -62,7 +62,7 @@ Trinity (v. 2.14.0) was utilised. We also installed the tool dependecies using c
 
 ##### Jellyfish genome size assessment
 
-Tool was run using the script available [here](https://github.com/anlianguzova/BI_project_reticulata/blob/main/Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`). `--size=265M` parameter was taken based on the total size of the _Sacculina_ genome (264,490,643 bp). 
+Jellyfish (v. 2.3.0) was run using the script available [here](https://github.com/anlianguzova/BI_project_reticulata/blob/main/Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`). `--size=265M` parameter was taken based on the total size of the _Sacculina_ genome (264,490,643 bp). 
 
 The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/). 
 
@@ -73,7 +73,7 @@ Mate pair libraris were made via [`Cross-species scaffolding`](https://github.co
 ##### Genome assembly
 
 SPAdes v. 3.15.4 was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the previously obtained mate-pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
-Quality assessment was obtained via `Quast` 
+Quality assessment was obtained via `Quast v. 5.2.0` 
 
 
 ### Filtering assembly results
