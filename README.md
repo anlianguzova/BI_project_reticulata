@@ -94,7 +94,7 @@ All the contigs with high rates of quality and assembly completeness were merged
 
 ### Clusterization
 
-CD-HIT (v. 4.8.1) clusterization was repeated on the merged contigs (95% identity,both strand compare). The script is in this [folder](Scripts/Host's%20ganglia%20transcriptome /Assembly/Clusterization%20(CD-HIT)/whole%20assembly).
+CD-HIT (v. 4.8.1) clusterization was repeated on the merged contigs (95% identity,both strand compare). The script is in this [folder](Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)/whole%20assembly).
 
 ### Quality control in good contigs sequences
 
