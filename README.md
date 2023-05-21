@@ -44,7 +44,7 @@ Searching of the possible contaminants against build databse was made using [the
 
 #### Host's ganglia transcriptomes
 
-We performed *de novo* assembly using 3 tools in order to receive the best results using the strengths of different assemblers. Before assemblying we created the single fasta file containing sequences from healthy and infected female and male crabs.  
+We performed *de novo* assembly using 3 tools in order to receive the best results using the strengths of different assemblers. Before assemblying we merged sequences from healthy and infected female and male crabs the single fastq file.  
 
 ##### rnaSPAdes
 
