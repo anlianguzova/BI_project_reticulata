@@ -64,7 +64,7 @@ Trinity (v. 2.14.0) was utilised. We also installed the tool dependecies using c
 
 Jellyfish (v. 2.3.0) was run using the script available [here](https://github.com/anlianguzova/BI_project_reticulata/blob/main/Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`). `--size=265M` parameter was taken based on the total size of the _Sacculina_ genome (264,490,643 bp). 
 
-The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/). 
+The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/) (v. 1.0). 
 
 ##### Creating *in silico* mate pairs liabrary
 
@@ -72,7 +72,7 @@ Mate pair libraris were made via [`Cross-species scaffolding`](https://github.co
 
 ##### Genome assembly
 
-SPAdes v. 3.15.4 was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the previously obtained mate-pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
+SPAdes (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the previously obtained mate-pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
 Quality assessment was obtained via `Quast v. 5.2.0` 
 
 
