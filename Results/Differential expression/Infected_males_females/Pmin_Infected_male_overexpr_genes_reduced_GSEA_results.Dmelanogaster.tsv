@@ -1,0 +1,66 @@
+go	cluster	parent	parentSimScore	score	size	term	parentTerm
+GO:0002181	1	GO:0002181	0.995	27.1135092748275	198	cytoplasmic translation	cytoplasmic translation
+GO:0006614	2	GO:0006614	1	15.568636235841	9	SRP-dependent cotranslational protein targeting to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0006613	2	GO:0006614	1	15.3098039199715	0	cotranslational protein targeting to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0006412	1	GO:0002181	0.791	14.7447274948967	502	translation	cytoplasmic translation
+GO:0043043	1	GO:0002181	0.783	14.7447274948967	0	peptide biosynthetic process	cytoplasmic translation
+GO:0045047	2	GO:0006614	0.95	14.6197887582884	8	protein targeting to ER	SRP-dependent cotranslational protein targeting to membrane
+GO:0072599	2	GO:0006614	0.948	14.4202164033832	0	establishment of protein localization to endoplasmic reticulum	SRP-dependent cotranslational protein targeting to membrane
+GO:0043604	1	GO:0002181	0.777	14.0757207139381	0	amide biosynthetic process	cytoplasmic translation
+GO:0000184	3	GO:0000184	0.999	13.9208187539524	28	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0006612	2	GO:0006614	0.916	13.8239087409443	26	protein targeting to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0090150	2	GO:0006614	0.86	13.6575773191778	0	establishment of protein localization to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0070972	2	GO:0006614	0.935	13.602059991328	0	protein localization to endoplasmic reticulum	SRP-dependent cotranslational protein targeting to membrane
+GO:0006518	1	GO:0002181	0.765	13.2518119729938	6	peptide metabolic process	cytoplasmic translation
+GO:0000956	3	GO:0000184	0.892	11.568636235841	11	nuclear-transcribed mRNA catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0006413	1	GO:0002181	0.618	11.4814860601221	56	translational initiation	cytoplasmic translation
+GO:0043603	1	GO:0002181	0.754	11.3372421683184	0	cellular amide metabolic process	cytoplasmic translation
+GO:1901566	4	GO:1901566	0.954	10.2218487496164	0	organonitrogen compound biosynthetic process	organonitrogen compound biosynthetic process
+GO:0072657	2	GO:0006614	0.809	10.0809219076239	9	protein localization to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0006605	2	GO:0006614	0.825	9.72124639904717	4	protein targeting	SRP-dependent cotranslational protein targeting to membrane
+GO:0051668	2	GO:0006614	0.79	9.03621217265444	0	localization within membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0006402	3	GO:0000184	0.865	8.1249387366083	20	mRNA catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0006401	3	GO:0000184	0.838	7.82390874094432	9	RNA catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0072594	2	GO:0006614	0.792	7.24412514432751	2	establishment of protein localization to organelle	SRP-dependent cotranslational protein targeting to membrane
+GO:0042254	5	GO:0042254	0.993	6.88605664769316	15	ribosome biogenesis	ribosome biogenesis
+GO:0034655	3	GO:0000184	0.812	5.92081875395237	0	nucleobase-containing compound catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0046700	3	GO:0000184	0.805	5.61978875828839	0	heterocycle catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0019439	3	GO:0000184	0.803	5.48148606012211	0	aromatic compound catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0033365	2	GO:0006614	0.759	5.44369749923271	3	protein localization to organelle	SRP-dependent cotranslational protein targeting to membrane
+GO:0044270	3	GO:0000184	0.805	5.4089353929735	0	cellular nitrogen compound catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0044271	4	GO:1901566	0.697	5.30980391997149	0	cellular nitrogen compound biosynthetic process	organonitrogen compound biosynthetic process
+GO:0042255	5	GO:0042254	0.843	5.30102999566398	2	ribosome assembly	ribosome biogenesis
+GO:0000028	5	GO:0042254	0.787	5.25963731050576	17	ribosomal small subunit assembly	ribosome biogenesis
+GO:1901361	3	GO:0000184	0.8	5.20760831050175	0	organic cyclic compound catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0044265	3	GO:0000184	0.693	4.82390874094432	0	cellular macromolecule catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0019538	4	GO:1901566	0.665	4.55284196865778	1	protein metabolic process	organonitrogen compound biosynthetic process
+GO:0009057	3	GO:0000184	0.678	4.53760200210104	0	macromolecule catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0022613	5	GO:0042254	0.96	4.53760200210104	0	ribonucleoprotein complex biogenesis	ribosome biogenesis
+GO:0042274	5	GO:0042254	0.887	4.49485002168009	8	ribosomal small subunit biogenesis	ribosome biogenesis
+GO:0044267	4	GO:1901566	0.642	4.13076828026902	0	cellular protein metabolic process	organonitrogen compound biosynthetic process
+GO:0006886	2	GO:0006614	0.734	4.06550154875643	134	intracellular protein transport	SRP-dependent cotranslational protein targeting to membrane
+GO:0010467	4	GO:1901566	0.359	4.03151705144607	1	gene expression	organonitrogen compound biosynthetic process
+GO:0034645	4	GO:1901566	0.703	4.0268721464003	0	cellular macromolecule biosynthetic process	organonitrogen compound biosynthetic process
+GO:0009059	4	GO:1901566	0.705	3.95860731484178	0	macromolecule biosynthetic process	organonitrogen compound biosynthetic process
+GO:0050829	6	GO:0050829	0.997	3.88605664769316	121	defense response to Gram-negative bacterium	defense response to Gram-negative bacterium
+GO:0016071	7	GO:0016071	0.982	3.65757731917779	0	mRNA metabolic process	mRNA metabolic process
+GO:0010629	8	GO:0010629	0.988	3.58502665202918	67	negative regulation of gene expression	negative regulation of gene expression
+GO:1901564	4	GO:1901566	0.689	3.22914798835786	0	organonitrogen compound metabolic process	organonitrogen compound biosynthetic process
+GO:0044249	4	GO:1901566	0.727	3.17392519729917	0	cellular biosynthetic process	organonitrogen compound biosynthetic process
+GO:1901576	4	GO:1901566	0.732	2.89619627904404	0	organic substance biosynthetic process	organonitrogen compound biosynthetic process
+GO:0042742	6	GO:0050829	0.891	2.77469071827414	55	defense response to bacterium	defense response to Gram-negative bacterium
+GO:0009058	4	GO:1901566	0.73	2.76447155309245	14	biosynthetic process	organonitrogen compound biosynthetic process
+GO:0042273	5	GO:0042254	0.859	2.73754891026957	18	ribosomal large subunit biogenesis	ribosome biogenesis
+GO:0022618	9	GO:0022618	0.997	2.52578373592374	5	ribonucleoprotein complex assembly	ribonucleoprotein complex assembly
+GO:0046907	2	GO:0006614	0.627	2.48148606012211	20	intracellular transport	SRP-dependent cotranslational protein targeting to membrane
+GO:1901575	3	GO:0000184	0.624	2.44129142946683	2	organic substance catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0071826	9	GO:0022618	0.995	2.38615817812393	0	ribonucleoprotein complex subunit organization	ribonucleoprotein complex assembly
+GO:0015031	2	GO:0006614	0.7	2.38090666937326	36	protein transport	SRP-dependent cotranslational protein targeting to membrane
+GO:0010605	8	GO:0010629	0.889	2.3585258894959	0	negative regulation of macromolecule metabolic process	negative regulation of gene expression
+GO:0015833	10	GO:0015833	0.999	2.30980391997149	0	peptide transport	peptide transport
+GO:0006364	7	GO:0016071	0.475	2.13135556160517	49	rRNA processing	mRNA metabolic process
+GO:0042886	10	GO:0015833	0.98	2.12609840213554	0	amide transport	peptide transport
+GO:0034613	2	GO:0006614	0.678	2.07468790850035	22	cellular protein localization	SRP-dependent cotranslational protein targeting to membrane
+GO:0016072	7	GO:0016071	0.479	2.04769199033787	0	rRNA metabolic process	mRNA metabolic process
+GO:0044248	3	GO:0000184	0.611	2.04769199033787	0	cellular catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0045184	2	GO:0006614	0.695	2.00261361560269	7	establishment of protein localization	SRP-dependent cotranslational protein targeting to membrane

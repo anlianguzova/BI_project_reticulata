@@ -1,0 +1,12 @@
+go	cluster	parent	parentSimScore	score	size	term	parentTerm
+GO:0002181	1	GO:0002181	0.995	7.92081875395237	198	cytoplasmic translation	cytoplasmic translation
+GO:0006412	1	GO:0002181	0.791	5.76955107862173	502	translation	cytoplasmic translation
+GO:0043043	1	GO:0002181	0.783	5.55284196865778	0	peptide biosynthetic process	cytoplasmic translation
+GO:1901566	2	GO:1901566	0.954	5.33724216831843	0	organonitrogen compound biosynthetic process	organonitrogen compound biosynthetic process
+GO:0043604	1	GO:0002181	0.777	5.15490195998574	0	amide biosynthetic process	cytoplasmic translation
+GO:0006518	1	GO:0002181	0.765	4.92081875395237	6	peptide metabolic process	cytoplasmic translation
+GO:0043603	1	GO:0002181	0.754	4.15490195998574	0	cellular amide metabolic process	cytoplasmic translation
+GO:0044271	2	GO:1901566	0.697	2.63078414258986	0	cellular nitrogen compound biosynthetic process	organonitrogen compound biosynthetic process
+GO:0034645	2	GO:1901566	0.703	2.24108810760203	0	cellular macromolecule biosynthetic process	organonitrogen compound biosynthetic process
+GO:0009059	2	GO:1901566	0.705	2.10790539730952	0	macromolecule biosynthetic process	organonitrogen compound biosynthetic process
+GO:0034641	1	GO:0002181	0.463	2.0087739243075	0	cellular nitrogen compound metabolic process	cytoplasmic translation

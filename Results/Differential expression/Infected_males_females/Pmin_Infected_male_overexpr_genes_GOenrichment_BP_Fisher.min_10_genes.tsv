@@ -1,0 +1,66 @@
+GO.ID	Term	Annotated	Significant	Expected	classicFisher
+GO:0002181	cytoplasmic translation	430	58	11.81	7.7e-28
+GO:0006614	SRP-dependent cotranslational protein ta...	272	36	7.47	2.7e-16
+GO:0006613	cotranslational protein targeting to mem...	277	36	7.61	4.9e-16
+GO:0006412	translation	873	63	23.98	1.8e-15
+GO:0043043	peptide biosynthetic process	900	64	24.72	1.8e-15
+GO:0045047	protein targeting to ER	291	36	7.99	2.4e-15
+GO:0072599	establishment of protein localization to...	295	36	8.1	3.8e-15
+GO:0043604	amide biosynthetic process	954	65	26.21	8.4e-15
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	306	36	8.41	1.2e-14
+GO:0006612	protein targeting to membrane	308	36	8.46	1.5e-14
+GO:0090150	establishment of protein localization to...	367	39	10.08	2.2e-14
+GO:0070972	protein localization to endoplasmic reti...	313	36	8.6	2.5e-14
+GO:0006518	peptide metabolic process	990	65	27.19	5.6e-14
+GO:0000956	nuclear-transcribed mRNA catabolic proce...	364	36	10	2.7e-12
+GO:0006413	translational initiation	386	37	10.6	3.3e-12
+GO:0043603	cellular amide metabolic process	1111	66	30.52	4.6e-12
+GO:1901566	organonitrogen compound biosynthetic pro...	1356	72	37.25	6.0e-11
+GO:0072657	protein localization to membrane	473	39	12.99	8.3e-11
+GO:0006605	protein targeting	420	36	11.54	1.9e-10
+GO:0051668	localization within membrane	512	39	14.06	9.2e-10
+GO:0006402	mRNA catabolic process	479	36	13.16	7.5e-09
+GO:0006401	RNA catabolic process	492	36	13.51	1.5e-08
+GO:0072594	establishment of protein localization to...	517	36	14.2	5.7e-08
+GO:0042254	ribosome biogenesis	327	27	8.98	1.3e-07
+GO:0034655	nucleobase-containing compound catabolic...	608	37	16.7	1.2e-06
+GO:0046700	heterocycle catabolic process	626	37	17.2	2.4e-06
+GO:0019439	aromatic compound catabolic process	634	37	17.42	3.3e-06
+GO:0033365	protein localization to organelle	663	38	18.21	3.6e-06
+GO:0044270	cellular nitrogen compound catabolic pro...	639	37	17.55	3.9e-06
+GO:0044271	cellular nitrogen compound biosynthetic ...	1935	78	53.15	4.9e-06
+GO:0042255	ribosome assembly	140	15	3.85	5.0e-06
+GO:0000028	ribosomal small subunit assembly	62	10	1.7	5.5e-06
+GO:1901361	organic cyclic compound catabolic proces...	651	37	17.88	6.2e-06
+GO:0044265	cellular macromolecule catabolic process	844	43	23.18	1.5e-05
+GO:0019538	protein metabolic process	2233	84	61.34	2.8e-05
+GO:0022613	ribonucleoprotein complex biogenesis	456	28	12.53	2.9e-05
+GO:0009057	macromolecule catabolic process	926	45	25.44	2.9e-05
+GO:0042274	ribosomal small subunit biogenesis	108	12	2.97	3.2e-05
+GO:0044267	cellular protein metabolic process	2096	79	57.57	7.4e-05
+GO:0006886	intracellular protein transport	788	39	21.65	8.6e-05
+GO:0010467	gene expression	2071	78	56.89	9.3e-05
+GO:0034645	cellular macromolecule biosynthetic proc...	1786	70	49.06	9.4e-05
+GO:0009059	macromolecule biosynthetic process	1827	71	50.19	0.00011
+GO:0050829	defense response to Gram-negative bacter...	106	11	2.91	0.00013
+GO:0016071	mRNA metabolic process	763	37	20.96	0.00022
+GO:0010629	negative regulation of gene expression	1042	46	28.62	0.00026
+GO:1901564	organonitrogen compound metabolic proces...	2821	95	77.49	0.00059
+GO:0044249	cellular biosynthetic process	2288	81	62.85	0.00067
+GO:1901576	organic substance biosynthetic process	2326	81	63.89	0.00127
+GO:0042742	defense response to bacterium	187	13	5.14	0.00168
+GO:0009058	biosynthetic process	2345	81	64.41	0.00172
+GO:0042273	ribosomal large subunit biogenesis	144	11	3.96	0.00183
+GO:0022618	ribonucleoprotein complex assembly	273	16	7.5	0.00298
+GO:0046907	intracellular transport	1132	45	31.09	0.00330
+GO:1901575	organic substance catabolic process	1235	48	33.92	0.00362
+GO:0071826	ribonucleoprotein complex subunit organi...	282	16	7.75	0.00411
+GO:0015031	protein transport	1016	41	27.91	0.00416
+GO:0010605	negative regulation of macromolecule met...	1246	48	34.23	0.00438
+GO:0015833	peptide transport	1025	41	28.16	0.00490
+GO:0006364	rRNA processing	197	12	5.41	0.00739
+GO:0042886	amide transport	1049	41	28.81	0.00748
+GO:0034613	cellular protein localization	1056	41	29.01	0.00842
+GO:0044248	cellular catabolic process	1391	51	38.21	0.00896
+GO:0016072	rRNA metabolic process	202	12	5.55	0.00896
+GO:0045184	establishment of protein localization	1066	41	29.28	0.00994

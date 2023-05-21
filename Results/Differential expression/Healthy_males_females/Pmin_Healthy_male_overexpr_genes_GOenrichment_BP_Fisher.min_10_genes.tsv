@@ -1,0 +1,49 @@
+GO.ID	Term	Annotated	Significant	Expected	classicFisher
+GO:0006614	SRP-dependent cotranslational protein ta...	272	16	3.14	3.1e-08
+GO:0006613	cotranslational protein targeting to mem...	277	16	3.2	4.0e-08
+GO:0045047	protein targeting to ER	291	16	3.36	8.0e-08
+GO:0072599	establishment of protein localization to...	295	16	3.41	9.7e-08
+GO:0002181	cytoplasmic translation	430	19	4.97	1.2e-07
+GO:0000184	nuclear-transcribed mRNA catabolic proce...	306	16	3.54	1.6e-07
+GO:0006612	protein targeting to membrane	308	16	3.56	1.8e-07
+GO:0070972	protein localization to endoplasmic reti...	313	16	3.62	2.2e-07
+GO:0090150	establishment of protein localization to...	367	17	4.24	3.5e-07
+GO:0000956	nuclear-transcribed mRNA catabolic proce...	364	16	4.21	1.7e-06
+GO:0006605	protein targeting	420	17	4.85	2.4e-06
+GO:0006413	translational initiation	386	16	4.46	3.8e-06
+GO:0072594	establishment of protein localization to...	517	18	5.97	9.4e-06
+GO:0072657	protein localization to membrane	473	17	5.47	1.2e-05
+GO:0034655	nucleobase-containing compound catabolic...	608	19	7.03	2.3e-05
+GO:1901566	organonitrogen compound biosynthetic pro...	1356	30	15.67	3.4e-05
+GO:0051668	localization within membrane	512	17	5.92	3.4e-05
+GO:0046700	heterocycle catabolic process	626	19	7.23	3.6e-05
+GO:0006412	translation	873	23	10.09	3.7e-05
+GO:0019439	aromatic compound catabolic process	634	19	7.33	4.3e-05
+GO:0044270	cellular nitrogen compound catabolic pro...	639	19	7.38	4.8e-05
+GO:0006402	mRNA catabolic process	479	16	5.53	5.9e-05
+GO:0043043	peptide biosynthetic process	900	23	10.4	6.1e-05
+GO:1901361	organic cyclic compound catabolic proces...	651	19	7.52	6.2e-05
+GO:0006401	RNA catabolic process	492	16	5.68	8.2e-05
+GO:0006518	peptide metabolic process	990	24	11.44	9.2e-05
+GO:0043604	amide biosynthetic process	954	23	11.02	0.00016
+GO:0043603	cellular amide metabolic process	1111	25	12.84	0.00021
+GO:0033365	protein localization to organelle	663	18	7.66	0.00027
+GO:0006886	intracellular protein transport	788	19	9.1	0.00081
+GO:1901575	organic substance catabolic process	1235	25	14.27	0.00119
+GO:0022613	ribonucleoprotein complex biogenesis	456	13	5.27	0.00159
+GO:0010629	negative regulation of gene expression	1042	22	12.04	0.00165
+GO:0044265	cellular macromolecule catabolic process	844	19	9.75	0.00189
+GO:0009057	macromolecule catabolic process	926	20	10.7	0.00229
+GO:0009056	catabolic process	1443	27	16.67	0.00232
+GO:0044271	cellular nitrogen compound biosynthetic ...	1935	33	22.36	0.00241
+GO:0044248	cellular catabolic process	1391	26	16.07	0.00308
+GO:0042254	ribosome biogenesis	327	10	3.78	0.00364
+GO:0016071	mRNA metabolic process	763	17	8.82	0.00406
+GO:0006139	nucleobase-containing compound metabolic...	2079	34	24.02	0.00427
+GO:0051649	establishment of localization in cell	1594	28	18.42	0.00498
+GO:0090304	nucleic acid metabolic process	1619	28	18.71	0.00637
+GO:0006810	transport	2133	34	24.65	0.00703
+GO:0010605	negative regulation of macromolecule met...	1246	23	14.4	0.00764
+GO:0042592	homeostatic process	818	17	9.45	0.00836
+GO:0006725	cellular aromatic compound metabolic pro...	2163	34	24.99	0.00915
+GO:0046483	heterocycle metabolic process	2165	34	25.02	0.00931

@@ -1,0 +1,49 @@
+go	cluster	parent	parentSimScore	score	size	term	parentTerm
+GO:0006614	1	GO:0006614	1	7.50863830616573	9	SRP-dependent cotranslational protein targeting to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0006613	1	GO:0006614	1	7.39794000867204	0	cotranslational protein targeting to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0045047	1	GO:0006614	0.95	7.09691001300806	8	protein targeting to ER	SRP-dependent cotranslational protein targeting to membrane
+GO:0072599	1	GO:0006614	0.948	7.01322826573375	0	establishment of protein localization to endoplasmic reticulum	SRP-dependent cotranslational protein targeting to membrane
+GO:0002181	2	GO:0002181	0.995	6.92081875395237	198	cytoplasmic translation	cytoplasmic translation
+GO:0000184	3	GO:0000184	0.999	6.79588001734407	28	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0006612	1	GO:0006614	0.916	6.74472749489669	26	protein targeting to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0070972	1	GO:0006614	0.935	6.65757731917779	0	protein localization to endoplasmic reticulum	SRP-dependent cotranslational protein targeting to membrane
+GO:0090150	1	GO:0006614	0.86	6.45593195564972	0	establishment of protein localization to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0000956	3	GO:0000184	0.892	5.76955107862173	11	nuclear-transcribed mRNA catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0006605	1	GO:0006614	0.825	5.61978875828839	4	protein targeting	SRP-dependent cotranslational protein targeting to membrane
+GO:0006413	2	GO:0002181	0.618	5.42021640338319	56	translational initiation	cytoplasmic translation
+GO:0072594	1	GO:0006614	0.792	5.0268721464003	2	establishment of protein localization to organelle	SRP-dependent cotranslational protein targeting to membrane
+GO:0072657	1	GO:0006614	0.809	4.92081875395237	9	protein localization to membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0034655	3	GO:0000184	0.812	4.63827216398241	0	nucleobase-containing compound catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:1901566	2	GO:0002181	0.707	4.46852108295774	0	organonitrogen compound biosynthetic process	cytoplasmic translation
+GO:0051668	1	GO:0006614	0.79	4.46852108295774	0	localization within membrane	SRP-dependent cotranslational protein targeting to membrane
+GO:0046700	3	GO:0000184	0.805	4.44369749923271	0	heterocycle catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0006412	2	GO:0002181	0.791	4.43179827593301	502	translation	cytoplasmic translation
+GO:0019439	3	GO:0000184	0.803	4.36653154442041	0	aromatic compound catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0044270	3	GO:0000184	0.805	4.31875876262441	0	cellular nitrogen compound catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0006402	3	GO:0000184	0.865	4.22914798835786	20	mRNA catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0043043	2	GO:0002181	0.783	4.21467016498923	0	peptide biosynthetic process	cytoplasmic translation
+GO:1901361	3	GO:0000184	0.8	4.20760831050175	0	organic cyclic compound catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0006401	3	GO:0000184	0.838	4.08618614761628	9	RNA catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0006518	2	GO:0002181	0.765	4.03621217265444	6	peptide metabolic process	cytoplasmic translation
+GO:0043604	2	GO:0002181	0.777	3.79588001734407	0	amide biosynthetic process	cytoplasmic translation
+GO:0043603	2	GO:0002181	0.754	3.67778070526608	0	cellular amide metabolic process	cytoplasmic translation
+GO:0033365	1	GO:0006614	0.759	3.56863623584101	3	protein localization to organelle	SRP-dependent cotranslational protein targeting to membrane
+GO:0006886	1	GO:0006614	0.734	3.09151498112135	134	intracellular protein transport	SRP-dependent cotranslational protein targeting to membrane
+GO:1901575	3	GO:0000184	0.624	2.92445303860747	2	organic substance catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0022613	4	GO:0022613	0.991	2.79860287567955	0	ribonucleoprotein complex biogenesis	ribonucleoprotein complex biogenesis
+GO:0010629	5	GO:0010629	0.988	2.78251605578609	67	negative regulation of gene expression	negative regulation of gene expression
+GO:0044265	3	GO:0000184	0.693	2.72353819582676	0	cellular macromolecule catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0009057	3	GO:0000184	0.678	2.64016451766011	0	macromolecule catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0009056	3	GO:0000184	0.591	2.6345120151091	1	catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0044271	2	GO:0002181	0.575	2.61798295742513	0	cellular nitrogen compound biosynthetic process	cytoplasmic translation
+GO:0044248	3	GO:0000184	0.611	2.51144928349956	0	cellular catabolic process	nuclear-transcribed mRNA catabolic process, nonsense-mediated decay
+GO:0042254	4	GO:0022613	0.96	2.43889861635094	15	ribosome biogenesis	ribonucleoprotein complex biogenesis
+GO:0016071	6	GO:0016071	0.982	2.39147396642281	0	mRNA metabolic process	mRNA metabolic process
+GO:0006139	6	GO:0016071	0.632	2.36957212497498	8	nucleobase-containing compound metabolic process	mRNA metabolic process
+GO:0051649	1	GO:0006614	0.586	2.30277065724028	0	establishment of localization in cell	SRP-dependent cotranslational protein targeting to membrane
+GO:0090304	6	GO:0016071	0.655	2.19586056766465	0	nucleic acid metabolic process	mRNA metabolic process
+GO:0006810	1	GO:0006614	0.434	2.15304467498018	9	transport	SRP-dependent cotranslational protein targeting to membrane
+GO:0010605	5	GO:0010629	0.889	2.11690664142431	0	negative regulation of macromolecule metabolic process	negative regulation of gene expression
+GO:0042592	7	GO:0042592	0.987	2.07779372256098	2	homeostatic process	homeostatic process
+GO:0006725	6	GO:0016071	0.621	2.03857890593355	0	cellular aromatic compound metabolic process	mRNA metabolic process
+GO:0046483	6	GO:0016071	0.625	2.03105031901866	0	heterocycle metabolic process	mRNA metabolic process
