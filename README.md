@@ -62,23 +62,11 @@ Trinity (v. 2.14.0) was utilised. We also installed the tool dependecies using c
 
 Tool was run using the script available [here](https://github.com/anlianguzova/BI_project_reticulata/blob/main/Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`). `--size=265M` parameter was taken based on the total size of the _Sacculina_ genome (264,490,643 bp). 
 
-The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/). Results can be found [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/Jellyfish).
+The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/). 
 
 ##### Creating *in silico* mate pairs liabrary
 
-Mate pair libraris were made via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the readings). The other parameters were left default. The following libraries were obtained:
-
-| Insert length | Number of reads|
-|----------|----------|
-|1000   | 8098  | 
-|1500   |  5031  | 
-|2000  | 4095  | 
-| 5000 | 2808   |
-| 10000  | 1187   |
-| 20000  | 794  | 
-| 50000  | 712  |
-| 100000  | 737   |
-| 200000  | 587  |
+Mate pair libraris were made via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the readings). The other parameters were left default. 
 
 ##### Genome assembly
 
@@ -198,6 +186,26 @@ RNetropy and enrichment results are avaliable in the repository [directory](Resu
 </p>
 
 ### Genome assembly
+
+#### Genome size analysis
+
+Results can be found [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/Jellyfish).
+
+#### *Mate pairs* library
+
+The following libraries were obtained:
+
+| Insert length | Number of reads|
+|----------|----------|
+|1000   | 8098  | 
+|1500   |  5031  | 
+|2000  | 4095  | 
+| 5000 | 2808   |
+| 10000  | 1187   |
+| 20000  | 794  | 
+| 50000  | 712  |
+| 100000  | 737   |
+| 200000  | 587  |
 
 #### Quality control of the assembly
 
