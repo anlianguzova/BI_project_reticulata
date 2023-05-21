@@ -110,6 +110,21 @@ FastQC reports can be found in the [repository](Results/FastQC). The typical rep
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/fastqc_rep.png?raw=true" alt="Fastqc visualization"/>
 </p>
 
+#### Decontamination 
+
+Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian) are avaliable in the repository. Demonstrative results are below.
+
+##### Non-infected hermit crab
+
+<p align="center">
+<img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/healthy_pavian.png?raw=true" alt="Pavian visualization of non-infected crab Kraken2 outputs"/>
+</p>
+
+##### Parasitised by *Peltogaster reticulata* 
+<p align="center">
+<img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/infected_pavian.png?raw=true" alt="Pavian visualization of non-infected crab Kraken2 outputs"/>
+</p>
+
 #### BUSCO (single-copy orthologs)
 
 | Assembler      | Complete BUSCOs | Complete and single-copy BUSCOs | Complete and duplicated BUSCOs | Fragmented BUSCOs | Missing BUSCOs |
