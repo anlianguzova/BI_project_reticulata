@@ -1,0 +1,41 @@
+Read1 before filtering:
+total reads: 47897446
+total bases: 7184616900
+Q20 bases: 6963645420(96.9244%)
+Q30 bases: 6588820742(91.7073%)
+
+Read2 before filtering:
+total reads: 47897446
+total bases: 7184616900
+Q20 bases: 6911645645(96.2006%)
+Q30 bases: 6480330009(90.1973%)
+
+Read1 after filtering:
+total reads: 46289954
+total bases: 6704761046
+Q20 bases: 6582161980(98.1715%)
+Q30 bases: 6276018704(93.6054%)
+
+Read2 after filtering:
+total reads: 46289954
+total bases: 6678681042
+Q20 bases: 6524774056(97.6955%)
+Q30 bases: 6169323373(92.3734%)
+
+Filtering result:
+reads passed filter: 92579908
+reads failed due to low quality: 43020
+reads failed due to too many N: 0
+reads failed due to too short: 3171964
+reads with adapter trimmed: 1460344
+bases trimmed due to adapters: 39511951
+
+Duplication rate: 26.9204%
+
+Insert size peak (evaluated by paired-end reads): 252
+
+JSON report: inf_fem3.fastp_report.json
+HTML report: inf_fem3.fastp_report.html
+
+/home/LVP/Soft/fastp --in1 /home/LVP/raw_data/rna/females/for_fastp/inf_fem3/PmPr_fem.inf_fem3.renamed_raw.R1.fq.gz --out1 inf_fem3.fastp_tmm.R1.fastq.gz --in2 /home/LVP/raw_data/rna/females/for_fastp/inf_fem3/PmPr_fem.inf_fem3.renamed_raw.R2.fq.gz --out2 inf_fem3.fastp_tmm.R2.fastq.gz --unpaired1 inf_fem3.fastp_unpaired1.fastq.gz --unpaired2 inf_fem3.fastp_unpaired2.fastq.gz --failed_out inf_fem3.fastp_failed_out.fastq.gz --cut_right --cut_window_size 4 --cut_mean_quality 20 --qualified_quality_phred 20 --length_required 25 --html inf_fem3.fastp_report.html --json inf_fem3.fastp_report.json --thread 5 
+fastp v0.23.2, time used: 181 seconds
