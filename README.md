@@ -139,6 +139,24 @@ FastQC reports can be found in the [repository](Results/FastQC). The typical rep
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/fastqc_rep.png?raw=true" alt="Fastqc visualization"/>
 </p>
 
+### Library preparation
+
+FastP reports can be found in the [repository](Results/FastP).
+
+| Sample | Total reads before filtering | Total reads after filtering | 
+|----------|----------|----------|
+|Healthy female 1   | 82.026308 M  |79.385246 M  | 
+|Healthy male 1   |  85.496404 M  |83.758090 M  | 
+|Healthy male 2  | 90.861836 M  |88.830500 M  | 
+| Infected female 1 | 95.794892 M   |92.579908 M  |
+| Infected female 2  | 85.876652 M   |83.779848 M |
+| Infected male 1  | 98.179706 M  | 94.507014 M  |
+| Infected male 2  | 81.547070 M |79.246654 M  |
+| Genome sample 1  | 229.866546 M |225.786682 M  |
+| Genome sample 2  | 217.319394 M |213.272696 M  |
+| Genome sample 3  | 163.674608 M |160.788526 M |
+
+
 #### Decontamination 
 
 Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian) are avaliable in the repository. Demonstrative results are below.
