@@ -56,7 +56,7 @@ Rna-Bloom (v. 2.0.1) was installed using mamba (v. 1.4.1). Specified options was
 
 ##### Trinity 
 
-Trinity (v. 2.14.0) was utilised. We also installed the tool dependecies using conda (v. 23.1.0) virtual environment and Trinity v. 2.13.2. The avaliable script is [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Trinity/new_trinity.sh).
+Trinity (v. 2.14.0) was utilised. We also installed the tool dependecies using conda (v. 23.1.0) virtual environment. The avaliable script is [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Trinity/new_trinity.sh).
 
 #### Parasite genome
 
@@ -80,40 +80,44 @@ Quality assessment was obtained via `Quast v. 5.2.0`
 
 In order to get the sequencies with minimun length 200 nucletides we applied the [python script](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Length_filter.py) to the obtained transcriptomic assemblies. 
 
+### pre-Clusterization
+
+CD-HIT (v. 4.8.1) was used to the three assemblies separate clusterization. Clusters with 95% identity were gathered comparing both strand (++, +-). Clusterization was performed using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
+
 ### Assembly quality control
 
-TransRate (v. 1.0.1) was utilised for the qualitative analysis of *de novo* transcriptome assemblies. The default options were used; the scripts for all assemblies can be found [here](Scripts/Host's%20ganglia%20transcriptome%20/TransRate).
-
-### Clusterization
-
-CD-HIT (v. 4.8.1) was used to the sequences clusterization. Clusters with 95% identity were gathered using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
+TransRate (v. 1.0.1) was utilised for the qualitative analysis of *de novo* transcriptome assemblies. The default options were used; the scripts for all assemblies can be found [here](Scripts/Host's%20ganglia%20transcriptome%20/TransRate). Only the sequences with high quality and assembly completeness (“good” according to the TransRate classification) were used in the following analysis.
 
 ### Creating of the whole assembly
 
-The whole assembly obtained by the `cat` UNIX-command was based exclusively on good contigs assembled from the above-mentioned tools. 
+All the contigs with high rates of quality and assembly completeness were merged using basic UNIX-commands.
+
+### Clusterization
+
+CD-HIT (v. 4.8.1) clusterization was repeated on the merged contigs (95% identity,both strand compare). The script is in this [folder](Scripts/Host's ganglia transcriptome /Assembly/Clusterization (CD-HIT)/whole assembly).
 
 ### Quality control in good contigs sequences
 
-BUSCO (v. 5.4.7) performed the searching of single-copy orthologs in the obtained assemblies. The transcriptome mode was selected (`-m transcriptome`), and Metazoa OrthoDB was used as lineage dataset. The scripts are available [here](/Scripts/Host's%20ganglia%20transcriptome%20/BUSCO)
+BUSCO (v. 5.4.7) performed the searching of single-copy orthologs in the obtained assemblies. The transcriptome mode was selected (`-m transcriptome`), and Metazoa OrthoDB (v. 10) was used as lineage dataset. The scripts are available [here](/Scripts/Host's%20ganglia%20transcriptome%20/BUSCO)
 
 ### Quantifying transcripts expression
 
-Salmon (v. 1.10.1) installed in conda environment mapped the initial libraries of short reads to the collected sequences. The obtained values were normalized due to the sequencing depth and the contig size in order to obtain a numerical value of the expression level. The script allowing to create an index for the obtained sequences is avaliable [here](/Scripts/Host's%20ganglia%20transcriptome%20/Salmon/run_Pdum_good_contigs_salmon_index.sh). Mapping of the sequences and the expression quantification was performed using the [following script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/fem_quant.sh) for the data from the female hermit crabs and [this script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/male_quant.sh) for the males.  
+Salmon (v. 1.10.1) installed in conda environment mapped the short reads libraries to the assembled sequences. The obtained values were normalized due to the sequencing depth and the contig size in order to obtain a numerical value of the expression level. The script allowing to create an index for the obtained sequences is avaliable [here](/Scripts/Host's%20ganglia%20transcriptome%20/Salmon/run_Pdum_good_contigs_salmon_index.sh). Mapping of the sequences and the expression quantification was performed using the [following script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/fem_quant.sh) for the data from the female hermit crabs and [this script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/male_quant.sh) for the males.  
 
-### Determination of protein coding genes
+### Determination of assembly translation products
 
 TransDecoder (v. 5.5.0) identified candidate coding regions within transcript sequences. Initial determination of open reading frames (ORFs) and translation products was performed using [this script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh). 
-HMMER (v. 3.3.2) was used to compare found ORFs with Pfam-A database using the [following script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_PfamA.sh).
-DIAMOND (v. 2.0.15) performed to search ORFs analysing Uniref90 database. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh).
-Final definition of ORFs was performed obtained comparison results using TransDecoder. The [script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_TransDecoder_Predict.sh) for prediction is provided. 
+HMMER (v. 3.3.2) was used to compare found ORFs translation products with Pfam-A database using the [following script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_PfamA.sh).
+DIAMOND (v. 2.0.15) performed to search ORFs translation products analysing Uniref90 database. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh).
+Final definition of ORFs was obtained through comparison of all this results using TransDecoder. The [script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_TransDecoder_Predict.sh) for prediction is provided. 
 
 ### Reference set of protein coding sequences
 
-We selected proteins consisting of more than 100 amino acids and with the expression level more than 2 transcripts per million (TPM) using the [provided jyputer notebook](Scripts/Host's%20ganglia%20transcriptome%20/Final_fasta_sorting/Sort_assembly_expression_files.ipynb). 
+We selected transcripts encoding proteins consisting of more than 100 amino acids and with the expression level more than 2 transcripts per million (TPM) using the [provided jyputer notebook](Scripts/Host's%20ganglia%20transcriptome%20/Final_fasta_sorting/Sort_assembly_expression_files.ipynb). 
 
 ### Functional annotation
 
-Database eggNOG-mapper (v. 2.1.9) was used to annotate the obtained proteins. Database contains information about the orthologs of various organisms, the participation of the sequences in the biological processes, and the presence of certain protein domains. 
+EggNOG-mapper (v. 2.1.9) was used to annotate the obtained proteins. EggNOG database contains information about the orthologs of various organisms, the participation of the sequences in the biological processes, and the presence of certain protein domains. 
 
 ### Differential expression analysis
 
@@ -121,7 +125,7 @@ Database eggNOG-mapper (v. 2.1.9) was used to annotate the obtained proteins. Da
 
 ### Enrichment analysis
 
-GeneOntology terms was used in datasets enrichment analysis. We utilised *Drosophila melanogaster* database as the closest avaliable relative to the anomuran *Pagurus minutus* (Arthropoda: Tetraconata) and the results from eggNOG-mapper annotation. In present analysis, we selected only biological processes with p-value less than 0.01 and with more than 10 sequences. The analysis was also performed in R using `topGO`, `rrvgo`, `dplyr` packages and `ggplot2`, `wordcloud`, `viridis` packages for visualization. All [R scripts](Scripts/Host's%20ganglia%20transcriptome%20/Differential%20expression) are avaliable in the repository.    
+GeneOntology terms enrichment analysis was performed for the lists of differentially expressed genes. We utilised *Drosophila melanogaster* database as the closest avaliable relative to the anomuran *Pagurus minutus* (Arthropoda: Tetraconata) and the results from functional annotation. In present analysis, we selected only biological processes with p-value less than 0.01 and with more than 10 sequences. The analysis was also performed in R using `topGO`, `rrvgo`, `dplyr` packages and `ggplot2`, `wordcloud`, `viridis` packages for visualization. All [R scripts](Scripts/Host's%20ganglia%20transcriptome%20/Differential%20expression) are avaliable in the repository.    
  
 ## Results 
 
