@@ -176,7 +176,7 @@ Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian)
 
 Result of the TransRate quality analysis can be found in the [directory](Results/Transrate_output).
 
-Here, we present the comparison of results obtained by different assemblers based on found single orthologs (BUSCO). 
+Here, we present the comparison of results obtained by different assemblers based on found single-copy metazoan orthologs (BUSCO). 
 
 | Assembler      | Complete BUSCOs | Complete and single-copy BUSCOs | Complete and duplicated BUSCOs | Fragmented BUSCOs | Missing BUSCOs |
 | -------------- | --------------- | ------------------------------- | ------------------------------ | ----------------- | -------------- |
@@ -191,7 +191,7 @@ Here, we present the comparison of results obtained by different assemblers base
 
 #### Protein-coding genes detection
 
-Final differential expression tables and fasta-files containing sequences with more than 100 amino acids and significant expression level are present in the [repository](Results/Final%20fasta%20sorting).
+Final expression-level (TPM) tables and fasta-files containing sequences with more than 100 amino acids and significant expression level are present in the [repository](Results/Final%20fasta%20sorting).
 
 #### Differential expression results
 
