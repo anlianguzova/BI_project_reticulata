@@ -102,7 +102,7 @@ BUSCO (v. 5.4.7) performed the searching of single-copy orthologs in the obtaine
 
 ### Quantifying transcripts expression
 
-Salmon (v. 1.10.1) installed in conda environment mapped the short reads libraries to the assembled sequences. The obtained values were normalized due to the sequencing depth and the contig size in order to obtain a numerical value of the expression level. The script allowing to create an index for the obtained sequences is avaliable [here](/Scripts/Host's%20ganglia%20transcriptome%20/Salmon/run_Pdum_good_contigs_salmon_index.sh). Mapping of the sequences and the expression quantification was performed using the [following script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/fem_quant.sh) for the data from the female hermit crabs and [this script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/male_quant.sh) for the males.  
+Salmon (v. 1.10.1) installed in conda environment mapped the short reads libraries to the assembled sequences. The obtained values were filtred due to the sequencing depth and the contig size in order to obtain a numerical value of the expression level. The script allowing to create an index for the obtained sequences is avaliable [here](/Scripts/Host's%20ganglia%20transcriptome%20/Salmon/run_Pdum_good_contigs_salmon_index.sh). Mapping of the sequences and the expression quantification was performed using the [following script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/fem_quant.sh) for the data from the female hermit crabs and [this script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/male_quant.sh) for the males.  
 
 ### Determination of assembly translation products
 
@@ -176,7 +176,7 @@ Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian)
 
 Result of the TransRate quality analysis can be found in the [directory](Results/Transrate_output).
 
-Here, we present the comparison of results obtained by different assemblers based on found single-copy metazoan orthologs (BUSCO). 
+Here, we present the comparison of results obtained by different assemblers based on found single-copy metazoan orthologs (BUSCO). The Venn diagram visualization was created using [InteractiVenn](http://www.interactivenn.net/)
 
 | Assembler      | Complete BUSCOs | Complete and single-copy BUSCOs | Complete and duplicated BUSCOs | Fragmented BUSCOs | Missing BUSCOs |
 | -------------- | --------------- | ------------------------------- | ------------------------------ | ----------------- | -------------- |
@@ -208,6 +208,8 @@ RNetropy and enrichment results are avaliable in the repository [directory](Resu
 <p align="center">
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/wordcloud_male_diff.png?raw=true" alt="Wordcloud with processes absent in infected males"/>
 </p>
+
+The illustration shows the processes that are absent in infected males compared to healthy ones. The letter size reflects the enrichment level of these processes in healthy individuals. The processes responsible for the regulation of the life cycle, cytokine and apoptotic pathways are suppressed in infected hosts.
 
 ### Genome assembly
 
