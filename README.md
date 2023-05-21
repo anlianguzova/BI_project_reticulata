@@ -94,7 +94,7 @@ All the contigs with high rates of quality and assembly completeness were merged
 
 ### Clusterization
 
-CD-HIT (v. 4.8.1) clusterization was repeated on the merged contigs (95% identity,both strand compare). The script is in this [folder](Scripts/Host's ganglia transcriptome /Assembly/Clusterization (CD-HIT)/whole assembly).
+CD-HIT (v. 4.8.1) clusterization was repeated on the merged contigs (95% identity,both strand compare). The script is in this [folder](Scripts/Host's%20ganglia%20transcriptome /Assembly/Clusterization%20(CD-HIT)/whole%20assembly).
 
 ### Quality control in good contigs sequences
 
@@ -121,7 +121,7 @@ EggNOG-mapper (v. 2.1.9) was used to annotate the obtained proteins. EggNOG data
 
 ### Differential expression analysis
 
-[RNentropy](https://academic.oup.com/nar/article/46/8/e46/4829696) was utilised for the detection of significant variation of gene expression. The analysis was conducted using R (v. 4.2.3), the scripts are in the [corresponding folder](Scripts/Host's ganglia transcriptome /Differential expression). The binary presence/absence matrices are in [another directory](Results/Differential expression).
+[RNentropy](https://academic.oup.com/nar/article/46/8/e46/4829696) was utilised for the detection of significant variation of gene expression. The analysis was conducted using R (v. 4.2.3), the scripts are in the [corresponding folder](Scripts/Host's%20ganglia%20transcriptome%20/Differential%20expression). The binary presence/absence matrices are in [another directory](Results/Differential%20expression).
 
 ### Enrichment analysis
 
