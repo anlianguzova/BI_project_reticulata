@@ -216,7 +216,7 @@ The illustration shows the processes that are absent in infected males compared 
 
 Results can be found [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/Jellyfish).
 
-#### *In silico* mate pairs library
+#### *In silico* mate pairs libraries
 
 The following libraries were obtained:
 
