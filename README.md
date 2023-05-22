@@ -88,7 +88,7 @@ CD-HIT (v. 4.8.1) was used to the three assemblies separate clusterization. Clus
 
 TransRate (v. 1.0.1) was utilised for the qualitative analysis of *de novo* transcriptome assemblies. The default options were used; the scripts for all assemblies can be found [here](Scripts/Host's%20ganglia%20transcriptome%20/TransRate). Only the sequences with high quality and assembly completeness (“good” according to the TransRate classification) were used in the following analysis.
 
-### Creating of the whole assembly
+### Creating of the merged assembly
 
 All the contigs with high rates of quality and assembly completeness were merged using basic UNIX-commands.
 
@@ -98,7 +98,7 @@ CD-HIT (v. 4.8.1) clusterization was repeated on the merged contigs (95% identit
 
 ### Quality control in good contigs sequences
 
-BUSCO (v. 5.4.7) performed the searching of single-copy orthologs in the obtained assemblies. The transcriptome mode was selected (`-m transcriptome`), and Metazoa OrthoDB (v. 10) was used as lineage dataset. The scripts are available [here](/Scripts/Host's%20ganglia%20transcriptome%20/BUSCO)
+BUSCO (v. 5.4.7) performed the searching of single-copy orthologs in the obtained assemblies. The transcriptome mode was selected (`-m transcriptome`), and Metazoa OrthoDB (v. 10) was used as lineage dataset. The scripts are available [here](/Scripts/Host's%20ganglia%20transcriptome%20/BUSCO). The Venn diagram visualization was created using [InteractiVenn](http://www.interactivenn.net/).
 
 ### Quantifying transcripts expression
 
@@ -176,7 +176,7 @@ Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian)
 
 Result of the TransRate quality analysis can be found in the [directory](Results/Transrate_output).
 
-Here, we present the comparison of results obtained by different assemblers based on found single-copy metazoan orthologs (BUSCO). The Venn diagram visualization was created using [InteractiVenn](http://www.interactivenn.net/)
+Here, we present the comparison of results obtained by different assemblers based on found single-copy metazoan orthologs (BUSCO). 
 
 | Assembler      | Complete BUSCOs | Complete and single-copy BUSCOs | Complete and duplicated BUSCOs | Fragmented BUSCOs | Missing BUSCOs |
 | -------------- | --------------- | ------------------------------- | ------------------------------ | ----------------- | -------------- |
