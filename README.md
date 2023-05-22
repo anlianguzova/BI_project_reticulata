@@ -34,25 +34,25 @@ The trimming parameters was the following: `--cut_window_size 4 --cut_mean_quali
 
 Kraken2 (v. 2.1.2) is a taxonomic sequence classification system that provides an opportunity to build database of possible contaminations (such as bacteria and viruses). The example of the script allowing to download database can be found [here](/Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/download_database). 
 In case of filtered genome sequences we used standard database that includes libraries from archaea, viruses, bacteria, plasmid, fungi, human and protozoa. 
-In case of transcriptomic sequences we added to standard database the early assembled transcriptomic data from the parasite *Peltogaster reticulata* ([Nesterenko, Miroliubov, 2023](https://f1000research.com/articles/11-583)) and the genomic sequences from another rhizocephalan species, *Sacculina carcini* ([Blaxter et al., *in press*](https://wellcomeopenresearch.org/articles/8-91)). *S. carcini* genome was added using the command: `/home/LVP/Soft/kraken2/kraken2-build --add-to-library /home/LVP/Source/Sacculina/Sacculinacarcini_ref_genes.with_taxid.fasta --db /home/LVP/kraken2_db_females/Kraken2_plus_db_TEST --threads 10`
+In case of transcriptomic sequences we added to standard database the early assembled transcriptomic data from the parasite *Peltogaster reticulata* ([Nesterenko, Miroliubov, 2023](https://f1000research.com/articles/11-583)) and the genomic sequences from another rhizocephalan species, *Sacculina carcini* ([Blaxter et al., *in press*](https://wellcomeopenresearch.org/articles/8-91)). *Sacculina carcini* genome was added using the command: `/home/LVP/Soft/kraken2/kraken2-build --add-to-library /home/LVP/Source/Sacculina/Sacculinacarcini_ref_genes.with_taxid.fasta --db /home/LVP/kraken2_db_females/Kraken2_plus_db_TEST --threads 10`
 
 Database building was performed using the following [script](Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/build_database/females_kraken_build_run.sh). 
 
-Searching of the possible contaminants against build databse was made using [the following scripts](Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/search_database). The results were visualized by Pavian (v. 1.0).
+Searching of the possible contaminants against constructed database was made using [the following scripts](Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/search_database). The results were visualized by Pavian (v. 1.0).
 
 ### Assembly 
 
 #### Host's ganglia transcriptomes
 
-We performed *de novo* assembly using 3 tools in order to receive the best results using the strengths of different assemblers. Before assemblying we merged sequences from healthy and infected female and male crabs the single fastq file.  
+We performed *de novo* transcriptome assembly using 3 tools (rnaSPAdes, RNA-Bloom, and Trinity) in order to receive the best results using the strengths of different assemblers. Before assemblying we merged all prepared read libraries from healthy and infected female and male crabs into the fastq files.  
 
 ##### rnaSPAdes
 
 rnaSPAdes (SPAdes v. 3.15.4) with default options was used. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/RNAspades/run_rnaspades.sh).
 
-##### Rna-Bloom
+##### RNA-Bloom
 
-Rna-Bloom (v. 2.0.1) was installed using mamba (v. 1.4.1). Specified options was `--kmer 25 --percent 0.90 --length 200`. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Rna-Bloom/run_rnabloom.sh).
+RNA-Bloom (v. 2.0.1) was installed using mamba (v. 1.4.1). Specified options was `--kmer 25 --percent 0.90 --length 200`. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Rna-Bloom/run_rnabloom.sh).
 
 ##### Trinity 
 
@@ -66,21 +66,20 @@ Jellyfish (v. 2.3.0) was run using the script available [here](https://github.co
 
 The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/) (v. 1.0). 
 
-##### Creating *in silico* mate pairs liabrary
+##### Creating *in silico* mate pairs liabraries using *S. carcini* genome as reference
 
-Mate pair libraris were made via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the reads). The other parameters were left default. 
+*In silico* mate pair libraries were made via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the reads). The other parameters were left default. 
 
-##### Genome assembly
+##### *De novo* genome assembly
 
-SPAdes (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the merged decontaminated fastq files and previously obtained mate-pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
+SPAdes (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the merged decontaminated fastq files and previously obtained *in silico* mate pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
 Quality assessment was obtained via `Quast v. 5.2.0`.
 
-
-### Filtering assembly results
+##### Filtering assembly results
 
 In order to get the sequencies with minimun length 200 nucletides we applied the [python script](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Length_filter.py) to the obtained transcriptomic assemblies. 
 
-### pre-Clusterization
+##### Redundancy reduction via clusterization
 
 CD-HIT (v. 4.8.1) was used to the three assemblies separate clusterization. Clusters with 95% identity were gathered comparing both strand (++, +-). Clusterization was performed using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
 
@@ -94,7 +93,7 @@ All the contigs with high rates of quality and assembly completeness were merged
 
 ### Clusterization
 
-CD-HIT (v. 4.8.1) clusterization was repeated on the merged contigs (95% identity,both strand compare). The script is in this [folder](Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)/whole%20assembly).
+CD-HIT (v. 4.8.1) clusterization was repeated on the merged contigs (95% identity, both strand comparison). The script is in this [folder](Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)/whole%20assembly).
 
 ### Quality control in good contigs sequences
 
@@ -111,9 +110,9 @@ HMMER (v. 3.3.2) was used to compare found ORFs translation products with Pfam-A
 DIAMOND (v. 2.0.15) performed to search ORFs translation products analysing Uniref90 database. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh).
 Final definition of ORFs was obtained through comparison of all this results using TransDecoder. The [script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_TransDecoder_Predict.sh) for prediction is provided. 
 
-### Reference set of protein coding sequences
+### Reference set of protein-coding sequences
 
-We selected transcripts encoding proteins consisting of more than 100 amino acids and with the expression level more than 2 transcripts per million (TPM) using the [provided jyputer notebook](Scripts/Host's%20ganglia%20transcriptome%20/Final_fasta_sorting/Sort_assembly_expression_files.ipynb). 
+We selected transcripts encoding proteins consisting of more than 100 amino acids and with the expression level more than 2 transcripts per million (TPM) at least in one sample analysed using the [provided jyputer notebook](Scripts/Host's%20ganglia%20transcriptome%20/Final_fasta_sorting/Sort_assembly_expression_files.ipynb). 
 
 ### Functional annotation
 
@@ -217,7 +216,7 @@ The illustration shows the processes that are absent in infected males compared 
 
 Results can be found [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/Jellyfish).
 
-#### *Mate pairs* library
+#### *In silico* mate pairs library
 
 The following libraries were obtained:
 
