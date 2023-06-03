@@ -248,14 +248,14 @@ The Quast results can be found in the [repository](https://github.com/anlianguzo
 
 ## Summary
 
-### Summary of transcriptome findings
+### Summary of transcriptomic findings
 
 1. Percentage of “good” contigs for Trinity, RNA-Bloom, rnaSPAdes was 59%, 74%, 95% respectively. 
 2. We identified 97 biological processes that involve genes with a statistically significant change in expression between comparison pairs.
 3. The differential expression analysis of protein-coding genes included pairwise comparisons of infected and healthy host individuals, as well as individuals of different sexes. Both male and female infected hermit crabs tend to decrease in the number of active biological processes. Among the processes suppressed in infected hosts compared to healthy ones, we distinguished those responsible for the reproduction and ageing, as well as those involved in cytokine and apoptotic pathways and immunity regulation. The results obtained are consistent with data on parasitic castration and, in some cases, complete destruction of the gonads of infected hosts. The interna rootlets do not damage the host's reproductive tissues mechanically, so the suppression of the reproductive system may occur due to the initial inhibition of the processes associated with reproduction through changes in the nervous tissue.
 4. Comparison of healthy males and females of P. minutus showed significant differences in the number of molecular processes in the compared groups. It is notable that a small number of processes determine the difference in the transcriptomes of infected females and infected males. Thus, infection with _P. reticulata_, probably, eliminates, at the molecular level, the sex differences between the hermit crabs. Similar patterns were previously described at the morphological level: infection with peltogastrids leads to feminisation of males and hypofeminisation of females.
 
-### Summary of genome findings
+### Summary of genomic findings
 
 1. The length of the total genome assembled by SPAdes is 361.6 Mb, which is higher than the values obtained for _Sacculina carcini_ (Rhizocephala: Sacculinidae) with genome size 264 Mb. 
 2. Despite the high quality of the DNA libraries (more than 98% of read passed quality filters according to FastP), the current genome assembly is highly fragmented (N50 = 1292). We hypothesise that the differences between phylogenetically related species and complexity in genome de novo assembling are due to the presence of a large repeats’ number observed previously in studies of the parasitic barnacles genomes. 
