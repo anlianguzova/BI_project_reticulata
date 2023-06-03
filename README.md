@@ -21,7 +21,7 @@ The aim of this project is to conduct a comparative transcriptomic analysis of t
 
 ### Data reformatting
 
-[BBMap/BBTools ](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/)(v. 39.01) was used for ID correction of reads and filtering of rnaSPAdes results. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20). 
+[BBMap/BBTools](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/)(v. 39.01) was used for ID correction of reads and filtering of rnaSPAdes results. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20). 
 
 ### Quality control and library preparation
 
@@ -33,8 +33,8 @@ The trimming parameters was the following: `--cut_window_size 4 --cut_mean_quali
 ### Decontamination of the datasets
 
 [Kraken2](https://doi.org/10.1186/s13059-019-1891-0) (v. 2.1.2) is a taxonomic sequence classification system that provides an opportunity to build database of possible contaminations (such as bacteria and viruses). The example of the script allowing to download database can be found [here](/Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/download_database). 
-In case of filtered genome sequences we used standard database that includes libraries from archaea, viruses, bacteria, plasmid, fungi, human and protozoa. 
-In case of transcriptomic sequences we added to standard database the early assembled transcriptomic data from the parasite *Peltogaster reticulata* ([Nesterenko, Miroliubov, 2023](https://f1000research.com/articles/11-583)) and the genomic sequences from another rhizocephalan species, *Sacculina carcini* ([Blaxter et al., *in press*](https://wellcomeopenresearch.org/articles/8-91)). *Sacculina carcini* genome was added using the command: `/home/LVP/Soft/kraken2/kraken2-build --add-to-library /home/LVP/Source/Sacculina/Sacculinacarcini_ref_genes.with_taxid.fasta --db /home/LVP/kraken2_db_females/Kraken2_plus_db_TEST --threads 10`
+In case of genomic short paired-end read libraries we used standard database that includes libraries from archaea, viruses, bacteria, plasmid, fungi, human and protozoa. 
+In case of transcriptomic short paired-end read libraries we added to standard database the early assembled transcriptomic data from the parasite *Peltogaster reticulata* ([Nesterenko, Miroliubov, 2023](https://f1000research.com/articles/11-583)) and the genomic sequences from another rhizocephalan species, *Sacculina carcini* ([Blaxter et al., *in press*](https://wellcomeopenresearch.org/articles/8-91)). *Sacculina carcini* [genome](https://www.ebi.ac.uk/ena/browser/view/GCA_916048095) was added using the command: `/home/LVP/Soft/kraken2/kraken2-build --add-to-library /home/LVP/Source/Sacculina/Sacculinacarcini_ref_genes.with_taxid.fasta --db /home/LVP/kraken2_db_females/Kraken2_plus_db_TEST --threads 10`
 
 Database building was performed using the following [script](Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/build_database/females_kraken_build_run.sh). 
 
@@ -44,7 +44,7 @@ Searching of the possible contaminants against constructed database was made usi
 
 #### Host's ganglia transcriptomes
 
-We performed *de novo* transcriptome assembly using 3 tools (rnaSPAdes, RNA-Bloom, and Trinity) in order to receive the best results using the strengths of different assemblers. Before assemblying we merged all prepared read libraries from healthy and infected female and male crabs into the fastq files.  
+We performed *de novo* transcriptome assembling using 3 tools (rnaSPAdes, RNA-Bloom, and Trinity) in order to receive the best results using the strengths of different assemblers. Before assemblying we merged all prepared short paired-end read libraries from healthy and infected female and male crabs into the fastq files.  
 
 ##### rnaSPAdes
 
@@ -75,7 +75,7 @@ The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/) (
 [SPAdes](https://doi.org/10.1093/gigascience/giz100) (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the merged decontaminated fastq files and previously obtained *in silico* mate pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
 Quality assessment was obtained via `Quast v. 5.2.0`.
 
-##### Filtering assembly results
+### Filtering assembly results
 
 In order to get the sequencies with minimun length 200 nucletides we applied the [python script](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Length_filter.py) to the obtained transcriptomic assemblies. 
 
@@ -146,9 +146,9 @@ FastP reports can be found in the [repository](Results/FastP).
 
 | Sample | Total reads before filtering | Total reads after filtering | 
 |----------|----------|----------|
-|Healthy female 1   | 82.026308 M  |79.385246 M  | 
-|Healthy male 1   |  85.496404 M  |83.758090 M  | 
-|Healthy male 2  | 90.861836 M  |88.830500 M  | 
+| Healthy female 1   | 82.026308 M  |79.385246 M  | 
+| Healthy male 1   |  85.496404 M  |83.758090 M  | 
+| Healthy male 2  | 90.861836 M  |88.830500 M  | 
 | Infected female 1 | 95.794892 M   |92.579908 M  |
 | Infected female 2  | 85.876652 M   |83.779848 M |
 | Infected male 1  | 98.179706 M  | 94.507014 M  |
@@ -179,10 +179,10 @@ Result of the TransRate quality analysis can be found in the [directory](Results
 
 Here, we present the comparison of results obtained by different assemblers based on found single-copy metazoan orthologs (BUSCO). 
 
-| Assembler      | Complete BUSCOs | Complete and single-copy BUSCOs | Complete and duplicated BUSCOs | Fragmented BUSCOs | Missing BUSCOs |
+| Assembler      | Complete orthologs | Complete and single-copy orthologs | Complete and duplicated orthologs | Fragmented orthologs | Missing orthologs |
 | -------------- | --------------- | ------------------------------- | ------------------------------ | ----------------- | -------------- |
 | rnaSPAdes      | 949             | 245                             | 704                            | 2                 | 3              |
-| Rna-Bloom      | 940             | 273                             | 667                            | 7                 | 7              |
+| RNA-Bloom      | 940             | 273                             | 667                            | 7                 | 7              |
 | Trinity        | 933             | 232                             | 701                            | 12                | 9              |
 | Whole assembly | 949             | 126                             | 823                            | 2                 | 3              |
 
@@ -216,7 +216,7 @@ Other illustrations can be found in the [repository](Results/Final%20fasta%20sor
 
 ### Genome assembly
 
-We have attempted to assembly the parasite genome to reveal genomic adaptations to parasitism in Rhizocephala. Assembling the genome of _ P. reticulata_ is in progress: there are rooms for improvement.
+We have attempted to assembly the parasite genome to reveal genomic adaptations to parasitism in Rhizocephala. Assembling the genome of _P. reticulata_ is in progress: there are rooms for improvement.
 
 #### Genome size analysis
 
@@ -228,9 +228,9 @@ The following libraries were obtained:
 
 | Insert length | Number of reads|
 |----------|----------|
-|1000   | 8098  | 
-|1500   |  5031  | 
-|2000  | 4095  | 
+| 1000   | 8098  | 
+| 1500   |  5031  | 
+| 2000  | 4095  | 
 | 5000 | 2808   |
 | 10000  | 1187   |
 | 20000  | 794  | 
