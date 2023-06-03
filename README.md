@@ -214,14 +214,6 @@ The illustration shows the processes that are absent in infected males compared 
 
 Other illustrations can be found in the [repository](Results/Final%20fasta%20sorting), as well as on [the presentation with the report](https://docs.google.com/presentation/d/1fdvFlChGYvV4cWIo85fQBM66i9gYXkpvyZgR37IygLQ/edit#slide=id.g22528949c5a_53_66).
 
-##### Summary of findings
-
-1. Percentage of “good” contigs for Trinity, RNA-Bloom, rnaSPAdes was 59%, 74%, 95% respectively. 
-2. We identified 97 biological processes that involve genes with a statistically significant change in expression between comparison pairs.
-3. The differential expression analysis of protein-coding genes included pairwise comparisons of infected and healthy host individuals, as well as individuals of different sexes. Both male and female infected hermit crabs tend to decrease in the number of active biological processes. Among the processes suppressed in infected hosts compared to healthy ones, we distinguished those responsible for the reproduction and ageing, as well as those involved in cytokine and apoptotic pathways and immunity regulation. The results obtained are consistent with data on parasitic castration and, in some cases, complete destruction of the gonads of infected hosts. The interna rootlets do not damage the host's reproductive tissues mechanically, so the suppression of the reproductive system may occur due to the initial inhibition of the processes associated with reproduction through changes in the nervous tissue.
-4. Comparison of healthy males and females of P. minutus showed significant differences in the number of molecular processes in the compared groups. It is notable that a small number of processes determine the difference in the transcriptomes of infected females and infected males. Thus, infection with P. reticulata, probably, eliminates, at the molecular level, the sex differences between the hermit crabs. Similar patterns were previously described at the morphological level: infection with peltogastrids leads to feminisation of males and hypofeminisation of females.
-
-
 ### Genome assembly
 
 We have attempted to assembly the parasite genome to reveal genomic adaptations to parasitism in Rhizocephala. Assembling the genome of _ P. reticulata_ is in progress: there are rooms for improvement.
@@ -254,10 +246,19 @@ The Quast results can be found in the [repository](https://github.com/anlianguzo
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/quast_gen_res.PNG?raw=true" alt="Genome assembly general summary"/>
 </p>
 
-##### Summary of findings
+## Summary
 
-1. The length of the total genome assembled by SPAdes is 361.6 Mb, which is higher than the values obtained for Sacculina carcini (Rhizocephala: Sacculinidae) with genome size 264 Mb. 
+### Summary of transcriptome findings
+
+1. Percentage of “good” contigs for Trinity, RNA-Bloom, rnaSPAdes was 59%, 74%, 95% respectively. 
+2. We identified 97 biological processes that involve genes with a statistically significant change in expression between comparison pairs.
+3. The differential expression analysis of protein-coding genes included pairwise comparisons of infected and healthy host individuals, as well as individuals of different sexes. Both male and female infected hermit crabs tend to decrease in the number of active biological processes. Among the processes suppressed in infected hosts compared to healthy ones, we distinguished those responsible for the reproduction and ageing, as well as those involved in cytokine and apoptotic pathways and immunity regulation. The results obtained are consistent with data on parasitic castration and, in some cases, complete destruction of the gonads of infected hosts. The interna rootlets do not damage the host's reproductive tissues mechanically, so the suppression of the reproductive system may occur due to the initial inhibition of the processes associated with reproduction through changes in the nervous tissue.
+4. Comparison of healthy males and females of P. minutus showed significant differences in the number of molecular processes in the compared groups. It is notable that a small number of processes determine the difference in the transcriptomes of infected females and infected males. Thus, infection with _P. reticulata_, probably, eliminates, at the molecular level, the sex differences between the hermit crabs. Similar patterns were previously described at the morphological level: infection with peltogastrids leads to feminisation of males and hypofeminisation of females.
+
+### Summary of genome findings
+
+1. The length of the total genome assembled by SPAdes is 361.6 Mb, which is higher than the values obtained for _Sacculina carcini_ (Rhizocephala: Sacculinidae) with genome size 264 Mb. 
 2. Despite the high quality of the DNA libraries (more than 98% of read passed quality filters according to FastP), the current genome assembly is highly fragmented (N50 = 1292). We hypothesise that the differences between phylogenetically related species and complexity in genome de novo assembling are due to the presence of a large repeats’ number observed previously in studies of the parasitic barnacles genomes. 
-3. Further improvement in the quality of P. reticulata genome assembly will be carried out using long ONT reads and the creation of more in silico mate pair reads libraries.
+3. Further improvement in the quality of _P. reticulata_ genome assembly will be carried out using long ONT reads and the creation of more in silico mate pair reads libraries.
 
 We also provide a full description of the obtained results in the following [Google Slides presentation](https://docs.google.com/presentation/d/1fdvFlChGYvV4cWIo85fQBM66i9gYXkpvyZgR37IygLQ/edit#slide=id.g22528949c5a_53_66). 
