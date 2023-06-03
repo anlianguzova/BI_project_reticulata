@@ -21,24 +21,24 @@ The aim of this project is to conduct a comparative transcriptomic analysis of t
 
 ### Data reformatting
 
-BBMap/BBTools (v. 39.01) was used for ID correction of reads and filtering of rnaSPAdes results. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20). 
+[BBMap/BBTools ](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/)(v. 39.01) was used for ID correction of reads and filtering of rnaSPAdes results. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20). 
 
 ### Quality control and library preparation
 
-FastQC (v. 0.12.1) was utilized to spot potential problems in sequencing datasets. 
+[FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) (v. 0.12.1) was utilized to spot potential problems in sequencing datasets. 
 
-FastP utility (v. 0.23.2) performed the low-quality and adapter sequences removal. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20).
+[FastP utility](https://doi.org/10.1093/bioinformatics/bty560) (v. 0.23.2) performed the low-quality and adapter sequences removal. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20).
 The trimming parameters was the following: `--cut_window_size 4 --cut_mean_quality 20 --qualified_quality_phred 20 --length_required 25`.
 
 ### Decontamination of the datasets
 
-Kraken2 (v. 2.1.2) is a taxonomic sequence classification system that provides an opportunity to build database of possible contaminations (such as bacteria and viruses). The example of the script allowing to download database can be found [here](/Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/download_database). 
+[Kraken2](https://doi.org/10.1186/s13059-019-1891-0) (v. 2.1.2) is a taxonomic sequence classification system that provides an opportunity to build database of possible contaminations (such as bacteria and viruses). The example of the script allowing to download database can be found [here](/Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/download_database). 
 In case of filtered genome sequences we used standard database that includes libraries from archaea, viruses, bacteria, plasmid, fungi, human and protozoa. 
 In case of transcriptomic sequences we added to standard database the early assembled transcriptomic data from the parasite *Peltogaster reticulata* ([Nesterenko, Miroliubov, 2023](https://f1000research.com/articles/11-583)) and the genomic sequences from another rhizocephalan species, *Sacculina carcini* ([Blaxter et al., *in press*](https://wellcomeopenresearch.org/articles/8-91)). *Sacculina carcini* genome was added using the command: `/home/LVP/Soft/kraken2/kraken2-build --add-to-library /home/LVP/Source/Sacculina/Sacculinacarcini_ref_genes.with_taxid.fasta --db /home/LVP/kraken2_db_females/Kraken2_plus_db_TEST --threads 10`
 
 Database building was performed using the following [script](Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/build_database/females_kraken_build_run.sh). 
 
-Searching of the possible contaminants against constructed database was made using [the following scripts](Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/search_database). The results were visualized by Pavian (v. 1.0).
+Searching of the possible contaminants against constructed database was made using [the following scripts](Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/search_database). The results were visualized by [Pavian](https://doi.org/10.1101/084715) (v. 1.0).
 
 ### Assembly 
 
@@ -48,21 +48,21 @@ We performed *de novo* transcriptome assembly using 3 tools (rnaSPAdes, RNA-Bloo
 
 ##### rnaSPAdes
 
-rnaSPAdes (SPAdes v. 3.15.4) with default options was used. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/RNAspades/run_rnaspades.sh).
+[rnaSPAdes](https://doi.org/10.1093/gigascience/giz100) (SPAdes v. 3.15.4) with default options was used. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/RNAspades/run_rnaspades.sh).
 
 ##### RNA-Bloom
 
-RNA-Bloom (v. 2.0.1) was installed using mamba (v. 1.4.1). Specified options was `--kmer 25 --percent 0.90 --length 200`. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Rna-Bloom/run_rnabloom.sh).
+[RNA-Bloom](https://doi.org/10.1101/gr.260174.119) (v. 2.0.1) was installed using mamba (v. 1.4.1). Specified options was `--kmer 25 --percent 0.90 --length 200`. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Rna-Bloom/run_rnabloom.sh).
 
 ##### Trinity 
 
-Trinity (v. 2.14.0) was utilised. We also installed the tool dependecies using conda (v. 23.1.0) virtual environment. The avaliable script is [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Trinity/new_trinity.sh).
+[Trinity](https://doi.org/10.1038/nprot.2013.084) (v. 2.14.0) was utilised. We also installed the tool dependecies using conda (v. 23.1.0) virtual environment. The avaliable script is [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Trinity/new_trinity.sh).
 
 #### Parasite genome
 
 ##### Genome size assessment
 
-Jellyfish (v. 2.3.0) was run using the script available [here](https://github.com/anlianguzova/BI_project_reticulata/blob/main/Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`). `--size=265M` parameter was taken based on the total size of the [_Sacculina_ genome](https://www.ebi.ac.uk/ena/browser/view/GCA_916048095) (264,490,643 bp). 
+[Jellyfish](https://doi.org/10.1093/bioinformatics/btr011) (v. 2.3.0) was run using the script available [here](https://github.com/anlianguzova/BI_project_reticulata/blob/main/Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`). `--size=265M` parameter was taken based on the total size of the [_Sacculina_ genome](https://www.ebi.ac.uk/ena/browser/view/GCA_916048095) (264,490,643 bp). 
 
 The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/) (v. 1.0). 
 
@@ -72,7 +72,7 @@ The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/) (
 
 ##### *De novo* genome assembly
 
-SPAdes (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the merged decontaminated fastq files and previously obtained *in silico* mate pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
+[SPAdes](https://doi.org/10.1093/gigascience/giz100) (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the merged decontaminated fastq files and previously obtained *in silico* mate pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
 Quality assessment was obtained via `Quast v. 5.2.0`.
 
 ##### Filtering assembly results
@@ -81,11 +81,11 @@ In order to get the sequencies with minimun length 200 nucletides we applied the
 
 ##### Redundancy reduction via clusterization
 
-CD-HIT (v. 4.8.1) was used to the three assemblies separate clusterization. Clusters with 95% identity were gathered comparing both strand (++, +-). Clusterization was performed using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
+[CD-HIT](https://doi.org/10.1093/bioinformatics/bts565) (v. 4.8.1) was used to the three assemblies separate clusterization. Clusters with 95% identity were gathered comparing both strand (++, +-). Clusterization was performed using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
 
 ### Assembly quality control
 
-TransRate (v. 1.0.1) was utilised for the qualitative analysis of *de novo* transcriptome assemblies. The default options were used; the scripts for all assemblies can be found [here](Scripts/Host's%20ganglia%20transcriptome%20/TransRate). Only the sequences with high quality and assembly completeness (“good” according to the TransRate classification) were used in the following analysis.
+[TransRate](https://doi.org/10.1101/gr.196469.115) (v. 1.0.1) was utilised for the qualitative analysis of *de novo* transcriptome assemblies. The default options were used; the scripts for all assemblies can be found [here](Scripts/Host's%20ganglia%20transcriptome%20/TransRate). Only the sequences with high quality and assembly completeness (“good” according to the TransRate classification) were used in the following analysis.
 
 ### Creating of the merged assembly
 
@@ -93,30 +93,30 @@ All the contigs with high rates of quality and assembly completeness were merged
 
 ### Clusterization
 
-CD-HIT (v. 4.8.1) clusterization was repeated on the merged contigs (95% identity, both strand comparison). The script is in this [folder](Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)/whole%20assembly).
+[CD-HIT](https://doi.org/10.1093/bioinformatics/bts565) clusterization was repeated on the merged contigs (95% identity, both strand comparison). The script is in this [folder](Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)/whole%20assembly).
 
 ### Quality control in good contigs sequences
 
-BUSCO (v. 5.4.7) performed the searching of single-copy orthologs in the obtained assemblies. The transcriptome mode was selected (`-m transcriptome`), and Metazoa OrthoDB (v. 10) was used as lineage dataset. The scripts are available [here](/Scripts/Host's%20ganglia%20transcriptome%20/BUSCO). The Venn diagram visualization was created using [InteractiVenn](http://www.interactivenn.net/).
+[BUSCO](https://doi.org/10.1093/molbev/msab199) (v. 5.4.7) performed the searching of single-copy orthologs in the obtained assemblies. The transcriptome mode was selected (`-m transcriptome`), and Metazoa OrthoDB (v. 10) was used as lineage dataset. The scripts are available [here](/Scripts/Host's%20ganglia%20transcriptome%20/BUSCO). The Venn diagram visualization was created using [InteractiVenn](http://www.interactivenn.net/).
 
 ### Quantifying transcripts expression
 
-Salmon (v. 1.10.1) installed in conda environment mapped the short reads libraries to the assembled sequences. The obtained values were filtred due to the sequencing depth and the contig size in order to obtain a numerical value of the expression level. The script allowing to create an index for the obtained sequences is avaliable [here](/Scripts/Host's%20ganglia%20transcriptome%20/Salmon/run_Pdum_good_contigs_salmon_index.sh). Mapping of the sequences and the expression quantification was performed using the [following script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/fem_quant.sh) for the data from the female hermit crabs and [this script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/male_quant.sh) for the males.  
+[Salmon](https://doi.org/10.1038/nmeth.4197) (v. 1.10.1) installed in conda environment mapped the short reads libraries to the assembled sequences. The obtained values were filtred due to the sequencing depth and the contig size in order to obtain a numerical value of the expression level. The script allowing to create an index for the obtained sequences is avaliable [here](/Scripts/Host's%20ganglia%20transcriptome%20/Salmon/run_Pdum_good_contigs_salmon_index.sh). Mapping of the sequences and the expression quantification was performed using the [following script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/fem_quant.sh) for the data from the female hermit crabs and [this script](Scripts/Host's%20ganglia%20transcriptome%20/Salmon/male_quant.sh) for the males.  
 
 ### Determination of assembly translation products
 
-TransDecoder (v. 5.5.0) identified candidate coding regions within transcript sequences. Initial determination of open reading frames (ORFs) and translation products was performed using [this script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh). 
-HMMER (v. 3.3.2) was used to compare found ORFs translation products with Pfam-A database using the [following script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_PfamA.sh).
-DIAMOND (v. 2.0.15) performed to search ORFs translation products analysing Uniref90 database. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh).
+[TransDecoder](https://github.com/TransDecoder/TransDecoder) (v. 5.5.0) identified candidate coding regions within transcript sequences. Initial determination of open reading frames (ORFs) and translation products was performed using [this script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh). 
+[HMMER](https://doi.org/10.1093/bioinformatics/btt403) (v. 3.3.2) was used to compare found ORFs translation products with Pfam-A database using the [following script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_PfamA.sh).
+[DIAMOND](https://www.crystalimpact.de/diamond/) (v. 2.0.15) performed to search ORFs translation products analysing Uniref90 database. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh).
 Final definition of ORFs was obtained through comparison of all this results using TransDecoder. The [script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_TransDecoder_Predict.sh) for prediction is provided. 
 
 ### Reference set of protein-coding sequences
 
-We selected transcripts encoding proteins consisting of more than 100 amino acids and with the expression level more than 2 transcripts per million (TPM) at least in one sample analysed using the [provided jyputer notebook](Scripts/Host's%20ganglia%20transcriptome%20/Final_fasta_sorting/Sort_assembly_expression_files.ipynb). 
+We selected transcripts encoding proteins consisting of more than 100 amino acids and with the expression level [more than 2 transcripts per million (TPM)](https://doi.org/10.1007/s12064-013-0178-3) (According to publication, “genes with more than two transcripts per million transcripts (TPM) are highly likely from actively transcribed genes.”) at least in one sample analysed using the [provided jyputer notebook](Scripts/Host's%20ganglia%20transcriptome%20/Final_fasta_sorting/Sort_assembly_expression_files.ipynb). 
 
 ### Functional annotation
 
-EggNOG-mapper (v. 2.1.9) was used to annotate the obtained proteins. EggNOG database contains information about the orthologs of various organisms, the participation of the sequences in the biological processes, and the presence of certain protein domains. 
+[EggNOG-mapper](http://eggnog-mapper.embl.de) (v. 2.1.9) was used to annotate the obtained proteins. [EggNOG database](http://eggnog5.embl.de/#/app/home) contains information about the orthologs of various organisms, the participation of the sequences in the biological processes, and the presence of certain protein domains. 
 
 ### Differential expression analysis
 
@@ -124,7 +124,7 @@ EggNOG-mapper (v. 2.1.9) was used to annotate the obtained proteins. EggNOG data
 
 ### Enrichment analysis
 
-GeneOntology terms enrichment analysis was performed for the lists of differentially expressed genes. We utilised *Drosophila melanogaster* database as the closest avaliable relative to the anomuran *Pagurus minutus* (Arthropoda: Tetraconata) and the results from functional annotation. In present analysis, we selected only biological processes with p-value less than 0.01 and with more than 10 sequences. The analysis was also performed in R using `topGO`, `rrvgo`, `dplyr` packages and `ggplot2`, `wordcloud`, `viridis` packages for visualization. All [R scripts](Scripts/Host's%20ganglia%20transcriptome%20/Differential%20expression) are avaliable in the repository.    
+[GeneOntology](http://geneontology.org) terms enrichment analysis was performed for the lists of differentially expressed genes. We utilised *Drosophila melanogaster* [database](http://bioconductor.org/packages/release/data/annotation/html/org.Dm.eg.db.html) as the closest avaliable relative to the anomuran *Pagurus minutus* (Arthropoda: Tetraconata) and the results from functional annotation. In present analysis, we selected only biological processes with p-value less than 0.01 and with more than 10 sequences. The analysis was also performed in R using `[topGO](https://doi.org/10.18129/B9.bioc.topGO  )`, `[rrvgo](https://doi.org/10.18129/B9.bioc.rrvgo)`, `[dplyr](https://cran.r-project.org/web/packages/dplyr/index.html)` packages and `[ggplot2](https://cloud.r-project.org/web/packages/ggplot2/index.html)`, `[wordcloud](https://cran.r-project.org/web/packages/wordcloud/index.html)`, `[viridis](https://cran.r-project.org/web/packages/viridis/index.html)` packages for visualization. All [R scripts](Scripts/Host's%20ganglia%20transcriptome%20/Differential%20expression) are avaliable in the repository.    
  
 ## Results 
 
