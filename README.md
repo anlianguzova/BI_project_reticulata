@@ -251,7 +251,7 @@ The following libraries were obtained:
 The Quast results can be found in the [repository](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/SPAdes_genome), but here is the picture of its report.
 
 <p align="center">
-<img src="https://github.com/anlianguzova/BI_project_reticulata/Pics/quast_gen_res.PNG?raw=true" alt="Genome assembly general summary"/>
+<img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/quast_gen_res.PNG?raw=true" alt="Genome assembly general summary"/>
 </p>
 
 ##### Summary of findings
