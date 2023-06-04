@@ -64,7 +64,7 @@ In further analysis, we considered only sequences with a length of at least 200 
 
 ##### Transcriptome assemblies redundancy reduction via clusterization
 
-[CD-HIT](https://doi.org/10.1093/bioinformatics/bts565) (v. 4.8.1) was used to the three transcriptome assemblies separate clusterization. Clusters with 95% identity were gathered comparing both strand (+/+, +/-). Clusterization was performed using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
+[CD-HIT](https://doi.org/10.1093/bioinformatics/bts565) (v. 4.8.1) was used to the three transcriptome assemblies separate clusterization. Clusters with 95% identity were gathered, comparison of both strand (+/+, +/-) was performed. Clusterization was carried out using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
 
 #### Parasite genome
 
