@@ -21,7 +21,7 @@ The aim of this project is to conduct a comparative transcriptomic analysis of t
 
 ### Data reformatting
 
-[BBMap/BBTools](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/)(v. 39.01) was used for ID correction of short paired-end reads and filtering of rnaSPAdes results (removal of assembled sequences with unknown nucleotides). Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20).
+[BBMap/BBTools](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/) (v. 39.01) was used for ID correction of short paired-end reads and filtering of rnaSPAdes results (removal of assembled sequences with unknown nucleotides). Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20).
 
 ### Short paired-end reads libraries quality control and preparation
 
@@ -58,42 +58,39 @@ We performed *de novo* transcriptome assembling using 3 tools (rnaSPAdes, RNA-Bl
 
 [Trinity](https://doi.org/10.1038/nprot.2013.084) (v. 2.14.0) was utilised. We also installed the tool dependencies using conda (v. 23.1.0) into special virtual environment. The avaliable script is [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Trinity/new_trinity.sh).
 
+##### Filtering transcriptome assembly results
+
+In further analysis, we considered only sequences with a length of at least 200 nucleotides. To filter the assembly results, we used the [python script](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Length_filter.py) to the all obtained transcriptomic assemblies.
+
+##### Transcriptome assemblies redundancy reduction via clusterization
+
+[CD-HIT](https://doi.org/10.1093/bioinformatics/bts565) (v. 4.8.1) was used to the three transcriptome assemblies separate clusterization. Clusters with 95% identity were gathered comparing both strand (+/+, +/-). Clusterization was performed using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
+
 #### Parasite genome
 
 ##### Genome size assessment
 
-[Jellyfish](https://doi.org/10.1093/bioinformatics/btr011) (v. 2.3.0) was run using the script available [here](https://github.com/anlianguzova/BI_project_reticulata/blob/main/Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`). `--size=265M` parameter was taken based on the total size of the [_Sacculina_ genome](https://www.ebi.ac.uk/ena/browser/view/GCA_916048095) (264,490,643 bp). 
+[Jellyfish](https://doi.org/10.1093/bioinformatics/btr011) (v. 2.3.0) was run using the script available [here](https://github.com/anlianguzova/BI_project_reticulata/blob/main/Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`), and `--size=265M` parameter was taken based on the total size of the [_Sacculina_ genome](https://www.ebi.ac.uk/ena/browser/view/GCA_916048095) (264,490,643 bp). 
 
 The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/) (v. 1.0). 
 
-##### Creating *in silico* mate pairs liabraries using *S. carcini* genome as reference
+##### Generation of *in silico* mate pairs libraries using *S. carcini* genome as reference
 
-*In silico* mate pair libraries were made via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the reads). The other parameters were left default. 
+*In silico* mate pair libraries were generated via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the short paired-end reads). The other parameters were left default. 
 
 ##### *De novo* genome assembly
 
 [SPAdes](https://doi.org/10.1093/gigascience/giz100) (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the merged decontaminated fastq files and previously obtained *in silico* mate pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
-Quality assessment was obtained via `Quast v. 5.2.0`.
-
-### Filtering assembly results
-
-In order to get the sequencies with minimun length 200 nucletides we applied the [python script](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Length_filter.py) to the obtained transcriptomic assemblies. 
-
-##### Redundancy reduction via clusterization
-
-[CD-HIT](https://doi.org/10.1093/bioinformatics/bts565) (v. 4.8.1) was used to the three assemblies separate clusterization. Clusters with 95% identity were gathered comparing both strand (++, +-). Clusterization was performed using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
 
 ### Assembly quality control
 
-[TransRate](https://doi.org/10.1101/gr.196469.115) (v. 1.0.1) was utilised for the qualitative analysis of *de novo* transcriptome assemblies. The default options were used; the scripts for all assemblies can be found [here](Scripts/Host's%20ganglia%20transcriptome%20/TransRate). Only the sequences with high quality and assembly completeness (“good” according to the TransRate classification) were used in the following analysis.
+[TransRate](https://doi.org/10.1101/gr.196469.115) (v. 1.0.1) was utilised for the qualitative analysis of *de novo* transcriptome assemblies. The default options were used. The scripts for all assemblies can be found [here](Scripts/Host's%20ganglia%20transcriptome%20/TransRate). Only the sequences with high quality and assembly completeness (“good” according to the TransRate classification) were used in the following analysis.
+Quality assessment of parasite genome assembly was obtained via [QUAST](https://cab.spbu.ru/software/quast/) (v. 5.2.0).
 
-### Creating of the merged assembly
+### Merging transcriptome assemblies into a single reference transcriptome
 
-All the contigs with high rates of quality and assembly completeness were merged using basic UNIX-commands.
-
-### Clusterization
-
-[CD-HIT](https://doi.org/10.1093/bioinformatics/bts565) clusterization was repeated on the merged contigs (95% identity, both strand comparison). The script is in this [folder](Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)/whole%20assembly).
+All the transcriptome contigs with high rates of quality and assembly completeness were merged using basic UNIX-commands. Transcriptome redundancy reduction was performed using 
+[CD-HIT](https://doi.org/10.1093/bioinformatics/bts565) clusterization with minimal 95% identity between contigs and both strand comparison. The script is in this [folder](Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)/whole%20assembly).
 
 ### Quality control in good contigs sequences
 
