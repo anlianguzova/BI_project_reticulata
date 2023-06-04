@@ -70,7 +70,7 @@ In further analysis, we considered only sequences with a length of at least 200 
 
 ##### Genome size assessment
 
-[Jellyfish](https://doi.org/10.1093/bioinformatics/btr011) (v. 2.3.0) was run using the script available [here](https://github.com/anlianguzova/BI_project_reticulata/blob/main/Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`), and `--size=265M` parameter was taken based on the total size of the [_Sacculina_ genome](https://www.ebi.ac.uk/ena/browser/view/GCA_916048095) (264,490,643 bp). 
+[Jellyfish](https://doi.org/10.1093/bioinformatics/btr011) (v. 2.3.0) was run using the script available [here](Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`), and `--size=265M` parameter was taken based on the total size of the [_Sacculina_ genome](https://www.ebi.ac.uk/ena/browser/view/GCA_916048095) (264,490,643 bp). 
 
 The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/) (v. 1.0). 
 
@@ -80,7 +80,7 @@ The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/) (
 
 ##### *De novo* genome assembly
 
-[SPAdes](https://doi.org/10.1093/gigascience/giz100) (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the merged decontaminated fastq files and previously obtained *in silico* mate pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
+[SPAdes](https://doi.org/10.1093/gigascience/giz100) (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](Scripts/Genome/SPAdes). The paths to the merged decontaminated fastq files and previously obtained *in silico* mate pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
 
 ### Assembly quality control
 
@@ -224,7 +224,7 @@ Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian)
 
 #### Genome size analysis results
 
-Results can be found [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/Jellyfish).
+Results can be found [here](Results/Jellyfish).
 
 #### *In silico* mate pairs read libraries generation results
 
@@ -244,7 +244,7 @@ The following libraries were obtained:
 
 #### Quality control of the assembly
 
-The QUAST results can be found in the [repository](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/SPAdes_genome), and general summary is present below.
+The QUAST results can be found in the [repository](Results/SPAdes_genome), and general summary is present below.
 
 <p align="center">
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/quast_gen_res.PNG?raw=true" alt="Genome assembly general summary"/>
