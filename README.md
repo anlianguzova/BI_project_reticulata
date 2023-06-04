@@ -128,15 +128,13 @@ We selected transcripts encoding proteins consisting of more than 100 amino acid
 
 The following results were obtained to investigate the effect of rhizocephala infection on male and female hermit crabs.
 
-#### Quality control
+#### Short paired-end reads libraries quality control and preparation
 
 FastQC reports can be found in the [repository](Results/FastQC). The typical report file is present below.
 
 <p align="center">
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/fastqc_rep.png?raw=true" alt="Fastqc visualization"/>
 </p>
-
-### Library preparation
 
 FastP reports can be found in the [repository](Results/FastP).
 
@@ -149,12 +147,8 @@ FastP reports can be found in the [repository](Results/FastP).
 | Infected female 2  | 85.876652 M   |83.779848 M |
 | Infected male 1  | 98.179706 M  | 94.507014 M  |
 | Infected male 2  | 81.547070 M |79.246654 M  |
-| Genome sample 1  | 229.866546 M |225.786682 M  |
-| Genome sample 2  | 217.319394 M |213.272696 M  |
-| Genome sample 3  | 163.674608 M |160.788526 M |
 
-
-#### Decontamination 
+#### Decontamination of the datasets
 
 Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian) are avaliable in the repository. Demonstrative results are below.
 
@@ -171,9 +165,9 @@ Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian)
 
 #### Quality control of different assembliers results
 
-Result of the TransRate quality analysis can be found in the [directory](Results/Transrate_output).
+Results of the TransRate quality control analysis can be found in the [directory](Results/Transrate_output).
 
-Here, we present the comparison of results obtained by different assemblers based on found single-copy metazoan orthologs (BUSCO). 
+Here, we present the comparison of results obtained for different assemblers based on BUSCO analysis results. 
 
 | Assembler      | Complete orthologs | Complete and single-copy orthologs | Complete and duplicated orthologs | Fragmented orthologs | Missing orthologs |
 | -------------- | --------------- | ------------------------------- | ------------------------------ | ----------------- | -------------- |
@@ -186,13 +180,13 @@ Here, we present the comparison of results obtained by different assemblers base
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/Venn_diagram_assemblers.png?raw=true" alt="Venn diagram on metazoans orthologs from different assemblers"/>
 </p>
 
-#### Protein-coding genes detection
+#### Protein-coding sequences identification
 
-Final expression-level (TPM) tables and fasta-files containing sequences with more than 100 amino acids and significant expression level are present in the [repository](Results/Final%20fasta%20sorting).
+Sets of sequences encoding proteins and having a significant level of expression in at least one sample, as well as tables with their levels of expression, are presented in the [directory](Results/Final%20fasta%20sorting).
 
-#### Differential expression results
+#### Protein-coding sequences differential expression analysis and Gene Set Enrichment analysis results
 
-RNetropy and enrichment results are avaliable in the repository [directory](Results/Differential%20expression). Some visializations are present below.
+RNentropy and GO-terms enrichment results are avaliable in the repository [directory](Results/Differential%20expression). Some visializations are present below.
 
 ##### Reduced Gene Set Enrichment analysis (GSEA) for the infected male hermit crabs
 
@@ -206,7 +200,7 @@ RNetropy and enrichment results are avaliable in the repository [directory](Resu
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/wordcloud_male_diff.png?raw=true" alt="Wordcloud with processes absent in infected males"/>
 </p>
 
-The illustration shows the processes that are absent in infected males compared to healthy ones. The letter size reflects the enrichment level of these processes in healthy individuals. The processes responsible for the regulation of the life cycle, cytokine and apoptotic pathways are suppressed in infected hosts.
+The illustration shows the biological processes that are absent in infected males compared to healthy ones. The letter size reflects the enrichment level of these bioprocesses in healthy individuals. The biological processes responsible for the regulation of the life cycle, cytokine and apoptotic pathways are suppressed in infected hosts.
 
 Other illustrations can be found in the [repository](Results/Final%20fasta%20sorting), as well as on [the presentation with the report](https://docs.google.com/presentation/d/1fdvFlChGYvV4cWIo85fQBM66i9gYXkpvyZgR37IygLQ/edit#slide=id.g22528949c5a_53_66).
 
@@ -214,11 +208,25 @@ Other illustrations can be found in the [repository](Results/Final%20fasta%20sor
 
 We have attempted to assembly the parasite genome to reveal genomic adaptations to parasitism in Rhizocephala. Assembling the genome of _P. reticulata_ is in progress: there are rooms for improvement.
 
-#### Genome size analysis
+#### Library preparation
+
+FastP reports can be found in the [repository](Results/FastP).
+
+| Library | Total reads before filtering | Total reads after filtering | 
+|----------|----------|----------|
+| Genome library 1  | 229.866546 M |225.786682 M  |
+| Genome library 2  | 217.319394 M |213.272696 M  |
+| Genome library 3  | 163.674608 M |160.788526 M |
+
+#### Decontamination of the datasets
+
+Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian) are avaliable in the repository.
+
+#### Genome size analysis results
 
 Results can be found [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/Jellyfish).
 
-#### *In silico* mate pairs libraries
+#### *In silico* mate pairs read libraries generation results
 
 The following libraries were obtained:
 
@@ -236,7 +244,7 @@ The following libraries were obtained:
 
 #### Quality control of the assembly
 
-The Quast results can be found in the [repository](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/SPAdes_genome), but here is the picture of its report.
+The QUAST results can be found in the [repository](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/SPAdes_genome), and general summary is present below.
 
 <p align="center">
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/quast_gen_res.PNG?raw=true" alt="Genome assembly general summary"/>
@@ -247,14 +255,14 @@ The Quast results can be found in the [repository](https://github.com/anlianguzo
 ### Summary of transcriptomic findings
 
 1. Percentage of “good” contigs for Trinity, RNA-Bloom, rnaSPAdes was 59%, 74%, 95% respectively. 
-2. We identified 97 biological processes that involve genes with a statistically significant change in expression between comparison pairs.
-3. The differential expression analysis of protein-coding genes included pairwise comparisons of infected and healthy host individuals, as well as individuals of different sexes. Both male and female infected hermit crabs tend to decrease in the number of active biological processes. Among the processes suppressed in infected hosts compared to healthy ones, we distinguished those responsible for the reproduction and ageing, as well as those involved in cytokine and apoptotic pathways and immunity regulation. The results obtained are consistent with data on parasitic castration and, in some cases, complete destruction of the gonads of infected hosts. The interna rootlets do not damage the host's reproductive tissues mechanically, so the suppression of the reproductive system may occur due to the initial inhibition of the processes associated with reproduction through changes in the nervous tissue.
-4. Comparison of healthy males and females of P. minutus showed significant differences in the number of molecular processes in the compared groups. It is notable that a small number of processes determine the difference in the transcriptomes of infected females and infected males. Thus, infection with _P. reticulata_, probably, eliminates, at the molecular level, the sex differences between the hermit crabs. Similar patterns were previously described at the morphological level: infection with peltogastrids leads to feminisation of males and hypofeminisation of females.
+2. We identified 97 biological processes that involve protein-coding sequences with a statistically significant change in expression between comparison pairs.
+3. The differential expression analysis of protein-coding sequences included pairwise comparisons of infected and healthy host individuals, as well as individuals of different sexes. Both male and female infected hermit crabs tend to decrease in the number of active biological processes. Among the processes suppressed in infected hosts compared to healthy ones, we distinguished those responsible for the reproduction and ageing, as well as those involved in cytokine and apoptotic pathways and immunity regulation. The results obtained are consistent with data on parasitic castration and, in some cases, complete destruction of the gonads of infected hosts. The interna rootlets do not damage the host's reproductive tissues mechanically, so the suppression of the reproductive system may occur due to the initial inhibition of the processes associated with reproduction through changes in the nervous tissue.
+4. Comparison of healthy males and females of _P. minutus_ showed significant differences in the number of molecular processes in the compared groups. It is notable that a small number of bioprocesses determine the difference in the transcriptomes of infected females and infected males. Thus, infection with _P. reticulata_, probably, smoothes, at the molecular level, the sex differences between the hermit crabs. Similar patterns were previously described at the morphological level: infection with peltogastrids leads to feminisation of males and hypofeminisation of females.
 
 ### Summary of genomic findings
 
 1. The length of the total genome assembled by SPAdes is 361.6 Mb, which is higher than the values obtained for _Sacculina carcini_ (Rhizocephala: Sacculinidae) with genome size 264 Mb. 
-2. Despite the high quality of the DNA libraries (more than 98% of read passed quality filters according to FastP), the current genome assembly is highly fragmented (N50 = 1292). We hypothesise that the differences between phylogenetically related species and complexity in genome de novo assembling are due to the presence of a large repeats’ number observed previously in studies of the parasitic barnacles genomes. 
-3. Further improvement in the quality of _P. reticulata_ genome assembly will be carried out using long ONT reads and the creation of more in silico mate pair reads libraries.
+2. Despite the high quality of the DNA-seq short paired-end reads libraries (more than 98% of read passed quality filters according to FastP), the current genome assembly is highly fragmented (N50 = 1292). We hypothesise that the differences between phylogenetically related species and complexity in genome _de novo_ assembling are due to the presence of a large repeats’ number observed previously in studies of the parasitic barnacles genomes. 
+3. Further improvement in the quality of _P. reticulata_ genome assembly will be carried out using long ONT reads and the creation of more _in silico_ mate pair reads libraries.
 
 We also provide a full description of the obtained results in the following [Google Slides presentation](https://docs.google.com/presentation/d/1fdvFlChGYvV4cWIo85fQBM66i9gYXkpvyZgR37IygLQ/edit#slide=id.g22528949c5a_53_66). 
