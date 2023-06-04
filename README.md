@@ -21,9 +21,9 @@ The aim of this project is to conduct a comparative transcriptomic analysis of t
 
 ### Data reformatting
 
-[BBMap/BBTools](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/)(v. 39.01) was used for ID correction of reads and filtering of rnaSPAdes results. Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20). 
+[BBMap/BBTools](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/)(v. 39.01) was used for ID correction of short paired-end reads and filtering of rnaSPAdes results (removal of assembled sequences with unknown nucleotides). Scripts are available in the [repository](/Scripts/Host's%20ganglia%20transcriptome%20/Quality%20control%20and%20trimming%20).
 
-### Quality control and library preparation
+### Short paired-end reads libraries quality control and preparation
 
 [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) (v. 0.12.1) was utilized to spot potential problems in sequencing datasets. 
 
@@ -32,9 +32,9 @@ The trimming parameters was the following: `--cut_window_size 4 --cut_mean_quali
 
 ### Decontamination of the datasets
 
-[Kraken2](https://doi.org/10.1186/s13059-019-1891-0) (v. 2.1.2) is a taxonomic sequence classification system that provides an opportunity to build database of possible contaminations (such as bacteria and viruses). The example of the script allowing to download database can be found [here](/Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/download_database). 
-In case of genomic short paired-end read libraries we used standard database that includes libraries from archaea, viruses, bacteria, plasmid, fungi, human and protozoa. 
-In case of transcriptomic short paired-end read libraries we added to standard database the early assembled transcriptomic data from the parasite *Peltogaster reticulata* ([Nesterenko, Miroliubov, 2023](https://f1000research.com/articles/11-583)) and the genomic sequences from another rhizocephalan species, *Sacculina carcini* ([Blaxter et al., *in press*](https://wellcomeopenresearch.org/articles/8-91)). *Sacculina carcini* [genome](https://www.ebi.ac.uk/ena/browser/view/GCA_916048095) was added using the command: `/home/LVP/Soft/kraken2/kraken2-build --add-to-library /home/LVP/Source/Sacculina/Sacculinacarcini_ref_genes.with_taxid.fasta --db /home/LVP/kraken2_db_females/Kraken2_plus_db_TEST --threads 10`
+[Kraken2](https://doi.org/10.1186/s13059-019-1891-0) (v. 2.1.2) is a taxonomic classification system using exact k-mer matches to achieve high accuracy and fast classification speeds. In our project, we used it to build a database of possible contamination (such as bacteria and viruses). The example of the script allowing to download database can be found [here](/Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/download_database).
+In case of genomic short paired-end read libraries we used standard database that includes sequences libraries from archaea, viruses, bacteria, plasmid, fungi, human and protozoa. 
+In case of transcriptomic short paired-end read libraries we added to standard database the early assembled transcriptome from the parasite *Peltogaster reticulata* ([Nesterenko, Miroliubov, 2023](https://f1000research.com/articles/11-583)) and the genomic sequences from another rhizocephalan species, *Sacculina carcini* ([Blaxter et al., *in press*](https://wellcomeopenresearch.org/articles/8-91)). *Sacculina carcini* [genome](https://www.ebi.ac.uk/ena/browser/view/GCA_916048095) was added using the command: `/home/LVP/Soft/kraken2/kraken2-build --add-to-library /home/LVP/Source/Sacculina/Sacculinacarcini_ref_genes.with_taxid.fasta --db /home/LVP/kraken2_db_females/Kraken2_plus_db_TEST --threads 10`
 
 Database building was performed using the following [script](Scripts/Host's%20ganglia%20transcriptome%20/Kraken2/build_database/females_kraken_build_run.sh). 
 
@@ -44,7 +44,7 @@ Searching of the possible contaminants against constructed database was made usi
 
 #### Host's ganglia transcriptomes
 
-We performed *de novo* transcriptome assembling using 3 tools (rnaSPAdes, RNA-Bloom, and Trinity) in order to receive the best results using the strengths of different assemblers. Before assemblying we merged all prepared short paired-end read libraries from healthy and infected female and male crabs into the fastq files.  
+We performed *de novo* transcriptome assembling using 3 tools (rnaSPAdes, RNA-Bloom, and Trinity) in order to receive the best results using the strengths of different assemblers. Before assemblying we merged all prepared short paired-end read libraries from healthy and infected female and male crabs into the single fastq files.  
 
 ##### rnaSPAdes
 
@@ -56,7 +56,7 @@ We performed *de novo* transcriptome assembling using 3 tools (rnaSPAdes, RNA-Bl
 
 ##### Trinity 
 
-[Trinity](https://doi.org/10.1038/nprot.2013.084) (v. 2.14.0) was utilised. We also installed the tool dependecies using conda (v. 23.1.0) virtual environment. The avaliable script is [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Trinity/new_trinity.sh).
+[Trinity](https://doi.org/10.1038/nprot.2013.084) (v. 2.14.0) was utilised. We also installed the tool dependencies using conda (v. 23.1.0) into special virtual environment. The avaliable script is [here](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Trinity/new_trinity.sh).
 
 #### Parasite genome
 
