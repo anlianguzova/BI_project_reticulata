@@ -106,7 +106,7 @@ Benchmarking Universal Single-Copy Ortholog ([BUSCO](https://doi.org/10.1093/mol
 [HMMER](https://doi.org/10.1093/bioinformatics/btt403) (v. 3.3.2) was used to compare found ORFs translation products with Pfam-A database using the [following script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_PfamA.sh). Comparison of amino acid sequences with the UniRef90 database was performed using the [DIAMOND](https://www.crystalimpact.de/diamond/) (v. 2.0.15) program. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh).
 Refinement of ORFs translation products was performed using the results of comparison with databases. The [script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_TransDecoder_Predict.sh) is provided.
 
-### Reference set of protein-coding sequences
+### Preparation of protein-coding sequences reference set
 
 We selected transcripts encoding proteins consisting of more than 100 amino acids and with the expression level [more than 2 transcripts per million (TPM)](https://doi.org/10.1007/s12064-013-0178-3) (According to the Wagner, Kin & Lynch (2013) publication, “genes with more than two transcripts per million transcripts (TPM) are highly likely from actively transcribed genes.”) at least in one sample analysed using the [provided jyputer notebook](Scripts/Host's%20ganglia%20transcriptome%20/Final_fasta_sorting/Sort_assembly_expression_files.ipynb). 
 
