@@ -76,7 +76,7 @@ The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/) (
 
 ##### Generation of *in silico* mate pairs libraries using *S. carcini* genome as reference
 
-*In silico* mate pair libraries were generated via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the short paired-end reads). The other parameters were left default. 
+*In silico* mate pair libraries were generated via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the short paired-end reads). The other parameters were left default. This pipeline was run from conda virtual environment.
 
 ##### *De novo* genome assembly
 
@@ -266,3 +266,4 @@ The QUAST results can be found in the [repository](https://github.com/anlianguzo
 3. Further improvement in the quality of _P. reticulata_ genome assembly will be carried out using long ONT reads and the creation of more _in silico_ mate pair reads libraries.
 
 We also provide a full description of the obtained results in the following [Google Slides presentation](https://docs.google.com/presentation/d/1fdvFlChGYvV4cWIo85fQBM66i9gYXkpvyZgR37IygLQ/edit#slide=id.g22528949c5a_53_66). 
+All analysis steps with scripts and tools commands can also be found in the Jupyter Notebooks.
