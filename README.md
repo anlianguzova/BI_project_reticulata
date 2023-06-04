@@ -64,23 +64,23 @@ In further analysis, we considered only sequences with a length of at least 200 
 
 ##### Transcriptome assemblies redundancy reduction via clusterization
 
-[CD-HIT](https://doi.org/10.1093/bioinformatics/bts565) (v. 4.8.1) was used to the three transcriptome assemblies separate clusterization. Clusters with 95% identity were gathered comparing both strand (+/+, +/-). Clusterization was performed using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
+[CD-HIT](https://doi.org/10.1093/bioinformatics/bts565) (v. 4.8.1) was used to the three transcriptome assemblies separate clusterization. Clusters with 95% identity were gathered, comparison of both strand (+/+, +/-) was performed. Clusterization was carried out using the following [scripts](/Scripts/Host's%20ganglia%20transcriptome%20/Assembly/Clusterization%20(CD-HIT)).
 
 #### Parasite genome
 
 ##### Genome size assessment
 
-[Jellyfish](https://doi.org/10.1093/bioinformatics/btr011) (v. 2.3.0) was run using the script available [here](https://github.com/anlianguzova/BI_project_reticulata/blob/main/Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`), and `--size=265M` parameter was taken based on the total size of the [_Sacculina_ genome](https://www.ebi.ac.uk/ena/browser/view/GCA_916048095) (264,490,643 bp). 
+[Jellyfish](https://doi.org/10.1093/bioinformatics/btr011) (v. 2.3.0) was run using the script available [here](Scripts/Genome/Jellyfish/run_jellyfish.sh). The calculations were performed for a k-mer length 25 bp (parameter `--mer-len=25`), and `--size=265M` parameter was taken based on the total size of the [_Sacculina_ genome](https://www.ebi.ac.uk/ena/browser/view/GCA_916048095) (264,490,643 bp). 
 
 The outputs were analyzed using [GenomeScope](http://qb.cshl.edu/genomescope/) (v. 1.0). 
 
 ##### Generation of *in silico* mate pairs libraries using *S. carcini* genome as reference
 
-*In silico* mate pair libraries were generated via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the short paired-end reads). The other parameters were left default. This pipeline was run from conda virtual environment.
+*In silico* mate pair libraries were generated via [`Cross-species scaffolding`](https://github.com/thackl/cross-species-scaffolding) pipeline with `-l 141` prameter (the size of the smallest of the average length of the short paired-end reads). The other parameters were left default. This pipeline was run from [conda virtual environment](env).
 
 ##### *De novo* genome assembly
 
-[SPAdes](https://doi.org/10.1093/gigascience/giz100) (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Scripts/Genome/SPAdes). The paths to the merged decontaminated fastq files and previously obtained *in silico* mate pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
+[SPAdes](https://doi.org/10.1093/gigascience/giz100) (v. 3.15.4) was used for *Peltogaster reticulata* genome assembly launching the script available [here](Scripts/Genome/SPAdes). The paths to the merged decontaminated fastq files and previously obtained *in silico* mate pair libraries were specified, and the assembly was done in careful mode (parameter `--careful`). 
 
 ### Assembly quality control
 
@@ -106,7 +106,7 @@ Benchmarking Universal Single-Copy Ortholog ([BUSCO](https://doi.org/10.1093/mol
 [HMMER](https://doi.org/10.1093/bioinformatics/btt403) (v. 3.3.2) was used to compare found ORFs translation products with Pfam-A database using the [following script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_PfamA.sh). Comparison of amino acid sequences with the UniRef90 database was performed using the [DIAMOND](https://www.crystalimpact.de/diamond/) (v. 2.0.15) program. The script is available [here](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_LongORFs_vs_UniRef90.sh).
 Refinement of ORFs translation products was performed using the results of comparison with databases. The [script](/Scripts/Host's%20ganglia%20transcriptome%20/Transdecoder/run_Pdum_TransDecoder_Predict.sh) is provided.
 
-### Reference set of protein-coding sequences
+### Preparation of protein-coding sequences reference set
 
 We selected transcripts encoding proteins consisting of more than 100 amino acids and with the expression level [more than 2 transcripts per million (TPM)](https://doi.org/10.1007/s12064-013-0178-3) (According to the Wagner, Kin & Lynch (2013) publication, “genes with more than two transcripts per million transcripts (TPM) are highly likely from actively transcribed genes.”) at least in one sample analysed using the [provided jyputer notebook](Scripts/Host's%20ganglia%20transcriptome%20/Final_fasta_sorting/Sort_assembly_expression_files.ipynb). 
 
@@ -224,7 +224,7 @@ Pavian application visualized Kraken2 outputs. [Results](Results/Kraken2_pavian)
 
 #### Genome size analysis results
 
-Results can be found [here](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/Jellyfish).
+Results can be found [here](Results/Jellyfish).
 
 #### *In silico* mate pairs read libraries generation results
 
@@ -244,7 +244,7 @@ The following libraries were obtained:
 
 #### Quality control of the assembly
 
-The QUAST results can be found in the [repository](https://github.com/anlianguzova/BI_project_reticulata/tree/main/Results/SPAdes_genome), and general summary is present below.
+The QUAST results can be found in the [repository](Results/SPAdes_genome), and general summary is present below.
 
 <p align="center">
 <img src="https://github.com/anlianguzova/BI_project_reticulata/blob/main/Pics/quast_gen_res.PNG?raw=true" alt="Genome assembly general summary"/>
@@ -266,4 +266,4 @@ The QUAST results can be found in the [repository](https://github.com/anlianguzo
 3. Further improvement in the quality of _P. reticulata_ genome assembly will be carried out using long ONT reads and the creation of more _in silico_ mate pair reads libraries.
 
 We also provide a full description of the obtained results in the following [Google Slides presentation](https://docs.google.com/presentation/d/1fdvFlChGYvV4cWIo85fQBM66i9gYXkpvyZgR37IygLQ/edit#slide=id.g22528949c5a_53_66). 
-All analysis steps with scripts and tools commands can also be found in the Jupyter Notebooks.
+All analysis steps with scripts and tools commands can also be found in the [Jupyter Notebooks](Jupyter_Notebooks).
